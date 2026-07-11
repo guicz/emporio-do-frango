@@ -115,17 +115,17 @@ const menuCategories: MenuCategory[] = [
   },
   {
     id: "mercado",
-    eyebrow: "Conveniência",
-    title: "Mercado",
+    eyebrow: "Pão fresco todos os dias",
+    title: "Pão & mercado",
     description:
-      "Bebidas e itens rápidos para resolver a refeição em um só lugar.",
-    availability: "Durante o horário da loja",
+      "Pão fresquinho saindo às 16h, além de bebidas e itens rápidos para resolver a refeição em um só lugar.",
+    availability: "Pão todos os dias às 16h",
     message:
       "Olá! Quero consultar as bebidas, pães e itens de conveniência disponíveis hoje.",
     items: [
+      { name: "Pão fresquinho", detail: "Produção diária, saindo às 16h.", price: "Consulte" },
       { name: "Refrigerantes 2 L", detail: "Consulte marcas e sabores.", price: "Consulte" },
       { name: "Bebidas", detail: "Opções disponíveis na loja.", price: "Consulte" },
-      { name: "Pão fresquinho", detail: "Sai por volta das 16h.", price: "Consulte" },
       { name: "Itens de conveniência", detail: "Para completar sua compra.", price: "Consulte" },
     ],
   },
@@ -416,6 +416,7 @@ export default function Home() {
         </a>
         <nav aria-label="Navegação principal">
           <a href="#cardapio">Cardápio</a>
+          <a href="#pao">Pão 16h</a>
           <a href="#horarios">Horários</a>
           <a href="#localizacao">Localização</a>
         </nav>
@@ -481,7 +482,7 @@ export default function Home() {
 
         <section className="trust-strip" aria-label="Diferenciais">
           <div><strong>Desde 2012</strong><span>tradição em Santa Maria</span></div>
-          <div><strong>Feito diariamente</strong><span>cuidado em cada etapa</span></div>
+          <a href="#seguranca-alimentar"><strong>Temperatura controlada</strong><span>segurança em cada processo</span></a>
           <div><strong>Pedido antecipado</strong><span>menos espera na retirada</span></div>
           <div><strong>Em um só lugar</strong><span>refeição e conveniência</span></div>
         </section>
@@ -600,7 +601,30 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="quality-section" aria-labelledby="quality-title">
+        <section className="bread-section" id="pao" aria-labelledby="bread-title">
+          <div className="bread-clock" aria-label="Pão fresco todos os dias às 16 horas">
+            <span>Todo dia</span>
+            <strong>16h</strong>
+          </div>
+          <div className="bread-copy">
+            <p className="kicker">Pão quentinho tem hora certa</p>
+            <h2 id="bread-title">Pão fresquinho saindo todos os dias.</h2>
+            <p>
+              Às 16h, tem pão recém-assado no Empório para levar para casa,
+              acompanhar o espetinho ou completar o café da tarde.
+            </p>
+          </div>
+          <WhatsAppLink
+            className="button button-dark"
+            message="Olá! Vim pelo site e quero reservar pão fresquinho para retirar às 16h."
+            interest="pao_fresco"
+            placement="bread_highlight"
+          >
+            Reservar pão
+          </WhatsAppLink>
+        </section>
+
+        <section className="quality-section" id="seguranca-alimentar" aria-labelledby="quality-title">
           <div className="quality-media">
             <img
               src="/images/espetinhos-brasa.jpg"
@@ -612,18 +636,27 @@ export default function Home() {
             <span>Preparo real. Foto real.</span>
           </div>
           <div className="quality-copy">
-            <p className="kicker kicker-light">O cuidado aparece no resultado</p>
-            <h2 id="quality-title">Qualidade não é discurso. É rotina.</h2>
+            <p className="kicker kicker-light">Segurança alimentar levada a sério</p>
+            <h2 id="quality-title">Temperatura controlada. Confiança em cada produto.</h2>
             <p>
-              Ingredientes selecionados, preparo cuidadoso, organização e
-              atenção à higiene fazem parte do trabalho diário do Empório.
+              O Empório trabalha com controle de temperatura no armazenamento,
+              no preparo e na exposição dos alimentos, seguindo as exigências
+              sanitárias para reduzir riscos e proteger o consumidor.
             </p>
+            <div className="sanitary-badge">
+              <strong>Controle de temperatura</strong>
+              <span>Um diferencial que reforça a seriedade da empresa e o cuidado com a sua família.</span>
+            </div>
             <ul>
-              <li><span>01</span>Preparado diariamente</li>
-              <li><span>02</span>Variedade em um só lugar</li>
-              <li><span>03</span>Atendimento próximo</li>
-              <li><span>04</span>Confiança desde 2012</li>
+              <li><span>01</span>Armazenamento controlado</li>
+              <li><span>02</span>Preparo em temperatura segura</li>
+              <li><span>03</span>Exposição adequada</li>
+              <li><span>04</span>Higiene e processos</li>
             </ul>
+            <p className="safety-note">
+              Em um cenário de fiscalização sanitária mais rigorosa, comprar
+              de quem mantém processos organizados faz diferença.
+            </p>
           </div>
         </section>
 
@@ -705,7 +738,7 @@ export default function Home() {
               <article><span>Galeto assado</span><strong>Sábado e domingo</strong></article>
               <article><span>Almoço</span><strong>Terça a sexta, a partir das 11h30</strong></article>
               <article><span>Espetinhos</span><strong>Segunda a sábado, à noite</strong></article>
-              <article><span>Pão fresquinho</span><strong>Por volta das 16h</strong></article>
+              <article className="bread-hour"><span>Pão fresquinho</span><strong>Todos os dias, às 16h</strong></article>
               <p>Açougue e mercado acompanham o horário geral da loja.</p>
             </div>
           </div>

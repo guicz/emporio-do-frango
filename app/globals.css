@@ -379,7 +379,7 @@ img {
   color: var(--white);
 }
 
-.trust-strip div {
+.trust-strip > * {
   display: flex;
   min-height: 116px;
   flex-direction: column;
@@ -388,8 +388,16 @@ img {
   border-right: 1px solid rgba(255, 255, 255, 0.13);
 }
 
-.trust-strip div:first-child {
+.trust-strip > *:first-child {
   border-left: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+.trust-strip a {
+  transition: background 180ms ease;
+}
+
+.trust-strip a:hover {
+  background: rgba(251, 196, 8, 0.08);
 }
 
 .trust-strip strong {
@@ -710,6 +718,59 @@ img {
   font-size: 0.86rem;
 }
 
+.bread-section {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.55fr) minmax(420px, 1.15fr) auto;
+  align-items: center;
+  gap: clamp(38px, 6vw, 96px);
+  padding: clamp(70px, 8vw, 112px) clamp(24px, 6vw, 96px);
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.bread-clock {
+  display: grid;
+  min-height: 250px;
+  place-content: center;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  background: var(--yellow);
+  text-align: center;
+  transform: rotate(-3deg);
+}
+
+.bread-clock span {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15rem;
+  font-style: italic;
+}
+
+.bread-clock strong {
+  margin-top: 2px;
+  font-size: clamp(4.8rem, 8vw, 8.5rem);
+  font-weight: 900;
+  letter-spacing: -0.09em;
+  line-height: 0.88;
+}
+
+.bread-copy h2 {
+  max-width: 820px;
+  margin: 0;
+  font-size: clamp(3rem, 5.2vw, 6.2rem);
+  font-weight: 900;
+  letter-spacing: -0.055em;
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+
+.bread-copy > p:last-child {
+  max-width: 680px;
+  margin: 28px 0 0;
+  color: rgba(35, 31, 32, 0.66);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
 .quality-section {
   display: grid;
   grid-template-columns: minmax(380px, 0.88fr) minmax(450px, 1.12fr);
@@ -769,6 +830,31 @@ img {
   color: rgba(255, 255, 255, 0.57);
 }
 
+.quality-copy .sanitary-badge {
+  display: grid;
+  gap: 7px;
+  max-width: 680px;
+  margin: -12px 0 34px;
+  padding: 20px 22px;
+  border: 1px solid rgba(251, 196, 8, 0.42);
+  border-left: 6px solid var(--yellow);
+  background: rgba(251, 196, 8, 0.07);
+}
+
+.sanitary-badge strong {
+  color: var(--yellow);
+  font-size: 0.76rem;
+  font-weight: 850;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.sanitary-badge span {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
 .quality-copy ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -794,6 +880,14 @@ img {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 0.8rem;
   font-style: italic;
+}
+
+.quality-copy .safety-note {
+  max-width: 660px;
+  margin: 26px 0 0;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.78rem;
+  line-height: 1.6;
 }
 
 .preorder-section {
@@ -990,6 +1084,14 @@ img {
 
 .operation-hours article:first-child {
   border-top: 0;
+}
+
+.operation-hours .bread-hour {
+  margin: 10px -16px 0;
+  padding: 8px 16px;
+  border: 1px solid rgba(251, 196, 8, 0.42);
+  border-radius: 12px;
+  background: rgba(251, 196, 8, 0.08);
 }
 
 .operation-hours span {
@@ -1347,6 +1449,15 @@ footer p {
     padding: 70px 52px;
   }
 
+  .bread-section {
+    grid-template-columns: 230px 1fr;
+  }
+
+  .bread-section > .button {
+    grid-column: 2;
+    justify-self: start;
+  }
+
   .hours-heading {
     position: static;
   }
@@ -1494,13 +1605,13 @@ footer p {
     padding: 0 18px;
   }
 
-  .trust-strip div {
+  .trust-strip > * {
     min-height: 102px;
     padding: 16px 14px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.13);
   }
 
-  .trust-strip div:nth-child(odd) {
+  .trust-strip > *:nth-child(odd) {
     border-left: 1px solid rgba(255, 255, 255, 0.13);
   }
 
@@ -1592,6 +1703,27 @@ footer p {
 
   .quality-section {
     grid-template-columns: 1fr;
+  }
+
+  .bread-section {
+    grid-template-columns: 1fr;
+    gap: 38px;
+    padding: 76px 22px;
+  }
+
+  .bread-clock {
+    width: min(100%, 330px);
+    min-height: 210px;
+    justify-self: center;
+  }
+
+  .bread-copy h2 {
+    font-size: clamp(3rem, 14vw, 4.5rem);
+  }
+
+  .bread-section > .button {
+    grid-column: auto;
+    justify-self: stretch;
   }
 
   .quality-media {
