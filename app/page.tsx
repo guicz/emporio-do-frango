@@ -416,6 +416,7 @@ export default function Home() {
         </a>
         <nav aria-label="Navegação principal">
           <a href="#cardapio">Cardápio</a>
+          <a href="#galeria">Galeria</a>
           <a href="#pao">Pão 16h</a>
           <a href="#horarios">Horários</a>
           <a href="#localizacao">Localização</a>
@@ -680,29 +681,61 @@ export default function Home() {
           </WhatsAppLink>
         </section>
 
-        <section className="section gallery-section" aria-labelledby="gallery-title">
+        <section className="section gallery-section" id="galeria" aria-labelledby="gallery-title">
           <div className="section-heading">
             <div>
               <p className="kicker">Do Empório para a sua mesa</p>
               <h2 id="gallery-title">Sabor que começa no preparo.</h2>
             </div>
             <p>
-              Fotos reais dos produtos e da rotina do Empório do Frango.
+              Uma seleção visual dos produtos, cortes e preparos que fazem
+              parte da rotina do Empório do Frango.
             </p>
           </div>
-          <div className="gallery-grid">
-            <figure className="gallery-main">
-              <img src="/images/frango-assado.jpg" alt="Pedaços de frango assado preparados no Empório" width="894" height="1190" loading="lazy" />
-              <figcaption>Frango assado</figcaption>
+          <div className="gallery-showcase">
+            <figure className="gallery-video">
+              <video
+                autoPlay
+                controls
+                loop
+                muted
+                playsInline
+                preload="metadata"
+                poster="/images/linguicas-selecionadas-poster.jpg"
+                aria-label="Vídeo mostrando opções de linguiças selecionadas"
+              >
+                <source src="/videos/linguicas-selecionadas.mp4" type="video/mp4" />
+                Seu navegador não oferece suporte à reprodução de vídeo.
+              </video>
+              <figcaption>Linguiças selecionadas</figcaption>
             </figure>
-            <figure>
-              <img src="/images/espetinhos-variedade.jpg" alt="Variedade de espetinhos preparados para assar" width="894" height="1190" loading="lazy" />
-              <figcaption>Variedade na brasa</figcaption>
-            </figure>
-            <figure>
-              <img src="/images/preparo-espetinhos.jpg" alt="Espetinhos sendo organizados junto à churrasqueira" width="1200" height="1600" loading="lazy" />
-              <figcaption>Preparo cuidadoso</figcaption>
-            </figure>
+
+            <div className="gallery-grid">
+              <figure>
+                <img src="/images/frango-assado.jpg" alt="Pedaços de frango assado dourados" width="1191" height="1280" loading="lazy" />
+                <figcaption>Frango assado</figcaption>
+              </figure>
+              <figure>
+                <img src="/images/asas-douradas.jpg" alt="Asas de frango douradas servidas com molho" width="600" height="480" loading="lazy" />
+                <figcaption>Asas douradas</figcaption>
+              </figure>
+              <figure>
+                <img src="/images/espetinhos-variedade.jpg" alt="Variedade de espetinhos preparados para assar" width="1049" height="1280" loading="lazy" />
+                <figcaption>Variedade na brasa</figcaption>
+              </figure>
+              <figure>
+                <img src="/images/coxinhas-da-asa.jpg" alt="Coxinhas da asa assadas servidas com molhos" width="1280" height="720" loading="lazy" />
+                <figcaption>Coxinhas da asa</figcaption>
+              </figure>
+              <figure>
+                <img src="/images/preparo-espetinhos.jpg" alt="Espetinhos sendo organizados junto à churrasqueira" width="1200" height="1600" loading="lazy" />
+                <figcaption>Preparo cuidadoso</figcaption>
+              </figure>
+              <figure>
+                <img src="/images/frango-assado-com-molho.jpg" alt="Frango assado servido com molho" width="848" height="477" loading="lazy" />
+                <figcaption>Pronto para servir</figcaption>
+              </figure>
+            </div>
           </div>
         </section>
 
