@@ -22,7 +22,15 @@ type MenuCategory = {
   description: string;
   availability: string;
   message: string;
-  items: Array<{ name: string; detail: string; price: string }>;
+  image: string;
+  imageAlt: string;
+  items: Array<{
+    name: string;
+    detail: string;
+    price: string;
+    image: string;
+    imageAlt: string;
+  }>;
 };
 
 const menuCategories: MenuCategory[] = [
@@ -35,11 +43,15 @@ const menuCategories: MenuCategory[] = [
     availability: "Sábados e domingos",
     message:
       "Olá! Vim pelo site e quero reservar um galeto. Quais opções e horários de retirada estão disponíveis?",
+    image: "/images/frango-assado.jpg",
+    imageAlt: "Galeto assado dourado",
     items: [
       {
         name: "Galeto assado",
         detail: "Consulte tamanho, disponibilidade e horário de retirada.",
         price: "Consulte o valor",
+        image: "/images/frango-assado.jpg",
+        imageAlt: "Galeto assado dourado",
       },
     ],
   },
@@ -52,16 +64,22 @@ const menuCategories: MenuCategory[] = [
     availability: "Terça a sexta, a partir das 11h30",
     message:
       "Olá! Vim pelo site e quero consultar o cardápio do almoço de hoje e o horário de retirada.",
+    image: "/images/marmitex-almoco.webp",
+    imageAlt: "Marmitex com almoço completo",
     items: [
       {
         name: "Marmitex média",
         detail: "Consulte o cardápio do dia pelo WhatsApp.",
         price: "R$ 19,50",
+        image: "/images/marmitex-almoco.webp",
+        imageAlt: "Marmitex média com almoço completo",
       },
       {
         name: "Marmitex grande",
         detail: "Consulte o cardápio do dia pelo WhatsApp.",
         price: "R$ 22,50",
+        image: "/images/marmitex-almoco.webp",
+        imageAlt: "Marmitex grande com almoço completo",
       },
     ],
   },
@@ -74,11 +92,13 @@ const menuCategories: MenuCategory[] = [
     availability: "Segunda a sábado, à noite",
     message:
       "Olá! Quero consultar os espetinhos disponíveis hoje e fazer um pedido.",
+    image: "/images/espetinhos-brasa.jpg",
+    imageAlt: "Espetinhos preparados na brasa",
     items: [
-      { name: "Carne", detail: "Espetinho por unidade.", price: "R$ 8,00" },
-      { name: "Coração", detail: "Espetinho por unidade.", price: "R$ 8,00" },
-      { name: "Queijo coalho", detail: "Por unidade.", price: "R$ 8,00" },
-      { name: "Pão de alho", detail: "Por unidade.", price: "R$ 8,00" },
+      { name: "Carne", detail: "Espetinho por unidade.", price: "R$ 8,00", image: "/images/espetinhos-variedade.jpg", imageAlt: "Espetinhos de carne" },
+      { name: "Coração", detail: "Espetinho por unidade.", price: "R$ 8,00", image: "/images/preparo-espetinhos.jpg", imageAlt: "Espetinhos preparados para assar" },
+      { name: "Queijo coalho", detail: "Por unidade.", price: "R$ 8,00", image: "/images/espetinhos-brasa.jpg", imageAlt: "Espetinhos na brasa" },
+      { name: "Pão de alho", detail: "Por unidade.", price: "R$ 8,00", image: "/images/pao-fresquinho.webp", imageAlt: "Pães dourados recém-assados" },
     ],
   },
   {
@@ -90,12 +110,14 @@ const menuCategories: MenuCategory[] = [
     availability: "Durante o horário da loja",
     message:
       "Olá! Vim pelo site e quero saber quais cortes e produtos do açougue estão disponíveis hoje.",
+    image: "/images/linguicas-selecionadas-poster.jpg",
+    imageAlt: "Produtos selecionados do balcão",
     items: [
-      { name: "Sobrecoxa", detail: "Consulte peso e disponibilidade.", price: "Consulte" },
-      { name: "Coxa da asa", detail: "Consulte peso e disponibilidade.", price: "Consulte" },
-      { name: "Tulipa", detail: "Consulte peso e disponibilidade.", price: "Consulte" },
-      { name: "Coração", detail: "Consulte peso e disponibilidade.", price: "Consulte" },
-      { name: "Linguiças", detail: "Consulte as opções do balcão.", price: "Consulte" },
+      { name: "Sobrecoxa", detail: "Consulte peso e disponibilidade.", price: "Consulte", image: "/images/frango-assado.jpg", imageAlt: "Sobrecoxas de frango douradas" },
+      { name: "Coxa da asa", detail: "Consulte peso e disponibilidade.", price: "Consulte", image: "/images/coxinhas-da-asa.jpg", imageAlt: "Coxinhas da asa assadas" },
+      { name: "Tulipa", detail: "Consulte peso e disponibilidade.", price: "Consulte", image: "/images/asas-douradas.jpg", imageAlt: "Tulipas de frango douradas" },
+      { name: "Coração", detail: "Consulte peso e disponibilidade.", price: "Consulte", image: "/images/preparo-espetinhos.jpg", imageAlt: "Espetinhos preparados para assar" },
+      { name: "Linguiças", detail: "Consulte as opções do balcão.", price: "Consulte", image: "/images/linguicas-selecionadas-poster.jpg", imageAlt: "Linguiças selecionadas do balcão" },
     ],
   },
   {
@@ -107,10 +129,12 @@ const menuCategories: MenuCategory[] = [
     availability: "Consulte a disponibilidade do dia",
     message:
       "Olá! Quero consultar os acompanhamentos disponíveis para completar meu pedido.",
+    image: "/images/acompanhamentos.webp",
+    imageAlt: "Acompanhamentos servidos em porções",
     items: [
-      { name: "Maionese", detail: "Consulte porções disponíveis.", price: "Consulte" },
-      { name: "Saladas", detail: "Consulte as opções do dia.", price: "Consulte" },
-      { name: "Risoto tradicional", detail: "Porção individual.", price: "R$ 23,00" },
+      { name: "Maionese", detail: "Consulte porções disponíveis.", price: "Consulte", image: "/images/acompanhamentos.webp", imageAlt: "Maionese cremosa servida em porção" },
+      { name: "Saladas", detail: "Consulte as opções do dia.", price: "Consulte", image: "/images/acompanhamentos.webp", imageAlt: "Salada fresca servida em porção" },
+      { name: "Risoto tradicional", detail: "Porção individual.", price: "R$ 23,00", image: "/images/acompanhamentos.webp", imageAlt: "Risoto tradicional servido em porção" },
     ],
   },
   {
@@ -122,11 +146,13 @@ const menuCategories: MenuCategory[] = [
     availability: "Pão todos os dias às 16h",
     message:
       "Olá! Quero consultar as bebidas, pães e itens de conveniência disponíveis hoje.",
+    image: "/images/pao-fresquinho.webp",
+    imageAlt: "Pães frescos e dourados",
     items: [
-      { name: "Pão fresquinho", detail: "Produção diária, saindo às 16h.", price: "Consulte" },
-      { name: "Refrigerantes 2 L", detail: "Consulte marcas e sabores.", price: "Consulte" },
-      { name: "Bebidas", detail: "Opções disponíveis na loja.", price: "Consulte" },
-      { name: "Itens de conveniência", detail: "Para completar sua compra.", price: "Consulte" },
+      { name: "Pão fresquinho", detail: "Produção diária, saindo às 16h.", price: "Consulte", image: "/images/pao-fresquinho.webp", imageAlt: "Pães frescos recém-assados" },
+      { name: "Refrigerantes 2 L", detail: "Consulte marcas e sabores.", price: "Consulte", image: "/images/pao-fresquinho.webp", imageAlt: "Seleção do mercado do Empório" },
+      { name: "Bebidas", detail: "Opções disponíveis na loja.", price: "Consulte", image: "/images/pao-fresquinho.webp", imageAlt: "Seleção do mercado do Empório" },
+      { name: "Itens de conveniência", detail: "Para completar sua compra.", price: "Consulte", image: "/images/pao-fresquinho.webp", imageAlt: "Seleção do mercado do Empório" },
     ],
   },
 ];
@@ -488,7 +514,7 @@ export default function Home() {
           <div><strong>Em um só lugar</strong><span>refeição e conveniência</span></div>
         </section>
 
-        <section className="section intent-section" aria-labelledby="intent-title">
+        <section className="section intent-section" id="categorias" aria-labelledby="intent-title">
           <div className="section-heading">
             <div>
               <p className="kicker">Escolha por intenção</p>
@@ -508,6 +534,11 @@ export default function Home() {
                 key={category.id}
                 onClick={() => selectCategory(category.id)}
               >
+                <span
+                  className="intent-card-media"
+                  style={{ backgroundImage: `url(${category.image})` }}
+                  aria-hidden="true"
+                />
                 <span className="intent-index">0{index + 1}</span>
                 <div>
                   <strong>{category.title}</strong>
@@ -550,7 +581,9 @@ export default function Home() {
           <div className="menu-panel" id="menu-panel" role="tabpanel">
             <div className="menu-intro">
               <p className="menu-eyebrow">{currentCategory.eyebrow}</p>
-              <h3>{currentCategory.title}</h3>
+              <h3 className={currentCategory.title.length > 13 ? "menu-title-long" : ""}>
+                {currentCategory.title}
+              </h3>
               <p>{currentCategory.description}</p>
               <span className="availability">{currentCategory.availability}</span>
               <WhatsAppLink
@@ -566,7 +599,8 @@ export default function Home() {
             <div className="menu-items">
               {currentCategory.items.map((item) => (
                 <article className="menu-item" key={item.name}>
-                  <div>
+                  <img src={item.image} alt={item.imageAlt} width="88" height="88" loading="lazy" />
+                  <div className="menu-item-copy">
                     <h4>{item.name}</h4>
                     <p>{item.detail}</p>
                   </div>
@@ -603,9 +637,12 @@ export default function Home() {
         </section>
 
         <section className="bread-section" id="pao" aria-labelledby="bread-title">
-          <div className="bread-clock" aria-label="Pão fresco todos os dias às 16 horas">
-            <span>Todo dia</span>
-            <strong>16h</strong>
+          <div className="bread-media">
+            <img src="/images/pao-fresquinho.webp" alt="Pães fresquinhos recém-assados" width="1448" height="1086" loading="lazy" />
+            <div className="bread-clock" aria-label="Pão fresco todos os dias às 16 horas">
+              <span>Todo dia</span>
+              <strong>16h</strong>
+            </div>
           </div>
           <div className="bread-copy">
             <p className="kicker">Pão quentinho tem hora certa</p>
