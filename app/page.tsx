@@ -491,10 +491,10 @@ export default function Home() {
 
           <div className="hero-media">
             <img
-              src="/images/hero-frango-inteiro.webp"
+              src="/images/hero-frango-margens.webp"
               alt="Frango inteiro assado e dourado"
-              width="620"
-              height="400"
+              width="1440"
+              height="960"
               loading="eager"
               fetchPriority="high"
             />
