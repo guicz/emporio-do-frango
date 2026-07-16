@@ -8,6 +8,7 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://emporio-do-frango.dg5i.chatgpt.site"),
   title: "Galeto, almoço e espetinhos em Santa Maria | Empório do Frango",
   description:
     "Galeto assado, marmitex, espetinhos, açougue e acompanhamentos no Centro de Santa Maria. Consulte o cardápio e faça seu pedido pelo WhatsApp.",
@@ -27,19 +28,23 @@ export const metadata: Metadata = {
   formatDetection: {
     telephone: false,
   },
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     locale: "pt_BR",
     siteName: "Empório do Frango",
+    url: "https://emporio-do-frango.dg5i.chatgpt.site/",
     title: "Empório do Frango | Galeto e almoço em Santa Maria",
     description:
       "Tudo para sua refeição, com a qualidade que você já conhece. Consulte o cardápio e peça pelo WhatsApp.",
     images: [
       {
-        url: "/images/hero-frango.jpg",
-        width: 893,
-        height: 1190,
-        alt: "Frango assado do Empório do Frango",
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Empório do Frango: galeto, almoço e espetinhos em Santa Maria",
       },
     ],
   },
@@ -47,7 +52,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Empório do Frango | Santa Maria",
     description: "Galeto, almoço, espetinhos, açougue e acompanhamentos.",
-    images: ["/images/hero-frango.jpg"],
+    images: ["/og.png"],
   },
   robots: {
     index: true,
@@ -59,9 +64,6 @@ export const metadata: Metadata = {
       "max-snippet": -1,
       "max-video-preview": -1,
     },
-  },
-  other: {
-    "codex-preview": "development",
   },
   icons: {
     icon: "/emporio-seal.svg",
