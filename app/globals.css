@@ -304,7 +304,7 @@ img {
   position: absolute;
   z-index: 0;
   inset: -24px;
-  background: url("/images/hero-frango-inteiro-v2.webp") center / cover;
+  background: url("/images/hero-frango-inteiro.webp") center / cover;
   content: "";
   filter: blur(18px) brightness(0.58) saturate(1.1);
   transform: scale(1.06);
