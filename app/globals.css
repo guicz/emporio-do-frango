@@ -296,21 +296,35 @@ img {
   min-height: 700px;
   overflow: hidden;
   border-bottom-left-radius: 86px;
-  background: var(--ink);
+  background: #3a2017;
+  isolation: isolate;
+}
+
+.hero-media::before {
+  position: absolute;
+  z-index: 0;
+  inset: -24px;
+  background: url("/images/hero-frango-inteiro-v2.webp") center / cover;
+  content: "";
+  filter: blur(18px) brightness(0.58) saturate(1.1);
+  transform: scale(1.06);
 }
 
 .hero-media::after {
   position: absolute;
+  z-index: 2;
   inset: 0;
-  background: linear-gradient(180deg, transparent 52%, rgba(35, 31, 32, 0.68));
+  background: linear-gradient(180deg, rgba(35, 31, 32, 0.08) 46%, rgba(35, 31, 32, 0.78));
   content: "";
   pointer-events: none;
 }
 
 .hero-media > img {
+  position: relative;
+  z-index: 1;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
 }
 
@@ -318,7 +332,7 @@ img {
   position: absolute;
   top: 42px;
   left: -28px;
-  z-index: 2;
+  z-index: 3;
   display: grid;
   width: 142px;
   height: 142px;
@@ -349,7 +363,7 @@ img {
   right: 42px;
   bottom: 36px;
   left: 52px;
-  z-index: 2;
+  z-index: 3;
   display: flex;
   align-items: end;
   justify-content: space-between;
@@ -468,19 +482,22 @@ img {
 .intent-card {
   position: relative;
   display: flex;
-  min-height: 215px;
+  min-height: 240px;
   flex-direction: column;
   justify-content: space-between;
   padding: 28px;
   overflow: hidden;
-  background: var(--paper);
-  isolation: isolate;
-  transition: background 220ms ease, color 220ms ease;
-}
-
-.intent-card:hover {
   background: var(--ink);
   color: var(--white);
+  isolation: isolate;
+  transition: box-shadow 260ms ease, transform 260ms ease;
+}
+
+.intent-card:hover,
+.intent-card:focus-visible {
+  z-index: 2;
+  box-shadow: 0 22px 44px rgba(35, 31, 32, 0.25);
+  transform: translateY(-4px);
 }
 
 .intent-card-media {
@@ -489,21 +506,22 @@ img {
   z-index: 0;
   background-position: center;
   background-size: cover;
-  opacity: 0;
-  transform: scale(1.035);
-  transition: opacity 260ms ease, transform 450ms ease;
+  opacity: 1;
+  transform: scale(1.01);
+  transition: filter 420ms ease, transform 520ms cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .intent-card-media::after {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(20, 17, 18, 0.32), rgba(20, 17, 18, 0.86));
+  background: linear-gradient(180deg, rgba(20, 17, 18, 0.2), rgba(20, 17, 18, 0.88));
   content: "";
 }
 
-.intent-card:hover .intent-card-media {
-  opacity: 1;
-  transform: scale(1);
+.intent-card:hover .intent-card-media,
+.intent-card:focus-visible .intent-card-media {
+  filter: saturate(1.14) brightness(1.06);
+  transform: scale(1.075);
 }
 
 .intent-card > :not(.intent-card-media) {
@@ -530,7 +548,7 @@ img {
 
 .intent-card small,
 .intent-index {
-  color: rgba(35, 31, 32, 0.5);
+  color: rgba(255, 255, 255, 0.76);
   font-size: 0.72rem;
   font-weight: 760;
   letter-spacing: 0.08em;
@@ -538,20 +556,32 @@ img {
 }
 
 .intent-card:hover small,
-.intent-card:hover .intent-index {
-  color: rgba(255, 255, 255, 0.74);
+.intent-card:hover .intent-index,
+.intent-card:focus-visible small,
+.intent-card:focus-visible .intent-index {
+  color: var(--white);
 }
 
 .intent-arrow {
   position: absolute;
   top: 24px;
   right: 26px;
+  display: grid;
+  width: 40px;
+  height: 40px;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 50%;
+  background: rgba(35, 31, 32, 0.24);
   font-size: 1.35rem;
-  transition: transform 180ms ease;
+  transition: background 180ms ease, color 180ms ease, transform 180ms ease;
 }
 
-.intent-card:hover .intent-arrow {
-  transform: translate(4px, 4px);
+.intent-card:hover .intent-arrow,
+.intent-card:focus-visible .intent-arrow {
+  background: var(--yellow);
+  color: var(--ink);
+  transform: translate(4px, 4px) rotate(-8deg);
 }
 
 .menu-section {
@@ -1682,7 +1712,7 @@ footer p {
   }
 
   .hero-media {
-    min-height: 520px;
+    min-height: clamp(300px, 82vw, 410px);
     border-bottom-left-radius: 46px;
     border-top-right-radius: 46px;
   }
@@ -1751,7 +1781,7 @@ footer p {
   }
 
   .intent-card {
-    min-height: 150px;
+    min-height: 190px;
   }
 
   .intent-card strong {
@@ -1764,15 +1794,14 @@ footer p {
   }
 
   .intent-card-media {
-    right: 0;
-    left: auto;
-    width: 44%;
-    opacity: 0.46;
-    transform: none;
+    inset: 0;
+    width: auto;
+    opacity: 1;
+    transform: scale(1.01);
   }
 
   .intent-card-media::after {
-    background: linear-gradient(90deg, var(--paper), rgba(255, 253, 248, 0.06));
+    background: linear-gradient(180deg, rgba(20, 17, 18, 0.16), rgba(20, 17, 18, 0.9));
   }
 
   .menu-section {
