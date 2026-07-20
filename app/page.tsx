@@ -92,13 +92,13 @@ const menuCategories: MenuCategory[] = [
     availability: "Segunda a sábado, à noite",
     message:
       "Olá! Quero consultar os espetinhos disponíveis hoje e fazer um pedido.",
-    image: "/images/espetinhos-brasa.jpg",
+    image: "/images/espetinhos-sem-texto.webp",
     imageAlt: "Espetinhos preparados na brasa",
     items: [
-      { name: "Carne", detail: "Espetinho por unidade.", price: "R$ 8,00", image: "/images/espetinhos-brasa.jpg", imageAlt: "Espetinhos preparados na brasa" },
-      { name: "Coração", detail: "Espetinho por unidade.", price: "R$ 8,00", image: "/images/espetinhos-brasa.jpg", imageAlt: "Espetinhos preparados na brasa" },
-      { name: "Queijo coalho", detail: "Por unidade.", price: "R$ 8,00", image: "/images/espetinhos-brasa.jpg", imageAlt: "Espetinhos na brasa" },
-      { name: "Pão de alho", detail: "Por unidade.", price: "R$ 8,00", image: "/images/pao-fresquinho.webp", imageAlt: "Pães dourados recém-assados" },
+      { name: "Carne", detail: "Espetinho por unidade.", price: "R$ 8,00", image: "/images/espetinhos-sem-texto.webp", imageAlt: "Espetinhos de carne, coração, queijo coalho e pão de alho" },
+      { name: "Coração", detail: "Espetinho por unidade.", price: "R$ 8,00", image: "/images/espetinhos-sem-texto.webp", imageAlt: "Espetinhos de carne, coração, queijo coalho e pão de alho" },
+      { name: "Queijo coalho", detail: "Por unidade.", price: "R$ 8,00", image: "/images/espetinhos-sem-texto.webp", imageAlt: "Espetinhos de carne, coração, queijo coalho e pão de alho" },
+      { name: "Pão de alho", detail: "Por unidade.", price: "R$ 8,00", image: "/images/espetinhos-sem-texto.webp", imageAlt: "Espetinhos de carne, coração, queijo coalho e pão de alho" },
     ],
   },
   {
@@ -676,10 +676,10 @@ export default function Home() {
         <section className="quality-section" id="seguranca-alimentar" aria-labelledby="quality-title">
           <div className="quality-media">
             <img
-              src="/images/espetinhos-brasa.jpg"
-              alt="Espetinhos sendo preparados sobre brasas no Empório do Frango"
-              width="1200"
-              height="1600"
+              src="/images/espetinhos-sem-texto.webp"
+              alt="Espetinhos de carne, coração, queijo coalho e pão de alho"
+              width="1092"
+              height="1440"
               loading="lazy"
             />
             <span>Preparo real. Foto real.</span>
@@ -776,7 +776,7 @@ export default function Home() {
                 <figcaption>Pão 16h</figcaption>
               </figure>
               <figure>
-                <img src="/images/espetinhos-brasa.jpg" alt="Espetinhos preparados na brasa" width="1200" height="1600" loading="lazy" decoding="async" />
+                <img src="/images/espetinhos-sem-texto.webp" alt="Espetinhos de carne, coração, queijo coalho e pão de alho" width="1092" height="1440" loading="lazy" decoding="async" />
                 <figcaption>Espetinhos à noite</figcaption>
               </figure>
             </div>
