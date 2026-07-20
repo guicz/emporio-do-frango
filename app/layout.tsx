@@ -8,7 +8,7 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://emporio-do-frango.dg5i.chatgpt.site"),
+  metadataBase: new URL("https://emporiodofrango.com.br"),
   title: "Frango assado, almoço e espetinhos em Santa Maria | Empório do Frango",
   description:
     "Frango assado, marmitex, espetinhos, açougue, acompanhamentos e entrega até Camobi no Centro de Santa Maria. Peça pelo WhatsApp ou iFood.",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "pt_BR",
     siteName: "Empório do Frango",
-    url: "https://emporio-do-frango.dg5i.chatgpt.site/",
+    url: "https://emporiodofrango.com.br/",
     title: "Empório do Frango | Frango assado e almoço em Santa Maria",
     description:
       "Tudo para sua refeição, com a qualidade que você já conhece. Consulte o cardápio e peça pelo WhatsApp.",

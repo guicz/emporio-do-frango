@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://emporio-do-frango.dg5i.chatgpt.site/sitemap.xml
+Sitemap: https://emporiodofrango.com.br/sitemap.xml

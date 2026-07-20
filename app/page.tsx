@@ -371,10 +371,10 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "FoodEstablishment",
     name: "Empório do Frango",
-    url: "https://emporio-do-frango.dg5i.chatgpt.site/",
+    url: "https://emporiodofrango.com.br/",
     description:
       "Rotisserie com frango assado, almoço, espetinhos, açougue e acompanhamentos em Santa Maria.",
-    image: "https://emporio-do-frango.dg5i.chatgpt.site/images/hero-frango-inteiro-v2.webp",
+    image: "https://emporiodofrango.com.br/images/hero-frango-inteiro-v2.webp",
     foundingDate: "2012",
     taxID: "45.883.258/0001-11",
     telephone: "+55 55 3311-7142",
