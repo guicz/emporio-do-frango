@@ -37,21 +37,21 @@ const menuCategories: MenuCategory[] = [
   {
     id: "galeto",
     eyebrow: "Carro-chefe",
-    title: "Galeto assado",
+    title: "Frango assado",
     description:
-      "Dourado por fora e suculento por dentro. Aos fins de semana, vale reservar cedo para escolher o melhor horário de retirada.",
-    availability: "Sábados e domingos",
+      "Frango inteiro, dourado por fora e suculento por dentro. Aos fins de semana e feriados, vale reservar cedo para escolher o melhor horário de retirada.",
+    availability: "Sábados, domingos e feriados",
     message:
-      "Olá! Vim pelo site e quero reservar um galeto. Quais opções e horários de retirada estão disponíveis?",
+      "Olá! Vim pelo site e quero reservar um frango assado. Quais opções e horários de retirada estão disponíveis?",
     image: "/images/hero-frango-inteiro-v2.webp",
-    imageAlt: "Galeto inteiro assado e dourado",
+    imageAlt: "Frango inteiro assado e dourado",
     items: [
       {
-        name: "Galeto assado",
+        name: "Frango assado",
         detail: "Consulte tamanho, disponibilidade e horário de retirada.",
         price: "Consulte o valor",
         image: "/images/hero-frango-inteiro-v2.webp",
-        imageAlt: "Galeto inteiro assado e dourado",
+        imageAlt: "Frango inteiro assado e dourado",
       },
     ],
   },
@@ -96,7 +96,7 @@ const menuCategories: MenuCategory[] = [
     imageAlt: "Espetinhos preparados na brasa",
     items: [
       { name: "Carne", detail: "Espetinho por unidade.", price: "R$ 8,00", image: "/images/espetinhos-brasa.jpg", imageAlt: "Espetinhos preparados na brasa" },
-      { name: "Coração", detail: "Espetinho por unidade.", price: "R$ 8,00", image: "/images/asas-e-pedacos.webp", imageAlt: "Pedaços de frango assados" },
+      { name: "Coração", detail: "Espetinho por unidade.", price: "R$ 8,00", image: "/images/espetinhos-brasa.jpg", imageAlt: "Espetinhos preparados na brasa" },
       { name: "Queijo coalho", detail: "Por unidade.", price: "R$ 8,00", image: "/images/espetinhos-brasa.jpg", imageAlt: "Espetinhos na brasa" },
       { name: "Pão de alho", detail: "Por unidade.", price: "R$ 8,00", image: "/images/pao-fresquinho.webp", imageAlt: "Pães dourados recém-assados" },
     ],
@@ -106,18 +106,18 @@ const menuCategories: MenuCategory[] = [
     eyebrow: "Para preparar em casa",
     title: "Açougue & balcão",
     description:
-      "Cortes para levar e preparar do seu jeito. Pergunte o que chegou no balcão e escolha a quantidade.",
+      "Cortes crus vendidos por kg para você temperar, assar ou preparar em casa. Pergunte o que chegou no balcão e escolha a quantidade.",
     availability: "Durante o horário da loja",
     message:
       "Olá! Vim pelo site e quero saber quais cortes e produtos do açougue estão disponíveis hoje.",
     image: "/images/linguicas-selecionadas-poster.jpg",
     imageAlt: "Produtos selecionados do balcão",
     items: [
-      { name: "Sobrecoxa", detail: "Consulte peso e disponibilidade.", price: "Consulte", image: "/images/asas-e-pedacos.webp", imageAlt: "Pedaços de frango assados" },
-      { name: "Coxa da asa", detail: "Consulte peso e disponibilidade.", price: "Consulte", image: "/images/coxinhas-assadas.webp", imageAlt: "Coxinhas da asa assadas" },
-      { name: "Tulipa", detail: "Consulte peso e disponibilidade.", price: "Consulte", image: "/images/asas-assadas.webp", imageAlt: "Tulipas de frango assadas" },
-      { name: "Coração", detail: "Consulte peso e disponibilidade.", price: "Consulte", image: "/images/espetinhos-brasa.jpg", imageAlt: "Espetinhos preparados na brasa" },
-      { name: "Linguiças", detail: "Consulte as opções do balcão.", price: "Consulte", image: "/images/linguicas-selecionadas-poster.jpg", imageAlt: "Linguiças selecionadas do balcão" },
+      { name: "Sobrecoxa crua", detail: "Vendida por kg no balcão para preparar em casa.", price: "Consulte", image: "/images/linguicas-selecionadas-poster.jpg", imageAlt: "Produtos selecionados do balcão" },
+      { name: "Coxa da asa crua", detail: "Vendida por kg no balcão para preparar em casa.", price: "Consulte", image: "/images/linguicas-selecionadas-poster.jpg", imageAlt: "Produtos selecionados do balcão" },
+      { name: "Tulipa crua", detail: "Vendida por kg no balcão para preparar em casa.", price: "Consulte", image: "/images/linguicas-selecionadas-poster.jpg", imageAlt: "Produtos selecionados do balcão" },
+      { name: "Coração cru", detail: "Consulte peso e disponibilidade no balcão.", price: "Consulte", image: "/images/linguicas-selecionadas-poster.jpg", imageAlt: "Produtos selecionados do balcão" },
+      { name: "Linguiças", detail: "Consulte as opções do balcão para assar em casa.", price: "Consulte", image: "/images/linguicas-selecionadas-poster.jpg", imageAlt: "Linguiças selecionadas do balcão" },
     ],
   },
   {
@@ -125,16 +125,30 @@ const menuCategories: MenuCategory[] = [
     eyebrow: "Complete sua refeição",
     title: "Acompanhamentos",
     description:
-      "Maionese, saladas e risoto para completar o pedido. As porções são vendidas separadamente.",
-    availability: "Consulte a disponibilidade do dia",
+      "Maionese e polenta para completar o frango assado. As porções são vendidas separadamente.",
+    availability: "Maionese e polenta",
     message:
-      "Olá! Quero consultar os acompanhamentos disponíveis para completar meu pedido.",
+      "Olá! Quero consultar maionese e polenta para completar meu pedido.",
     image: "/images/acompanhamentos.webp",
-    imageAlt: "Acompanhamentos servidos em porções",
+    imageAlt: "Maionese e acompanhamentos servidos em porções",
     items: [
-      { name: "Maionese", detail: "Consulte porções disponíveis.", price: "Consulte", image: "/images/acompanhamentos.webp", imageAlt: "Maionese cremosa servida em porção" },
-      { name: "Saladas", detail: "Consulte as opções do dia.", price: "Consulte", image: "/images/acompanhamentos.webp", imageAlt: "Salada fresca servida em porção" },
-      { name: "Risoto tradicional", detail: "Porção individual.", price: "R$ 23,00", image: "/images/acompanhamentos.webp", imageAlt: "Risoto tradicional servido em porção" },
+      { name: "Maionese 400 g", detail: "Porção vendida separadamente.", price: "Consulte", image: "/images/acompanhamentos.webp", imageAlt: "Maionese cremosa servida em porção" },
+      { name: "Polenta extra", detail: "Porção extra para completar o pedido.", price: "Consulte", image: "/images/acompanhamentos.webp", imageAlt: "Polenta servida como acompanhamento" },
+    ],
+  },
+  {
+    id: "risoto",
+    eyebrow: "Acompanhamento especial",
+    title: "Risoto",
+    description:
+      "Risoto tradicional vendido à parte para completar o frango assado ou o almoço do dia.",
+    availability: "Quantidade a confirmar",
+    message:
+      "Olá! Quero consultar o risoto disponível hoje para completar meu pedido.",
+    image: "/images/acompanhamentos.webp",
+    imageAlt: "Risoto tradicional servido em porção",
+    items: [
+      { name: "Risoto tradicional", detail: "Consulte quantidade correta e disponibilidade.", price: "Consulte", image: "/images/acompanhamentos.webp", imageAlt: "Risoto tradicional servido em porção" },
     ],
   },
   {
@@ -150,9 +164,7 @@ const menuCategories: MenuCategory[] = [
     imageAlt: "Pães frescos e dourados",
     items: [
       { name: "Pão fresquinho", detail: "Produção diária, saindo às 16h.", price: "Consulte", image: "/images/pao-fresquinho.webp", imageAlt: "Pães frescos recém-assados" },
-      { name: "Refrigerantes 2 L", detail: "Consulte marcas e sabores.", price: "Consulte", image: "/images/pao-fresquinho.webp", imageAlt: "Seleção do mercado do Empório" },
-      { name: "Bebidas", detail: "Opções disponíveis na loja.", price: "Consulte", image: "/images/pao-fresquinho.webp", imageAlt: "Seleção do mercado do Empório" },
-      { name: "Itens de conveniência", detail: "Para completar sua compra.", price: "Consulte", image: "/images/pao-fresquinho.webp", imageAlt: "Seleção do mercado do Empório" },
+      { name: "Bebidas e conveniência", detail: "Refrigerantes, bebidas e itens para completar sua compra.", price: "Consulte", image: "/images/acompanhamentos.webp", imageAlt: "Itens para completar a refeição" },
     ],
   },
 ];
@@ -361,7 +373,7 @@ export default function Home() {
     name: "Empório do Frango",
     url: "https://emporio-do-frango.dg5i.chatgpt.site/",
     description:
-      "Rotisserie com galeto assado, almoço, espetinhos, açougue e acompanhamentos em Santa Maria.",
+      "Rotisserie com frango assado, almoço, espetinhos, açougue e acompanhamentos em Santa Maria.",
     image: "https://emporio-do-frango.dg5i.chatgpt.site/images/hero-frango-inteiro-v2.webp",
     foundingDate: "2012",
     taxID: "45.883.258/0001-11",
@@ -466,9 +478,10 @@ export default function Home() {
               Frango assado, almoço e um pedido <em>do seu jeito.</em>
             </h1>
             <p className="hero-lead">
-              O galeto sai dourado no fim de semana. Durante a semana tem
-              marmitex, e à noite a brasa fica por conta dos espetinhos. Mande
-              uma mensagem, veja o que saiu hoje e passe para buscar.
+              O frango assado é o foco da casa: dourado, suculento e preparado
+              para retirar no horário combinado. Durante a semana também tem
+              marmitex e, à noite, espetinhos na brasa. Mande uma mensagem,
+              veja o que saiu hoje e passe para buscar.
             </p>
             <div className="hero-actions">
               <WhatsAppLink
@@ -484,7 +497,7 @@ export default function Home() {
               </a>
             </div>
             <p className="hero-note">
-              Vai de galeto? Reserve antes. Assim você escolhe o horário e não
+              Vai de frango assado? Reserve antes. Assim você escolhe o horário e não
               corre o risco de chegar quando já acabou.
             </p>
           </div>
@@ -511,7 +524,7 @@ export default function Home() {
 
         <section className="trust-strip" aria-label="Diferenciais">
           <div><strong>Desde 2012</strong><span>servindo Santa Maria</span></div>
-          <a href="#seguranca-alimentar"><strong>Temperatura controlada</strong><span>cuidado no armazenamento</span></a>
+          <a href="#seguranca-alimentar"><strong>Tempero autorizado</strong><span>autorização sanitária</span></a>
           <div><strong>Reserve antes</strong><span>retire no horário combinado</span></div>
           <div><strong>Resolva a refeição</strong><span>comida pronta e conveniência</span></div>
         </section>
@@ -558,10 +571,6 @@ export default function Home() {
               <p className="kicker">Cardápio digital</p>
               <h2 id="menu-title">Escolha o seu pedido.</h2>
             </div>
-            <p>
-              Valores informados nos materiais de julho de 2026. Confirme
-              disponibilidade, cardápio e eventuais atualizações pelo WhatsApp.
-            </p>
           </div>
 
           <div className="menu-tabs" role="tablist" aria-label="Categorias do cardápio">
@@ -618,7 +627,7 @@ export default function Home() {
             <p className="kicker">Sem combo, do seu jeito</p>
             <h2 id="complete-title">Monte o pedido do seu jeito.</h2>
             <p>
-              Escolha o principal e consulte acompanhamentos, bebidas e itens
+              Escolha o principal e consulte maionese, polenta, risoto, bebidas e itens
               de conveniência. Tudo separado, para você montar o pedido como
               preferir.
             </p>
@@ -632,8 +641,8 @@ export default function Home() {
             </WhatsAppLink>
           </div>
           <div className="complete-steps" aria-label="Sugestão para montar o pedido">
-            <div><span>01</span><strong>Escolha o principal</strong><small>Galeto, almoço ou espetinhos</small></div>
-            <div><span>02</span><strong>Adicione um acompanhamento</strong><small>Maionese, salada ou risoto</small></div>
+            <div><span>01</span><strong>Escolha o principal</strong><small>Frango assado, almoço ou espetinhos</small></div>
+            <div><span>02</span><strong>Adicione um acompanhamento</strong><small>Maionese, polenta ou risoto</small></div>
             <div><span>03</span><strong>Finalize como preferir</strong><small>Bebidas e itens de conveniência</small></div>
           </div>
         </section>
@@ -680,12 +689,12 @@ export default function Home() {
             <h2 id="quality-title">Cuidado que aparece antes do produto chegar ao balcão.</h2>
             <p>
               O Empório trabalha com controle de temperatura no armazenamento,
-              no preparo e na exposição dos alimentos, seguindo as exigências
-              sanitárias para reduzir riscos e proteger o consumidor.
+              no preparo e na exposição dos alimentos. O tempero certificado
+              ajuda a manter padrão, sabor e cuidado em cada preparo.
             </p>
             <div className="sanitary-badge">
-              <strong>Controle de temperatura</strong>
-              <span>Controle de temperatura, organização e higiene fazem parte da rotina.</span>
+              <strong>Autorização sanitária para tempero</strong>
+              <span>Tempero autorizado, temperatura controlada, organização e higiene fazem parte da rotina.</span>
             </div>
             <ul>
               <li><span>01</span>Armazenamento controlado</li>
@@ -703,12 +712,12 @@ export default function Home() {
         <section className="section preorder-section" aria-labelledby="preorder-title">
           <div className="preorder-heading">
             <p className="kicker">Evite fila e falta de produto</p>
-            <h2 id="preorder-title">Reserve em três mensagens.</h2>
+            <h2 id="preorder-title">Encomende na quinta ou sexta.</h2>
           </div>
           <ol className="preorder-list">
-            <li><span>1</span><div><strong>Escolha</strong><p>Diga o que deseja e a quantidade.</p></div></li>
-            <li><span>2</span><div><strong>Combine</strong><p>Informe a data e o horário desejado.</p></div></li>
-            <li><span>3</span><div><strong>Confirme</strong><p>Aguarde o retorno da equipe pelo WhatsApp.</p></div></li>
+            <li><span>1</span><div><strong>Reserve antes</strong><p>Na quinta ou sexta, diga quantos frangos assados deseja.</p></div></li>
+            <li><span>2</span><div><strong>Combine</strong><p>Informe se é para sábado, domingo ou feriado e escolha o horário de retirada.</p></div></li>
+            <li><span>3</span><div><strong>Confirme</strong><p>Horário-limite de encomenda deve ser confirmado pelo WhatsApp.</p></div></li>
           </ol>
           <WhatsAppLink
             className="button button-dark"
@@ -727,8 +736,8 @@ export default function Home() {
               <h2 id="gallery-title">Dá para escolher com os olhos.</h2>
             </div>
             <p>
-              Galeto inteiro, porções douradas e opções para dividir. Veja as
-              fotos e confirme o cardápio do dia pelo WhatsApp.
+              O frango inteiro é vendido assado. Os cortes do balcão são crus,
+              vendidos por kg, para preparar em casa.
             </p>
           </div>
           <div className="gallery-showcase">
@@ -752,27 +761,23 @@ export default function Home() {
             <div className="gallery-grid">
               <figure>
                 <img src="/images/hero-frango-inteiro-v2.webp" alt="Frango inteiro assado e dourado em superfície limpa" width="1200" height="800" loading="lazy" decoding="async" />
-                <figcaption>Galeto inteiro</figcaption>
+                <figcaption>Frango assado</figcaption>
               </figure>
               <figure>
-                <img src="/images/asas-assadas.webp" alt="Asas de frango assadas e douradas" width="1600" height="1094" loading="lazy" decoding="async" />
-                <figcaption>Asas douradas</figcaption>
+                <img src="/images/marmitex-almoco.webp" alt="Marmitex com almoço completo" width="1600" height="1067" loading="lazy" decoding="async" />
+                <figcaption>Almoço</figcaption>
               </figure>
               <figure>
-                <img src="/images/frango-assado-molho.webp" alt="Pedaços de frango assado servidos com molho" width="1600" height="1067" loading="lazy" decoding="async" />
-                <figcaption>Pronto para servir</figcaption>
+                <img src="/images/acompanhamentos.webp" alt="Maionese, polenta e risoto para completar o pedido" width="1200" height="800" loading="lazy" decoding="async" />
+                <figcaption>Acompanhamentos</figcaption>
               </figure>
               <figure>
-                <img src="/images/coxinhas-assadas.webp" alt="Coxinhas da asa assadas servidas com molhos" width="1280" height="720" loading="lazy" decoding="async" />
-                <figcaption>Coxinhas da asa</figcaption>
+                <img src="/images/pao-fresquinho.webp" alt="Pães fresquinhos recém-assados" width="1448" height="1086" loading="lazy" decoding="async" />
+                <figcaption>Pão 16h</figcaption>
               </figure>
               <figure>
-                <img src="/images/asas-e-pedacos.webp" alt="Asas e pedaços de frango assados" width="1024" height="680" loading="lazy" decoding="async" />
-                <figcaption>Porções douradas</figcaption>
-              </figure>
-              <figure>
-                <img src="/images/asas-assadas.webp" alt="Asas assadas prontas para servir" width="1600" height="1094" loading="lazy" decoding="async" />
-                <figcaption>Para compartilhar</figcaption>
+                <img src="/images/espetinhos-brasa.jpg" alt="Espetinhos preparados na brasa" width="1200" height="1600" loading="lazy" decoding="async" />
+                <figcaption>Espetinhos à noite</figcaption>
               </figure>
             </div>
           </div>
@@ -807,9 +812,10 @@ export default function Home() {
               </dl>
             </div>
             <div className="operation-hours">
-              <article><span>Galeto assado</span><strong>Sábado e domingo</strong></article>
+              <article><span>Frango assado</span><strong>Sábados, domingos e feriados</strong></article>
               <article><span>Almoço</span><strong>Terça a sexta, a partir das 11h30</strong></article>
               <article><span>Espetinhos</span><strong>Segunda a sábado, à noite</strong></article>
+              <article><span>Feriados</span><strong>Consulte funcionamento e encomendas</strong></article>
               <article className="bread-hour"><span>Pão fresquinho</span><strong>Todos os dias, às 16h</strong></article>
               <p>Açougue e mercado acompanham o horário geral da loja.</p>
             </div>
@@ -837,8 +843,13 @@ export default function Home() {
             </article>
             <article>
               <span>03</span>
+              <h3>iFood</h3>
+              <p>Disponível para pedidos pelo aplicativo, conforme disponibilidade da loja.</p>
+            </article>
+            <article>
+              <span>04</span>
               <h3>Entrega na cidade</h3>
-              <p>Consulte cobertura, disponibilidade e taxa para o seu endereço.</p>
+              <p>Área de entrega até Camobi. Consulte disponibilidade e taxa para o seu endereço.</p>
             </article>
           </div>
         </section>
@@ -896,8 +907,8 @@ export default function Home() {
               <p>Abra o WhatsApp, informe os produtos, a quantidade, a data e o horário desejado. O pedido fica confirmado após o retorno da equipe.</p>
             </details>
             <details>
-              <summary>Posso reservar meu galeto?</summary>
-              <p>Sim. A encomenda antecipada é recomendada, principalmente para os finais de semana, quando a procura é maior.</p>
+              <summary>Posso reservar meu frango assado?</summary>
+              <p>Sim. A encomenda antecipada é recomendada na quinta ou sexta para sábado, domingo e feriados. Confirme o horário-limite pelo WhatsApp.</p>
             </details>
             <details>
               <summary>O Empório faz entrega?</summary>
