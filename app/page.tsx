@@ -682,7 +682,6 @@ export default function Home() {
               height="1440"
               loading="lazy"
             />
-            <span>Preparo real. Foto real.</span>
           </div>
           <div className="quality-copy">
             <p className="kicker kicker-light">Segurança alimentar levada a sério</p>
@@ -733,12 +732,8 @@ export default function Home() {
           <div className="section-heading">
             <div>
               <p className="kicker">Do Empório para a sua mesa</p>
-              <h2 id="gallery-title">Dá para escolher com os olhos.</h2>
+              <h2 id="gallery-title">Frango assado, acompanhamentos e mais.</h2>
             </div>
-            <p>
-              O frango inteiro é vendido assado. Os cortes do balcão são crus,
-              vendidos por kg, para preparar em casa.
-            </p>
           </div>
           <div className="gallery-showcase">
             <figure className="gallery-video">
@@ -785,20 +780,24 @@ export default function Home() {
 
         <section className="section hours-section" id="horarios" aria-labelledby="hours-title">
           <div className="hours-heading">
-            <p className="kicker">Planeje sua visita</p>
-            <h2 id="hours-title">Cada coisa sai em um horário.</h2>
-            <p>
-              Consulte o WhatsApp antes de sair para confirmar o cardápio e a
-              disponibilidade do dia.
-            </p>
-            <WhatsAppLink
-              className="button button-primary"
-              message="Olá! Quero confirmar os horários e a disponibilidade dos produtos de hoje."
-              interest="horarios"
-              placement="hours"
-            >
-              Confirmar disponibilidade
-            </WhatsAppLink>
+            <div>
+              <p className="kicker">Planeje sua visita</p>
+              <h2 id="hours-title">Confira os horários do Empório.</h2>
+            </div>
+            <div className="hours-action">
+              <p>
+                Consulte o WhatsApp antes de sair para confirmar o cardápio e a
+                disponibilidade do dia.
+              </p>
+              <WhatsAppLink
+                className="button button-primary"
+                message="Olá! Quero confirmar os horários e a disponibilidade dos produtos de hoje."
+                interest="horarios"
+                placement="hours"
+              >
+                Confirmar disponibilidade
+              </WhatsAppLink>
+            </div>
           </div>
 
           <div className="hours-content">
@@ -926,7 +925,6 @@ export default function Home() {
         </section>
 
         <section className="final-cta" aria-labelledby="final-title">
-          <img src="/emporio-seal.svg" alt="Selo Empório do Frango" />
           <div>
             <p className="kicker kicker-light">Já sabe o que vai pedir?</p>
             <h2 id="final-title">Fale com o Empório e deixe sua refeição encaminhada.</h2>

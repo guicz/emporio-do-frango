@@ -321,7 +321,7 @@ img {
 .hero-stamp {
   position: absolute;
   top: 42px;
-  left: -28px;
+  left: clamp(18px, 2.2vw, 36px);
   z-index: 3;
   display: grid;
   width: 142px;
@@ -908,18 +908,6 @@ img {
   object-position: 50% 48%;
 }
 
-.quality-media span {
-  position: absolute;
-  right: 30px;
-  bottom: 28px;
-  z-index: 2;
-  color: rgba(255, 255, 255, 0.68);
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
 .quality-copy {
   display: flex;
   flex-direction: column;
@@ -1064,24 +1052,48 @@ img {
 .gallery-showcase {
   display: grid;
   max-width: 1400px;
-  grid-template-columns: minmax(300px, 0.68fr) minmax(0, 1.32fr);
+  height: clamp(620px, 54vw, 760px);
+  grid-template-columns: minmax(300px, 0.72fr) repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(3, minmax(0, 1fr));
   align-items: stretch;
   gap: 16px;
   margin: 0 auto;
 }
 
 .gallery-video {
-  height: clamp(620px, 54vw, 760px);
+  height: auto;
   min-height: 0;
+  grid-column: 1;
+  grid-row: 1 / -1;
 }
 
 .gallery-grid {
-  display: grid;
-  height: 100%;
-  min-width: 0;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  grid-template-rows: repeat(3, minmax(0, 1fr));
-  gap: 16px;
+  display: contents;
+}
+
+.gallery-grid figure:nth-child(1) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.gallery-grid figure:nth-child(2) {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.gallery-grid figure:nth-child(3) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.gallery-grid figure:nth-child(4) {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.gallery-grid figure:nth-child(5) {
+  grid-column: 3;
+  grid-row: 2 / span 2;
 }
 
 .gallery-showcase figure {
@@ -1129,29 +1141,38 @@ img {
 }
 
 .hours-section {
-  display: grid;
-  grid-template-columns: minmax(320px, 0.72fr) minmax(560px, 1.28fr);
-  gap: clamp(70px, 10vw, 150px);
   background: var(--paper);
 }
 
 .hours-heading {
-  align-self: start;
-  position: static;
+  display: grid;
+  max-width: 1400px;
+  grid-template-columns: minmax(0, 1.25fr) minmax(320px, 0.75fr);
+  align-items: end;
+  gap: clamp(40px, 7vw, 100px);
+  margin: 0 auto clamp(42px, 5vw, 72px);
 }
 
-.hours-heading > p {
+.hours-action p {
   max-width: 530px;
-  margin: 28px 0 32px;
+  margin: 0 0 28px;
+  color: rgba(35, 31, 32, 0.64);
+  font-size: 1rem;
+  line-height: 1.75;
 }
 
 .hours-content {
   display: grid;
+  max-width: 1400px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
   gap: 24px;
+  margin: 0 auto;
 }
 
 .opening-hours,
 .operation-hours {
+  height: 100%;
   padding: clamp(28px, 4vw, 48px);
   border: 1px solid var(--line);
   border-radius: 24px;
@@ -1415,18 +1436,12 @@ img {
 
 .final-cta {
   display: grid;
-  grid-template-columns: 140px minmax(360px, 1fr) auto;
+  grid-template-columns: minmax(360px, 1fr) auto;
   align-items: center;
   gap: 48px;
   padding: 76px clamp(24px, 6vw, 96px);
   background: var(--ink);
   color: var(--white);
-}
-
-.final-cta > img {
-  width: 130px;
-  height: 130px;
-  object-fit: contain;
 }
 
 .final-cta h2 {
@@ -1609,6 +1624,10 @@ footer p {
     position: static;
   }
 
+  .hours-content {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .location-section {
     grid-template-columns: 0.9fr 1.1fr;
   }
@@ -1618,16 +1637,11 @@ footer p {
   }
 
   .final-cta {
-    grid-template-columns: 100px 1fr;
-  }
-
-  .final-cta > img {
-    width: 100px;
-    height: 100px;
+    grid-template-columns: minmax(0, 1fr) auto;
   }
 
   .final-cta > .button {
-    grid-column: 2;
+    grid-column: auto;
     justify-self: start;
   }
 
@@ -1785,6 +1799,11 @@ footer p {
   .faq-heading h2 {
     font-size: clamp(2.65rem, 11.8vw, 3.8rem);
     line-height: 0.96;
+  }
+
+  .gallery-section .section-heading h2 {
+    font-size: clamp(2.2rem, 10vw, 3.2rem);
+    overflow-wrap: anywhere;
   }
 
   .intent-grid {
@@ -1948,6 +1967,7 @@ footer p {
   .gallery-showcase {
     height: auto;
     grid-template-columns: 1fr;
+    grid-template-rows: none;
     gap: 14px;
   }
 
@@ -1960,9 +1980,19 @@ footer p {
   }
 
   .gallery-grid {
+    display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-template-rows: repeat(3, 190px);
     gap: 10px;
+  }
+
+  .gallery-grid figure:nth-child(n) {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .gallery-grid figure:last-child {
+    grid-column: 1 / -1;
   }
 
   .gallery-showcase figure {
@@ -1979,6 +2009,11 @@ footer p {
 
   .hours-section {
     gap: 48px;
+  }
+
+  .hours-heading,
+  .hours-content {
+    grid-template-columns: 1fr;
   }
 
   .operation-hours article {
@@ -2044,13 +2079,9 @@ footer p {
     padding: 72px 22px;
   }
 
-  .final-cta > img {
-    width: 110px;
-    height: 110px;
-  }
-
   .final-cta h2 {
-    font-size: 2.9rem;
+    font-size: 2.65rem;
+    overflow-wrap: anywhere;
   }
 
   .final-cta > .button {
