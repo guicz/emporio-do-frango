@@ -375,7 +375,7 @@ export default function Home() {
     description:
       "Rotisserie com frango assado, almoço, espetinhos, açougue e acompanhamentos em Santa Maria.",
     image: "https://emporiodofrango.com.br/images/hero-frango-inteiro-v2.webp",
-    foundingDate: "2012",
+    foundingDate: "2022",
     taxID: "45.883.258/0001-11",
     telephone: "+55 55 3311-7142",
     priceRange: "$$",
@@ -511,9 +511,9 @@ export default function Home() {
               loading="eager"
               fetchPriority="high"
             />
-            <div className="hero-stamp" aria-label="Tradição desde 2012">
+            <div className="hero-stamp" aria-label="Tradição desde 2022">
               <strong>Desde</strong>
-              <span>2012</span>
+              <span>2022</span>
             </div>
             <div className="hero-caption">
               <span>Qualidade em cada preparo</span>
@@ -523,8 +523,8 @@ export default function Home() {
         </section>
 
         <section className="trust-strip" aria-label="Diferenciais">
-          <div><strong>Desde 2012</strong><span>servindo Santa Maria</span></div>
-          <a href="#seguranca-alimentar"><strong>Tempero autorizado</strong><span>autorização sanitária</span></a>
+          <div><strong>Desde 2022</strong><span>servindo Santa Maria</span></div>
+          <a href="#seguranca-alimentar"><strong>Autorização sanitária</strong><span>manipulação e beneficiamento</span></a>
           <div><strong>Reserve antes</strong><span>retire no horário combinado</span></div>
           <div><strong>Resolva a refeição</strong><span>comida pronta e conveniência</span></div>
         </section>
@@ -687,13 +687,13 @@ export default function Home() {
             <p className="kicker kicker-light">Segurança alimentar levada a sério</p>
             <h2 id="quality-title">Cuidado que aparece antes do produto chegar ao balcão.</h2>
             <p>
-              O Empório trabalha com controle de temperatura no armazenamento,
-              no preparo e na exposição dos alimentos. O tempero certificado
-              ajuda a manter padrão, sabor e cuidado em cada preparo.
+              O Empório possui autorização sanitária para temperar, manipular e
+              realizar o beneficiamento dos produtos antes da venda. É a única
+              casa de frango autorizada a trabalhar dessa maneira.
             </p>
             <div className="sanitary-badge">
-              <strong>Autorização sanitária para tempero</strong>
-              <span>Tempero autorizado, temperatura controlada, organização e higiene fazem parte da rotina.</span>
+              <strong>Autorização para manipulação e beneficiamento</strong>
+              <span>O frango pode ser temperado, manipulado e beneficiado no próprio Empório para venda.</span>
             </div>
             <ul>
               <li><span>01</span>Armazenamento controlado</li>
@@ -802,7 +802,10 @@ export default function Home() {
 
           <div className="hours-content">
             <div className="opening-hours">
-              <h3>Horário da loja</h3>
+              <div className="opening-hours-header">
+                <h3>Horários de atendimento</h3>
+                <span>Rua Venâncio Aires, 470</span>
+              </div>
               <dl>
                 <div><dt>Segunda</dt><dd>16h — 21h</dd></div>
                 <div><dt>Terça a sexta</dt><dd>9h — 12h30<br />16h — 21h</dd></div>
