@@ -142,13 +142,13 @@ const menuCategories: MenuCategory[] = [
     title: "Risoto",
     description:
       "Risoto tradicional vendido à parte para completar o frango assado ou o almoço do dia.",
-    availability: "Quantidade a confirmar",
+    availability: "R$ 23 · porção de 900 g",
     message:
       "Olá! Quero consultar o risoto disponível hoje para completar meu pedido.",
     image: "/images/acompanhamentos.webp",
     imageAlt: "Risoto tradicional servido em porção",
     items: [
-      { name: "Risoto tradicional", detail: "Consulte quantidade correta e disponibilidade.", price: "Consulte", image: "/images/acompanhamentos.webp", imageAlt: "Risoto tradicional servido em porção" },
+      { name: "Risoto tradicional", detail: "Porção de 900 g.", price: "R$ 23,00", image: "/images/acompanhamentos.webp", imageAlt: "Risoto tradicional servido em porção" },
     ],
   },
   {
@@ -475,13 +475,12 @@ export default function Home() {
           <div className="hero-copy">
             <p className="kicker">Rotisserie no Centro de Santa Maria</p>
             <h1>
-              Frango assado, almoço e um pedido <em>do seu jeito.</em>
+              Comida boa, <em>do jeito que o dia pede.</em>
             </h1>
             <p className="hero-lead">
-              O frango assado é o foco da casa: dourado, suculento e preparado
-              para retirar no horário combinado. Durante a semana também tem
-              marmitex e, à noite, espetinhos na brasa. Mande uma mensagem,
-              veja o que saiu hoje e passe para buscar.
+              Tem galeto temperado para preparar em casa, frango assado aos fins
+              de semana, marmitex durante a semana e espetinhos à noite. Escolha
+              o seu pedido e fale com a gente pelo WhatsApp.
             </p>
             <div className="hero-actions">
               <WhatsAppLink
