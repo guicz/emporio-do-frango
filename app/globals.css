@@ -459,8 +459,9 @@ img {
 
 .intent-grid {
   display: grid;
-  max-width: 1400px;
-  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  max-width: none;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: 1px;
   margin: 0 auto;
   overflow: hidden;
@@ -472,7 +473,8 @@ img {
 .intent-card {
   position: relative;
   display: flex;
-  min-height: 240px;
+  min-height: clamp(230px, 18vw, 280px);
+  grid-column: span 3;
   flex-direction: column;
   justify-content: space-between;
   padding: 28px;
@@ -481,6 +483,11 @@ img {
   color: var(--white);
   isolation: isolate;
   transition: box-shadow 260ms ease, transform 260ms ease;
+}
+
+.intent-card:nth-child(n + 5) {
+  min-height: clamp(250px, 20vw, 310px);
+  grid-column: span 4;
 }
 
 .intent-card:hover,
@@ -1565,6 +1572,21 @@ footer p {
     max-width: 650px;
   }
 
+  .intent-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .intent-card,
+  .intent-card:nth-child(n + 5) {
+    min-height: 230px;
+    grid-column: auto;
+  }
+
+  .intent-card:last-child {
+    min-height: 260px;
+    grid-column: 1 / -1;
+  }
+
   .quality-copy {
     padding: 70px 52px;
   }
@@ -1770,8 +1792,11 @@ footer p {
     border-radius: 20px;
   }
 
-  .intent-card {
+  .intent-card,
+  .intent-card:nth-child(n + 5),
+  .intent-card:last-child {
     min-height: 190px;
+    grid-column: 1 / -1;
   }
 
   .intent-card strong {
