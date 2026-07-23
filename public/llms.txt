@@ -1,8 +1,8 @@
 # Empório do Frango
 
-Rotisserie no Centro de Santa Maria, RS, com frango assado, almoço, espetinhos, açougue, acompanhamentos, iFood e entrega até Camobi.
+Rotisserie no Centro de Santa Maria, RS. O Empório vende galeto cru temperado durante o horário da loja, frango assado aos sábados, domingos e feriados, além de marmitex e acompanhamentos em dias específicos.
 
-> O Empório do Frango atende quem quer comida pronta e produtos para levar, com retirada no Centro de Santa Maria e pedidos pelo WhatsApp.
+> O galeto sai cru e já temperado para preparar em casa. O frango inteiro é vendido assado no almoço de sábado, domingo e feriado.
 
 ## Página principal
 

@@ -24,7 +24,7 @@ body {
   margin: 0;
   background: var(--cream);
   color: var(--ink);
-  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-rendering: optimizeLegibility;
 }
 
@@ -1622,8 +1622,13 @@ footer p {
   .complete-section,
   .hours-section,
   .faq-section {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 48px;
+  }
+
+  .complete-copy,
+  .complete-steps {
+    min-width: 0;
   }
 
   .section-heading {
@@ -2167,9 +2172,11 @@ footer p {
 
   .mobile-whatsapp {
     position: fixed;
-    right: 12px;
+    right: auto;
     bottom: calc(10px + env(safe-area-inset-bottom));
     left: 12px;
+    width: calc(100vw - 24px);
+    max-width: calc(100vw - 24px);
     z-index: 80;
     display: flex;
     min-height: 56px;

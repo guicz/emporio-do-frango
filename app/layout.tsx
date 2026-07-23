@@ -1,24 +1,18 @@
 import type { Metadata, Viewport } from "next";
-import { Geist } from "next/font/google";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://emporiodofrango.com.br"),
-  title: "Frango assado, almoço e espetinhos em Santa Maria | Empório do Frango",
+  title: "Galeto temperado e frango assado em Santa Maria | Empório do Frango",
   description:
-    "Frango assado, marmitex, espetinhos, açougue, acompanhamentos e entrega até Camobi no Centro de Santa Maria. Peça pelo WhatsApp ou iFood.",
+    "Galeto cru temperado, frango assado de fim de semana e marmitex no Centro de Santa Maria. Faça seu pedido pelo WhatsApp.",
   keywords: [
+    "galeto temperado em Santa Maria",
+    "galeto cru temperado em Santa Maria",
     "frango assado em Santa Maria",
     "frango inteiro assado em Santa Maria",
     "almoço em Santa Maria",
     "marmitex em Santa Maria",
-    "espetinho em Santa Maria",
-    "açougue em Santa Maria",
     "rotisserie em Santa Maria",
   ],
   applicationName: "Empório do Frango",
@@ -36,22 +30,22 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     siteName: "Empório do Frango",
     url: "https://emporiodofrango.com.br/",
-    title: "Empório do Frango | Frango assado e almoço em Santa Maria",
+    title: "Empório do Frango | Galeto temperado em Santa Maria",
     description:
-      "Tudo para sua refeição, com a qualidade que você já conhece. Consulte o cardápio e peça pelo WhatsApp.",
+      "Galeto cru já temperado para preparar em casa e frango assado de fim de semana no Centro de Santa Maria.",
     images: [
       {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "Empório do Frango: frango assado, almoço e espetinhos em Santa Maria",
+        alt: "Empório do Frango: galeto temperado e frango assado em Santa Maria",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Empório do Frango | Santa Maria",
-    description: "Frango assado, almoço, espetinhos, açougue e acompanhamentos.",
+    title: "Empório do Frango | Galeto temperado em Santa Maria",
+    description: "Galeto cru temperado, frango assado e marmitex no Centro de Santa Maria.",
     images: ["/og.png"],
   },
   robots: {
@@ -85,7 +79,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={`${geistSans.variable} antialiased`}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
