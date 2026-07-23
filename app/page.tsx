@@ -39,7 +39,7 @@ const menuCategories: MenuCategory[] = [
     eyebrow: "Para levar e preparar em casa",
     title: "Galeto temperado",
     description:
-      "O galeto sai do Empório cru, já temperado e pronto para ir ao forno ou à churrasqueira. Fica disponível durante o horário da loja e também pode ser encomendado em quantidade.",
+      "Cru, já temperado e pronto para o forno ou a churrasqueira. Consulte a disponibilidade para pedidos maiores.",
     availability: "Durante o horário da loja",
     message:
       "Olá! Quero saber o valor e a disponibilidade do galeto temperado. Preciso de [quantidade] unidades.",
@@ -48,7 +48,7 @@ const menuCategories: MenuCategory[] = [
     items: [
       {
         name: "Galeto cru temperado",
-        detail: "Pronto para assar em casa. Informe a quantidade desejada.",
+        detail: "Temperado e pronto para assar.",
         price: "Consulte o valor",
         image: "/images/linguicas-selecionadas-poster.jpg",
         imageAlt: "Produtos embalados do Empório",
@@ -60,7 +60,7 @@ const menuCategories: MenuCategory[] = [
     eyebrow: "Almoço de fim de semana",
     title: "Frango assado",
     description:
-      "O frango inteiro sai assado e acompanha polenta. Faça a reserva e combine o horário de retirada; a confirmação depende da disponibilidade do lote.",
+      "Frango inteiro assado com polenta. Reserve e combine o horário de retirada.",
     availability: "Sábados, domingos e feriados, no almoço",
     message:
       "Olá! Vim pelo site e quero reservar um frango assado. Quais opções e horários de retirada estão disponíveis?",
@@ -69,7 +69,7 @@ const menuCategories: MenuCategory[] = [
     items: [
       {
         name: "Frango assado com polenta",
-        detail: "Frango inteiro assado. Combine o horário de retirada.",
+        detail: "Frango inteiro com polenta.",
         price: "R$ 70,00",
         image: "/images/hero-frango-inteiro-v2.webp",
         imageAlt: "Frango inteiro assado e dourado",
@@ -81,7 +81,7 @@ const menuCategories: MenuCategory[] = [
     eyebrow: "De terça a sexta",
     title: "Marmitex",
     description:
-      "O almoço começa às 11h30. O cardápio do dia vai para os stories e para o status do WhatsApp, onde você confirma o prato antes de buscar.",
+      "O almoço começa às 11h30. Consulte o prato do dia no WhatsApp ou nos stories.",
     availability: "Terça a sexta, a partir das 11h30",
     message:
       "Olá! Vim pelo site e quero consultar o cardápio do almoço de hoje e o horário de retirada.",
@@ -90,14 +90,14 @@ const menuCategories: MenuCategory[] = [
     items: [
       {
         name: "Marmitex média",
-        detail: "O prato muda conforme o cardápio do dia.",
+        detail: "Prato do dia.",
         price: "R$ 19,50",
         image: "/images/marmitex-almoco-v2.jpg",
         imageAlt: "Marmitex média com refeição completa",
       },
       {
         name: "Marmitex grande",
-        detail: "O prato muda conforme o cardápio do dia.",
+        detail: "Prato do dia.",
         price: "R$ 22,50",
         image: "/images/marmitex-almoco-v2.jpg",
         imageAlt: "Marmitex grande com refeição completa",
@@ -109,7 +109,7 @@ const menuCategories: MenuCategory[] = [
     eyebrow: "Cortes para preparar em casa",
     title: "Cortes & balcão",
     description:
-      "Sobrecoxa, coxinha da asa, tulipa, coração e linguiças são vendidos crus. As fotos mostram sugestões de preparo para cada corte.",
+      "Cortes crus vendidos no balcão. As fotos mostram sugestões de preparo.",
     availability: "Durante o horário da loja",
     message:
       "Olá! Vim pelo site e quero saber quais cortes e produtos do balcão estão disponíveis hoje.",
@@ -158,15 +158,15 @@ const menuCategories: MenuCategory[] = [
     eyebrow: "Para acompanhar o frango assado",
     title: "Acompanhamentos",
     description:
-      "Maionese e polenta extra são preparadas para o almoço de sábado, domingo e feriado. As porções são vendidas separadamente.",
+      "Maionese e polenta extra, vendidas à parte no almoço de fim de semana e feriados.",
     availability: "Sábados, domingos e feriados, no almoço",
     message:
       "Olá! Quero consultar maionese e polenta para completar meu pedido.",
     image: "/images/maionese-polenta-v6.jpg",
     imageAlt: "Maionese caseira e polenta dourada",
     items: [
-      { name: "Maionese 400 g", detail: "Porção vendida separadamente.", price: "R$ 14,00", image: "/images/maionese-polenta-v6.jpg", imageAlt: "Maionese caseira servida em porção" },
-      { name: "Polenta extra", detail: "Porção com 7 pedaços.", price: "R$ 5,00", image: "/images/maionese-polenta-v6.jpg", imageAlt: "Polenta grossa e dourada servida como acompanhamento" },
+      { name: "Maionese 400 g", detail: "", price: "R$ 14,00", image: "/images/maionese-polenta-v6.jpg", imageAlt: "Maionese caseira servida em porção" },
+      { name: "Polenta extra", detail: "7 pedaços.", price: "R$ 5,00", image: "/images/maionese-polenta-v6.jpg", imageAlt: "Polenta grossa e dourada servida como acompanhamento" },
     ],
   },
   {
@@ -174,14 +174,14 @@ const menuCategories: MenuCategory[] = [
     eyebrow: "Almoço de fim de semana",
     title: "Risoto",
     description:
-      "O risoto tradicional é preparado para o almoço de sábado, domingo e feriado. A porção de 900 g é vendida separadamente e tem produção limitada.",
+      "Porção de 900 g para o almoço de fim de semana e feriados. Produção limitada.",
     availability: "Sábados, domingos e feriados, no almoço",
     message:
       "Olá! Quero consultar o risoto disponível hoje para completar meu pedido.",
     image: "/images/risoto-v2.jpg",
     imageAlt: "Risoto tradicional servido em porção",
     items: [
-      { name: "Risoto tradicional", detail: "Porção de 900 g.", price: "R$ 23,00", image: "/images/risoto-v2.jpg", imageAlt: "Risoto tradicional servido em porção" },
+      { name: "Risoto tradicional", detail: "900 g.", price: "R$ 23,00", image: "/images/risoto-v2.jpg", imageAlt: "Risoto tradicional servido em porção" },
     ],
   },
   {
@@ -189,15 +189,15 @@ const menuCategories: MenuCategory[] = [
     eyebrow: "Pão saindo do forno às 16h",
     title: "Pão & conveniência",
     description:
-      "O pão cacetinho sai às 16h nos dias de produção. No balcão também há bebidas e itens de conveniência para completar a compra.",
+      "Pão cacetinho às 16h nos dias de produção, além de bebidas e itens de conveniência.",
     availability: "Pão às 16h; confirme os dias",
     message:
       "Olá! Quero consultar as bebidas, pães e itens de conveniência disponíveis hoje.",
     image: "/images/pao-fresquinho.webp",
     imageAlt: "Pães frescos e dourados",
     items: [
-      { name: "Pão cacetinho", detail: "Sai às 16h nos dias de produção.", price: "Consulte", image: "/images/pao-fresquinho.webp", imageAlt: "Pães frescos recém-assados" },
-      { name: "Bebidas e conveniência", detail: "Refrigerantes, bebidas e itens para completar sua compra.", price: "Consulte", image: "/images/acompanhamentos.webp", imageAlt: "Itens para completar a refeição" },
+      { name: "Pão cacetinho", detail: "Pronto às 16h.", price: "Consulte", image: "/images/pao-fresquinho.webp", imageAlt: "Pães frescos recém-assados" },
+      { name: "Bebidas e conveniência", detail: "Opções disponíveis na loja.", price: "Consulte", image: "/images/acompanhamentos.webp", imageAlt: "Itens para completar a refeição" },
     ],
   },
 ];
@@ -207,6 +207,10 @@ const generalMessage =
 
 const heroMessage =
   "Olá! Vim pelo site do Empório do Frango e quero saber o que está disponível hoje.";
+
+const intentCategories = ["galeto", "risoto", "almoco", "acompanhamentos", "frango", "mercado"]
+  .map((categoryId) => menuCategories.find((category) => category.id === categoryId))
+  .filter((category): category is MenuCategory => Boolean(category));
 
 function whatsappUrl(message: string) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
@@ -514,9 +518,8 @@ export default function Home() {
               Sua refeição começa <em>no Empório.</em>
             </h1>
             <p className="hero-lead">
-              Aqui você encontra opções para levar e preparar em
-              casa, além de refeições prontas para retirar nos dias de produção.
-              Fale com a equipe e veja o que está disponível hoje.
+              Aqui você encontra opções para preparar em casa e refeições prontas
+              nos dias de produção. Consulte o que saiu hoje.
             </p>
             <div className="hero-actions">
               <WhatsAppLink
@@ -531,9 +534,6 @@ export default function Home() {
                 Ver cardápio <span aria-hidden="true">↓</span>
               </a>
             </div>
-            <p className="hero-note">
-              Para encomendas, informe o dia e a quantidade desejada.
-            </p>
           </div>
 
           <div className="hero-media">
@@ -550,17 +550,9 @@ export default function Home() {
               <span>2022</span>
             </div>
             <div className="hero-caption">
-              <span>Desde 2022</span>
               <strong>Centro de Santa Maria</strong>
             </div>
           </div>
-        </section>
-
-        <section className="trust-strip" aria-label="Diferenciais">
-          <div><strong>Desde 2022</strong><span>no Centro de Santa Maria</span></div>
-          <a href="#seguranca-alimentar"><strong>Inspeção municipal</strong><span>produção registrada no SIM</span></a>
-          <div><strong>Galeto temperado</strong><span>durante o horário da loja</span></div>
-          <div><strong>Frango assado</strong><span>fim de semana e feriados</span></div>
         </section>
 
         <section className="section intent-section" id="categorias" aria-labelledby="intent-title">
@@ -569,14 +561,10 @@ export default function Home() {
               <p className="kicker">Do balcão ao almoço</p>
               <h2 id="intent-title">O que tem no Empório.</h2>
             </div>
-            <p>
-              A produção muda ao longo da semana. Consulte os dias, horários e
-              valores antes de fazer o pedido.
-            </p>
           </div>
 
           <div className="intent-grid">
-            {menuCategories.filter((category) => category.id !== "acougue").map((category, index) => (
+            {intentCategories.map((category, index) => (
               <a
                 className={`intent-card intent-card-${index + 1}`}
                 href="#cardapio"
@@ -603,7 +591,7 @@ export default function Home() {
           <div className="section-heading section-heading-dark">
             <div>
               <p className="kicker">Cardápio</p>
-              <h2 id="menu-title">Produtos, dias e valores.</h2>
+              <h2 id="menu-title">Escolha o que procura.</h2>
             </div>
           </div>
 
@@ -641,42 +629,26 @@ export default function Home() {
               </WhatsAppLink>
             </div>
 
-            <div className="menu-items">
+            <div
+              className={`menu-items menu-items-${
+                currentCategory.items.length === 1
+                  ? "single"
+                  : currentCategory.items.length === 2
+                    ? "pair"
+                    : "list"
+              }`}
+            >
               {currentCategory.items.map((item) => (
                 <article className="menu-item" key={item.name}>
                   <img src={item.image} alt={item.imageAlt} width="88" height="88" loading="lazy" />
                   <div className="menu-item-copy">
                     <h4>{item.name}</h4>
-                    <p>{item.detail}</p>
+                    {item.detail && <p>{item.detail}</p>}
                   </div>
                   <strong>{item.price}</strong>
                 </article>
               ))}
             </div>
-          </div>
-        </section>
-
-        <section className="section complete-section" aria-labelledby="complete-title">
-          <div className="complete-copy">
-            <p className="kicker">Almoço de fim de semana</p>
-            <h2 id="complete-title">Frango assado com polenta.</h2>
-            <p>
-              Maionese, polenta extra e risoto são vendidos separadamente aos
-              sábados, domingos e feriados.
-            </p>
-            <WhatsAppLink
-              className="button button-dark"
-              message={menuCategories[4].message}
-              interest="acompanhamentos"
-              placement="complete_order"
-            >
-              Ver acompanhamentos
-            </WhatsAppLink>
-          </div>
-          <div className="complete-steps" aria-label="Valores do almoço de fim de semana">
-            <div><span>01</span><strong>Frango assado com polenta</strong><small>R$ 70,00</small></div>
-            <div><span>02</span><strong>Maionese 400 g</strong><small>R$ 14,00</small></div>
-            <div><span>03</span><strong>Risoto e polenta extra</strong><small>R$ 23,00 e R$ 5,00</small></div>
           </div>
         </section>
 
@@ -692,8 +664,7 @@ export default function Home() {
             <p className="kicker">Pão cacetinho</p>
             <h2 id="bread-title">Às 16h, o pão sai do forno.</h2>
             <p>
-              Nos dias de produção, o pão fica pronto às 16h. Se quiser deixar
-              reservado, confirme o dia com a equipe antes de sair.
+              Confirme os dias de produção e reserve pelo WhatsApp.
             </p>
           </div>
           <WhatsAppLink
@@ -718,12 +689,10 @@ export default function Home() {
           </div>
           <div className="quality-copy">
             <p className="kicker kicker-light">Produção acompanhada pelo SIM</p>
-            <h2 id="quality-title">Sete meses de adequação para trabalhar com carnes temperadas.</h2>
+            <h2 id="quality-title">Estrutura regularizada para carnes temperadas.</h2>
             <p>
-              O Empório está entre os primeiros estabelecimentos de Santa Maria
-              regularizados pelo Serviço de Inspeção Municipal para produzir e
-              vender carnes temperadas. O processo envolveu adequações na
-              estrutura, vistorias e controles de produção.
+              O registro municipal permite produzir e vender carnes temperadas,
+              com vistorias e controle de produção.
             </p>
             <div className="sanitary-badge">
               <strong>Registro no Serviço de Inspeção Municipal</strong>
@@ -735,22 +704,18 @@ export default function Home() {
               <li><span>03</span>Ambiente climatizado</li>
               <li><span>04</span>Maquinário específico</li>
             </ul>
-            <p className="safety-note">
-              Essa estrutura permite que o galeto saia do Empório já temperado,
-              pronto para você preparar em casa.
-            </p>
           </div>
         </section>
 
         <section className="section preorder-section" aria-labelledby="preorder-title">
           <div className="preorder-heading">
             <p className="kicker">Frango assado no fim de semana</p>
-            <h2 id="preorder-title">Antecipe a reserva e combine a retirada.</h2>
+            <h2 id="preorder-title">Reserve antes e combine a retirada.</h2>
           </div>
           <ol className="preorder-list">
-            <li><span>1</span><div><strong>Chame na quinta ou sexta</strong><p>Informe o dia e quantos frangos assados deseja.</p></div></li>
-            <li><span>2</span><div><strong>Aguarde a confirmação</strong><p>A equipe verifica o lote e os horários disponíveis.</p></div></li>
-            <li><span>3</span><div><strong>Retire no horário combinado</strong><p>A reserva fica garantida depois da confirmação da equipe.</p></div></li>
+            <li><span>1</span><div><strong>Chame na quinta ou sexta</strong><p>Informe o dia e a quantidade.</p></div></li>
+            <li><span>2</span><div><strong>Aguarde a confirmação</strong><p>A equipe verifica lote e horários.</p></div></li>
+            <li><span>3</span><div><strong>Retire no horário combinado</strong><p>Pronto. É só buscar.</p></div></li>
           </ol>
           <WhatsAppLink
             className="button button-dark"
@@ -816,13 +781,9 @@ export default function Home() {
           <div className="hours-heading">
             <div>
               <p className="kicker">Antes de sair de casa</p>
-              <h2 id="hours-title">Confira o horário da loja e o que está saindo.</h2>
+              <h2 id="hours-title">Horário da loja e dias de produção.</h2>
             </div>
             <div className="hours-action">
-              <p>
-                A loja tem um horário geral, mas o frango assado, o almoço e o
-                pão seguem dias próprios de produção.
-              </p>
               <WhatsAppLink
                 className="button button-primary"
                 message="Olá! Quero confirmar os horários e a disponibilidade dos produtos de hoje."
@@ -845,15 +806,8 @@ export default function Home() {
                 <div><dt>Terça a sexta</dt><dd>9h — 12h30<br />16h — 21h</dd></div>
                 <div><dt>Sábado</dt><dd>9h — 13h30<br />16h — 20h</dd></div>
                 <div><dt>Domingo</dt><dd>8h30 — 13h30</dd></div>
+                <div><dt>Feriados</dt><dd>Confirme pelo WhatsApp</dd></div>
               </dl>
-            </div>
-            <div className="operation-hours">
-              <article><span>Galeto temperado</span><strong>Durante o horário da loja</strong></article>
-              <article><span>Frango assado</span><strong>Sábados, domingos e feriados</strong></article>
-              <article><span>Almoço</span><strong>Terça a sexta, a partir das 11h30</strong></article>
-              <article><span>Feriados</span><strong>Frango e acompanhamentos no almoço; confirme o atendimento</strong></article>
-              <article className="bread-hour"><span>Pão cacetinho</span><strong>Às 16h, nos dias de produção</strong></article>
-              <p>Os produtos do balcão e da conveniência acompanham o horário geral da loja.</p>
             </div>
           </div>
         </section>
@@ -862,30 +816,30 @@ export default function Home() {
           <div className="section-heading">
             <div>
               <p className="kicker">Pedido, retirada e entrega</p>
-              <h2 id="routes-title">Fale com a equipe antes de sair.</h2>
+              <h2 id="routes-title">Peça antes de sair.</h2>
             </div>
-            <p>Pelo WhatsApp, você confirma o produto, o valor e o horário de retirada.</p>
+            <p>Confirme produto, valor e retirada pelo WhatsApp.</p>
           </div>
           <div className="routes-grid">
             <article>
               <span>01</span>
               <h3>Pedido pelo WhatsApp</h3>
-              <p>É o canal central para encomendas, cardápio do dia e confirmação de disponibilidade.</p>
+              <p>Encomendas, cardápio do dia e disponibilidade.</p>
             </article>
             <article>
               <span>02</span>
               <h3>Retirada combinada</h3>
-              <p>Defina o horário e retire seu pedido na Rua Venâncio Aires, 470.</p>
+              <p>Combine o horário e retire na Rua Venâncio Aires, 470.</p>
             </article>
             <article>
               <span>03</span>
               <h3>iFood</h3>
-              <p>Funciona principalmente nos fins de semana e, hoje, está concentrado no frango.</p>
+              <p>Disponível principalmente nos fins de semana.</p>
             </article>
             <article>
               <span>04</span>
               <h3>Entrega</h3>
-              <p>A cobertura e a taxa dependem do endereço. Confirme antes de fechar o pedido.</p>
+              <p>Cobertura e taxa variam conforme o endereço.</p>
             </article>
           </div>
         </section>
@@ -932,43 +886,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section faq-section" aria-labelledby="faq-title">
-          <div className="faq-heading">
-            <p className="kicker">Antes de pedir</p>
-            <h2 id="faq-title">Dúvidas frequentes.</h2>
-          </div>
-          <div className="faq-list">
-            <details>
-              <summary>Qual é a diferença entre o galeto temperado e o frango assado?</summary>
-              <p>O galeto é vendido cru, já temperado, para você preparar em casa. O frango inteiro é vendido assado aos sábados, domingos e feriados, no almoço.</p>
-            </details>
-            <details>
-              <summary>Como faço uma encomenda?</summary>
-              <p>Abra o WhatsApp, informe os produtos, a quantidade, a data e o horário desejado. O pedido fica confirmado após o retorno da equipe.</p>
-            </details>
-            <details>
-              <summary>Posso reservar meu frango assado?</summary>
-              <p>Sim. Chame na quinta ou sexta, informe o dia e a quantidade. A equipe confirma a disponibilidade do lote e o horário de retirada.</p>
-            </details>
-            <details>
-              <summary>O Empório faz entrega?</summary>
-              <p>O Empório organiza entregas conforme a operação do dia. A cobertura e a taxa são informadas de acordo com o endereço.</p>
-            </details>
-            <details>
-              <summary>Como consulto o almoço do dia?</summary>
-              <p>O cardápio pode ser solicitado pelo WhatsApp. O almoço funciona de terça a sexta, a partir das 11h30.</p>
-            </details>
-            <details>
-              <summary>Quando encontro maionese, polenta e risoto?</summary>
-              <p>Os acompanhamentos são preparados para o almoço de sábado, domingo e feriado. A produção é limitada.</p>
-            </details>
-          </div>
-        </section>
-
         <section className="final-cta" aria-labelledby="final-title">
           <div>
             <p className="kicker kicker-light">Pedido pelo WhatsApp</p>
-            <h2 id="final-title">Diga o que procura. A equipe confirma o que está disponível.</h2>
+            <h2 id="final-title">Diga o que procura. A equipe confirma.</h2>
           </div>
           <WhatsAppLink
             className="button button-primary"
