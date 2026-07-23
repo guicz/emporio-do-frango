@@ -514,7 +514,7 @@ export default function Home() {
               Sua refeição começa <em>no Empório.</em>
             </h1>
             <p className="hero-lead">
-              No mesmo endereço, você encontra opções para levar e preparar em
+              Aqui você encontra opções para levar e preparar em
               casa, além de refeições prontas para retirar nos dias de produção.
               Fale com a equipe e veja o que está disponível hoje.
             </p>
