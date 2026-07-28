@@ -43,14 +43,14 @@ const menuCategories: MenuCategory[] = [
     availability: "Durante o horário da loja",
     message:
       "Olá! Quero saber o valor e a disponibilidade dos cortes de galeto temperados.",
-    image: "/images/coxinhas-assadas.webp",
+    image: "/images/coxinhas-assadas-v3.webp",
     imageAlt: "Coxinhas da asa assadas como sugestão de preparo",
     items: [
       {
         name: "Coxinha da asa temperada",
         detail: "Corte cru vendido por kg.",
         price: "Consulte",
-        image: "/images/coxinhas-assadas.webp",
+        image: "/images/coxinhas-assadas-v3.webp",
         imageAlt: "Coxinhas da asa assadas como sugestão de preparo",
       },
       {
@@ -134,7 +134,7 @@ const menuCategories: MenuCategory[] = [
         name: "Coxinha da asa",
         detail: "Corte cru vendido por kg.",
         price: "Consulte",
-        image: "/images/coxinhas-assadas.webp",
+        image: "/images/coxinhas-assadas-v3.webp",
         imageAlt: "Coxinhas da asa assadas como sugestão de preparo",
       },
       {
@@ -221,7 +221,7 @@ const heroSlides = [
     alt: "Frango inteiro assado e dourado",
   },
   {
-    src: "/images/coxinhas-assadas.webp",
+    src: "/images/coxinhas-assadas-v3.webp",
     alt: "Coxinhas da asa assadas como sugestão de preparo",
   },
   {
