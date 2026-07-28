@@ -39,19 +39,26 @@ const menuCategories: MenuCategory[] = [
     eyebrow: "Para levar e preparar em casa",
     title: "Galeto temperado",
     description:
-      "Cru, já temperado e pronto para o forno ou a churrasqueira. Consulte a disponibilidade para pedidos maiores.",
+      "Coxinha da asa e coração vendidos crus, já temperados e prontos para preparar em casa.",
     availability: "Durante o horário da loja",
     message:
-      "Olá! Quero saber o valor e a disponibilidade do galeto temperado. Preciso de [quantidade] unidades.",
-    image: "/images/galeto-temperado-v1.webp",
-    imageAlt: "Galeto cru temperado e pronto para assar",
+      "Olá! Quero saber o valor e a disponibilidade dos cortes de galeto temperados.",
+    image: "/images/coxinhas-assadas.webp",
+    imageAlt: "Coxinhas da asa assadas como sugestão de preparo",
     items: [
       {
-        name: "Galeto cru temperado",
-        detail: "Temperado e pronto para assar.",
-        price: "Consulte o valor",
-        image: "/images/galeto-temperado-v1.webp",
-        imageAlt: "Galeto cru temperado e pronto para assar",
+        name: "Coxinha da asa temperada",
+        detail: "Corte cru vendido por kg.",
+        price: "Consulte",
+        image: "/images/coxinhas-assadas.webp",
+        imageAlt: "Coxinhas da asa assadas como sugestão de preparo",
+      },
+      {
+        name: "Coração temperado",
+        detail: "Produto cru vendido por kg.",
+        price: "Consulte",
+        image: "/images/coracao-preparo.webp",
+        imageAlt: "Corações de frango assados como sugestão de preparo",
       },
     ],
   },
@@ -206,7 +213,7 @@ const generalMessage =
   "Olá! Vim pelo site do Empório do Frango e quero fazer um pedido. Pode me enviar as opções disponíveis?";
 
 const heroMessage =
-  "Olá! Vim pelo site do Empório do Frango e quero reservar galeto temperado. Qual é a disponibilidade?";
+  "Olá! Vim pelo site do Empório do Frango e quero saber o que está disponível hoje.";
 
 const intentCategories = ["galeto", "risoto", "almoco", "acompanhamentos", "frango", "mercado"]
   .map((categoryId) => menuCategories.find((category) => category.id === categoryId))
@@ -413,8 +420,8 @@ export default function Home() {
     name: "Empório do Frango",
     url: "https://emporiodofrango.com.br/",
     description:
-      "Rotisserie com galeto cru temperado, frango assado de fim de semana e almoço em Santa Maria.",
-    image: "https://emporiodofrango.com.br/images/galeto-temperado-v1.webp",
+      "Rotisserie com cortes de aves temperados, frango assado de fim de semana e almoço em Santa Maria.",
+    image: "https://emporiodofrango.com.br/images/hero-frango-margens.webp",
     foundingDate: "2022",
     taxID: "45.883.258/0001-11",
     telephone: "+55 55 3311-7142",
@@ -513,13 +520,13 @@ export default function Home() {
       <main>
         <section className="hero" id="inicio">
           <div className="hero-copy">
-            <p className="kicker">Galeto temperado no Centro de Santa Maria</p>
+            <p className="kicker">Rotisserie no Centro de Santa Maria</p>
             <h1>
-              Galeto temperado, <em>pronto para assar.</em>
+              Do Empório para <em>a sua mesa.</em>
             </h1>
             <p className="hero-lead">
-              Preparado no Empório e entregue cru, já temperado, para ir ao forno
-              ou à churrasqueira. Consulte a disponibilidade e reserve pelo WhatsApp.
+              Cortes de aves temperados e refeições prontas, preparados com cuidado
+              para você levar. Consulte a produção do dia pelo WhatsApp.
             </p>
             <div className="hero-actions">
               <WhatsAppLink
@@ -528,7 +535,7 @@ export default function Home() {
                 interest="geral"
                 placement="hero"
               >
-                Reservar galeto
+                Fazer pedido
               </WhatsAppLink>
               <a className="text-link" href="#cardapio">
                 Ver cardápio <span aria-hidden="true">↓</span>
@@ -538,10 +545,10 @@ export default function Home() {
 
           <div className="hero-media">
             <img
-              src="/images/galeto-temperado-v1.webp"
-              alt="Galeto cru temperado e pronto para assar"
-              width="1536"
-              height="1024"
+              src="/images/hero-frango-margens.webp"
+              alt="Frango inteiro assado e dourado"
+              width="1440"
+              height="960"
               loading="eager"
               fetchPriority="high"
             />
@@ -680,8 +687,8 @@ export default function Home() {
         <section className="quality-section" id="seguranca-alimentar" aria-labelledby="quality-title">
           <div className="quality-media">
             <img
-              src="/images/manipulacao-aves-sim-v1.webp"
-              alt="Manipulação e tempero de galeto em ambiente profissional e higienizado"
+              src="/images/manipulacao-cortes-aves-sim-v2.webp"
+              alt="Coxinhas da asa e corações sendo temperados em ambiente profissional e higienizado"
               width="1536"
               height="1024"
               loading="lazy"

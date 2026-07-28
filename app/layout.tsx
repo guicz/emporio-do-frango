@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://emporiodofrango.com.br"),
   title: "Galeto temperado e frango assado em Santa Maria | Empório do Frango",
   description:
-    "Galeto cru temperado, frango assado de fim de semana e marmitex no Centro de Santa Maria. Faça seu pedido pelo WhatsApp.",
+    "Cortes de galeto temperados, frango assado de fim de semana e marmitex no Centro de Santa Maria. Faça seu pedido pelo WhatsApp.",
   keywords: [
     "galeto temperado em Santa Maria",
     "galeto cru temperado em Santa Maria",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     url: "https://emporiodofrango.com.br/",
     title: "Empório do Frango | Galeto temperado em Santa Maria",
     description:
-      "Galeto cru já temperado para preparar em casa e frango assado de fim de semana no Centro de Santa Maria.",
+      "Cortes de galeto já temperados para preparar em casa e frango assado de fim de semana no Centro de Santa Maria.",
     images: [
       {
         url: "/og.png",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Empório do Frango | Galeto temperado em Santa Maria",
-    description: "Galeto cru temperado, frango assado e marmitex no Centro de Santa Maria.",
+    description: "Cortes de galeto temperados, frango assado e marmitex no Centro de Santa Maria.",
     images: ["/og.png"],
   },
   robots: {
