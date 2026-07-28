@@ -215,6 +215,29 @@ const generalMessage =
 const heroMessage =
   "Olá! Vim pelo site do Empório do Frango e quero saber o que está disponível hoje.";
 
+const heroSlides = [
+  {
+    src: "/images/hero-frango-margens.webp",
+    alt: "Frango inteiro assado e dourado",
+  },
+  {
+    src: "/images/coxinhas-assadas.webp",
+    alt: "Coxinhas da asa assadas como sugestão de preparo",
+  },
+  {
+    src: "/images/coracao-preparo.webp",
+    alt: "Corações de frango assados como sugestão de preparo",
+  },
+  {
+    src: "/images/mesa-completa-hero-v1.webp",
+    alt: "Mesa posta com frango assado, cortes de galeto e acompanhamentos",
+  },
+  {
+    src: "/images/frango-assado-molho.webp",
+    alt: "Frango assado servido com acompanhamentos",
+  },
+];
+
 const intentCategories = ["galeto", "risoto", "almoco", "acompanhamentos", "frango", "mercado"]
   .map((categoryId) => menuCategories.find((category) => category.id === categoryId))
   .filter((category): category is MenuCategory => Boolean(category));
@@ -543,15 +566,25 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="hero-media">
-            <img
-              src="/images/hero-frango-margens.webp"
-              alt="Frango inteiro assado e dourado"
-              width="1440"
-              height="960"
-              loading="eager"
-              fetchPriority="high"
-            />
+          <div
+            className="hero-media"
+            role="group"
+            aria-label="Destaques do Empório do Frango"
+          >
+            <div className="hero-slideshow">
+              {heroSlides.map((slide, index) => (
+                <img
+                  className={`hero-slide hero-slide-${index + 1}`}
+                  src={slide.src}
+                  alt={slide.alt}
+                  width="1536"
+                  height="1024"
+                  loading={index === 0 ? "eager" : "lazy"}
+                  fetchPriority={index === 0 ? "high" : "auto"}
+                  key={slide.src}
+                />
+              ))}
+            </div>
             <div className="hero-stamp" aria-label="Empório em atividade desde 2022">
               <strong>Desde</strong>
               <span>2022</span>
