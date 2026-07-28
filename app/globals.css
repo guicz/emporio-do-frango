@@ -718,11 +718,15 @@ img {
 }
 
 .menu-item > img {
+  box-sizing: border-box;
   width: 76px;
   height: 76px;
+  padding: 4px;
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 14px;
-  object-fit: cover;
+  background: #242021;
+  object-fit: contain;
+  object-position: center;
 }
 
 .menu-item-copy {
@@ -768,7 +772,9 @@ img {
 
 .menu-items-single .menu-item > img {
   width: 100%;
-  height: clamp(210px, 20vw, 290px);
+  height: auto;
+  aspect-ratio: 4 / 3;
+  padding: 8px;
   border-radius: 22px;
 }
 
