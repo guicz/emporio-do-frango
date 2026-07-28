@@ -204,7 +204,7 @@ const menuCategories: MenuCategory[] = [
     imageAlt: "Pães frescos e dourados",
     items: [
       { name: "Pão cacetinho", detail: "De segunda a sábado, a partir das 16h; domingos pela manhã.", price: "Consulte", image: "/images/pao-fresquinho.webp", imageAlt: "Pães frescos recém-assados" },
-      { name: "Bebidas e conveniência", detail: "Opções disponíveis na loja.", price: "Consulte", image: "/images/acompanhamentos.webp", imageAlt: "Itens para completar a refeição" },
+      { name: "Bebidas e conveniência", detail: "Opções disponíveis na loja.", price: "Consulte", image: "/images/refrigerantes-conveniencia-v1.webp", imageAlt: "Refrigerantes gelados disponíveis na loja" },
     ],
   },
 ];
