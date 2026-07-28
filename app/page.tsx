@@ -43,15 +43,15 @@ const menuCategories: MenuCategory[] = [
     availability: "Durante o horário da loja",
     message:
       "Olá! Quero saber o valor e a disponibilidade do galeto temperado. Preciso de [quantidade] unidades.",
-    image: "/images/linguicas-selecionadas-poster.jpg",
-    imageAlt: "Produtos embalados do Empório",
+    image: "/images/galeto-temperado-v1.webp",
+    imageAlt: "Galeto cru temperado e pronto para assar",
     items: [
       {
         name: "Galeto cru temperado",
         detail: "Temperado e pronto para assar.",
         price: "Consulte o valor",
-        image: "/images/linguicas-selecionadas-poster.jpg",
-        imageAlt: "Produtos embalados do Empório",
+        image: "/images/galeto-temperado-v1.webp",
+        imageAlt: "Galeto cru temperado e pronto para assar",
       },
     ],
   },
@@ -106,13 +106,13 @@ const menuCategories: MenuCategory[] = [
   },
   {
     id: "acougue",
-    eyebrow: "Cortes para preparar em casa",
-    title: "Cortes & balcão",
+    eyebrow: "Galeto e cortes para preparar em casa",
+    title: "Açougue de aves",
     description:
-      "Cortes crus vendidos no balcão. As fotos mostram sugestões de preparo.",
+      "Especializado em galetos e cortes de aves. As fotos mostram sugestões de preparo.",
     availability: "Durante o horário da loja",
     message:
-      "Olá! Vim pelo site e quero saber quais cortes e produtos do balcão estão disponíveis hoje.",
+      "Olá! Vim pelo site e quero saber quais galetos e cortes de aves estão disponíveis hoje.",
     image: "/images/linguicas-selecionadas-poster.jpg",
     imageAlt: "Produtos selecionados do balcão",
     items: [
@@ -186,17 +186,17 @@ const menuCategories: MenuCategory[] = [
   },
   {
     id: "mercado",
-    eyebrow: "Pão saindo do forno às 16h",
+    eyebrow: "Pão fresco todos os dias",
     title: "Pão & conveniência",
     description:
-      "Pão cacetinho às 16h nos dias de produção, além de bebidas e itens de conveniência.",
-    availability: "Pão às 16h; confirme os dias",
+      "Pão cacetinho de segunda a sábado, a partir das 16h, e aos domingos pela manhã. Também há bebidas e itens de conveniência.",
+    availability: "Segunda a sábado, a partir das 16h; domingos pela manhã",
     message:
       "Olá! Quero consultar as bebidas, pães e itens de conveniência disponíveis hoje.",
     image: "/images/pao-fresquinho.webp",
     imageAlt: "Pães frescos e dourados",
     items: [
-      { name: "Pão cacetinho", detail: "Pronto às 16h.", price: "Consulte", image: "/images/pao-fresquinho.webp", imageAlt: "Pães frescos recém-assados" },
+      { name: "Pão cacetinho", detail: "De segunda a sábado, a partir das 16h; domingos pela manhã.", price: "Consulte", image: "/images/pao-fresquinho.webp", imageAlt: "Pães frescos recém-assados" },
       { name: "Bebidas e conveniência", detail: "Opções disponíveis na loja.", price: "Consulte", image: "/images/acompanhamentos.webp", imageAlt: "Itens para completar a refeição" },
     ],
   },
@@ -206,7 +206,7 @@ const generalMessage =
   "Olá! Vim pelo site do Empório do Frango e quero fazer um pedido. Pode me enviar as opções disponíveis?";
 
 const heroMessage =
-  "Olá! Vim pelo site do Empório do Frango e quero saber o que está disponível hoje.";
+  "Olá! Vim pelo site do Empório do Frango e quero reservar galeto temperado. Qual é a disponibilidade?";
 
 const intentCategories = ["galeto", "risoto", "almoco", "acompanhamentos", "frango", "mercado"]
   .map((categoryId) => menuCategories.find((category) => category.id === categoryId))
@@ -414,7 +414,7 @@ export default function Home() {
     url: "https://emporiodofrango.com.br/",
     description:
       "Rotisserie com galeto cru temperado, frango assado de fim de semana e almoço em Santa Maria.",
-    image: "https://emporiodofrango.com.br/images/hero-frango-inteiro-v2.webp",
+    image: "https://emporiodofrango.com.br/images/galeto-temperado-v1.webp",
     foundingDate: "2022",
     taxID: "45.883.258/0001-11",
     telephone: "+55 55 3311-7142",
@@ -496,7 +496,7 @@ export default function Home() {
         <nav aria-label="Navegação principal">
           <a href="#cardapio">Cardápio</a>
           <a href="#galeria">Galeria</a>
-          <a href="#pao">Pão 16h</a>
+          <a href="#pao">Pão fresco</a>
           <a href="#horarios">Horários</a>
           <a href="#localizacao">Localização</a>
         </nav>
@@ -513,13 +513,13 @@ export default function Home() {
       <main>
         <section className="hero" id="inicio">
           <div className="hero-copy">
-            <p className="kicker">Rotisserie no Centro de Santa Maria</p>
+            <p className="kicker">Galeto temperado no Centro de Santa Maria</p>
             <h1>
-              Sua refeição começa <em>no Empório.</em>
+              Galeto temperado, <em>pronto para assar.</em>
             </h1>
             <p className="hero-lead">
-              Aqui você encontra opções para preparar em casa e refeições prontas
-              nos dias de produção. Consulte o que saiu hoje.
+              Preparado no Empório e entregue cru, já temperado, para ir ao forno
+              ou à churrasqueira. Consulte a disponibilidade e reserve pelo WhatsApp.
             </p>
             <div className="hero-actions">
               <WhatsAppLink
@@ -528,7 +528,7 @@ export default function Home() {
                 interest="geral"
                 placement="hero"
               >
-                Falar com o Empório
+                Reservar galeto
               </WhatsAppLink>
               <a className="text-link" href="#cardapio">
                 Ver cardápio <span aria-hidden="true">↓</span>
@@ -538,10 +538,10 @@ export default function Home() {
 
           <div className="hero-media">
             <img
-              src="/images/hero-frango-margens.webp"
-              alt="Frango inteiro assado e dourado"
-              width="1440"
-              height="960"
+              src="/images/galeto-temperado-v1.webp"
+              alt="Galeto cru temperado e pronto para assar"
+              width="1536"
+              height="1024"
               loading="eager"
               fetchPriority="high"
             />
@@ -655,21 +655,21 @@ export default function Home() {
         <section className="bread-section" id="pao" aria-labelledby="bread-title">
           <div className="bread-media">
             <img src="/images/pao-fresquinho.webp" alt="Pães fresquinhos recém-assados" width="1448" height="1086" loading="lazy" />
-            <div className="bread-clock" aria-label="Pão fresco às 16 horas nos dias de produção">
-              <span>Sai às</span>
+            <div className="bread-clock" aria-label="Pão fresco a partir das 16 horas de segunda a sábado">
+              <span>A partir das</span>
               <strong>16h</strong>
             </div>
           </div>
           <div className="bread-copy">
             <p className="kicker">Pão cacetinho</p>
-            <h2 id="bread-title">Às 16h, o pão sai do forno.</h2>
+            <h2 id="bread-title">Pão fresco todos os dias.</h2>
             <p>
-              Confirme os dias de produção e reserve pelo WhatsApp.
+              De segunda a sábado, a partir das 16h. Aos domingos, pela manhã.
             </p>
           </div>
           <WhatsAppLink
             className="button button-dark"
-            message="Olá! Vim pelo site e quero reservar pão fresquinho para retirar às 16h."
+            message="Olá! Vim pelo site e quero reservar pão cacetinho. Qual é o horário disponível no dia escolhido?"
             interest="pao_fresco"
             placement="bread_highlight"
           >
@@ -680,23 +680,23 @@ export default function Home() {
         <section className="quality-section" id="seguranca-alimentar" aria-labelledby="quality-title">
           <div className="quality-media">
             <img
-              src="/images/linguicas-selecionadas-poster.jpg"
-              alt="Produtos embalados do Empório"
-              width="1200"
-              height="1600"
+              src="/images/manipulacao-aves-sim-v1.webp"
+              alt="Manipulação e tempero de galeto em ambiente profissional e higienizado"
+              width="1536"
+              height="1024"
               loading="lazy"
             />
           </div>
           <div className="quality-copy">
             <p className="kicker kicker-light">Produção acompanhada pelo SIM</p>
-            <h2 id="quality-title">Estrutura regularizada para carnes temperadas.</h2>
+            <h2 id="quality-title">Autorização para manipular, temperar e beneficiar aves.</h2>
             <p>
-              O registro municipal permite produzir e vender carnes temperadas,
-              com vistorias e controle de produção.
+              O registro municipal permite que o Empório prepare e venda galetos
+              e cortes de aves dessa forma, com vistorias e controle de produção.
             </p>
             <div className="sanitary-badge">
               <strong>Registro no Serviço de Inspeção Municipal</strong>
-              <span>Produção e venda de carnes temperadas com acompanhamento e fiscalização.</span>
+              <span>Manipulação, tempero e beneficiamento de aves com acompanhamento e fiscalização.</span>
             </div>
             <ul>
               <li><span>01</span>Responsável técnica veterinária</li>
@@ -767,7 +767,7 @@ export default function Home() {
               </figure>
               <figure>
                 <img src="/images/pao-fresquinho.webp" alt="Pães fresquinhos recém-assados" width="1448" height="1086" loading="lazy" decoding="async" />
-                <figcaption>Pão 16h</figcaption>
+                <figcaption>Pão fresco</figcaption>
               </figure>
               <figure>
                 <img src="/images/risoto-v2.jpg" alt="Risoto tradicional servido em porção" width="1536" height="1024" loading="lazy" decoding="async" />

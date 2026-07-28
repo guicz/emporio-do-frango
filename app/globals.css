@@ -294,7 +294,7 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: 60% center;
 }
 
 .hero-stamp {
@@ -808,7 +808,7 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 50% 48%;
+  object-position: 60% 48%;
 }
 
 .quality-copy {
