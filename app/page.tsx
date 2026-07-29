@@ -28,37 +28,71 @@ type MenuCategory = {
     name: string;
     detail: string;
     price: string;
-    image: string;
+    image?: string;
     imageAlt: string;
   }>;
 };
 
 const menuCategories: MenuCategory[] = [
   {
-    id: "galeto",
-    eyebrow: "Para levar e preparar em casa",
-    title: "Galeto temperado",
+    id: "acougue",
+    eyebrow: "Para preparar em casa",
+    title: "Açougue",
     description:
-      "Coxinha da asa e coração vendidos crus, já temperados e prontos para preparar em casa.",
+      "Galeto temperado, cortes de galeto, linguiças e opções selecionadas para churrasco. Consulte o estoque do dia.",
     availability: "Durante o horário da loja",
     message:
-      "Olá! Quero saber o valor e a disponibilidade dos cortes de galeto temperados.",
+      "Olá! Quero consultar os produtos disponíveis no açougue hoje.",
     image: "/images/coxinhas-assadas-v3.webp",
-    imageAlt: "Coxinhas da asa assadas como sugestão de preparo",
+    imageAlt: "Coxinhas da asa assadas como sugestão de preparo dos cortes vendidos crus",
     items: [
       {
-        name: "Coxinha da asa temperada",
+        name: "Galeto temperado",
+        detail: "Cortes crus, já temperados. Consulte as opções disponíveis.",
+        price: "Consulte",
+        image: "/images/coxinhas-assadas-v3.webp",
+        imageAlt: "Coxinhas da asa assadas como sugestão de preparo",
+      },
+      {
+        name: "Sobrecoxinha de galeto",
+        detail: "Corte cru vendido por kg.",
+        price: "Consulte",
+        image: "/images/sobrecoxa-preparo.webp",
+        imageAlt: "Sobrecoxas assadas como sugestão de preparo",
+      },
+      {
+        name: "Coxinha da asa",
         detail: "Corte cru vendido por kg.",
         price: "Consulte",
         image: "/images/coxinhas-assadas-v3.webp",
         imageAlt: "Coxinhas da asa assadas como sugestão de preparo",
       },
       {
-        name: "Coração temperado",
+        name: "Tulipa (meio da asa)",
+        detail: "Corte cru vendido por kg.",
+        price: "Consulte",
+        image: "/images/asas-assadas.webp",
+        imageAlt: "Tulipas assadas como sugestão de preparo",
+      },
+      {
+        name: "Coração",
         detail: "Produto cru vendido por kg.",
         price: "Consulte",
         image: "/images/coracao-preparo.webp",
-        imageAlt: "Corações de frango assados como sugestão de preparo",
+        imageAlt: "Corações grelhados como sugestão de preparo",
+      },
+      {
+        name: "Linguiças",
+        detail: "Opções para assar em casa.",
+        price: "Consulte",
+        image: "/images/linguicas-selecionadas-poster.jpg",
+        imageAlt: "Linguiças selecionadas disponíveis no balcão",
+      },
+      {
+        name: "Cortes para churrasco",
+        detail: "Opções bovinas embaladas a vácuo, conforme disponibilidade da semana.",
+        price: "Consulte",
+        imageAlt: "Cortes bovinos selecionados disponíveis sob consulta",
       },
     ],
   },
@@ -67,16 +101,16 @@ const menuCategories: MenuCategory[] = [
     eyebrow: "Almoço de fim de semana",
     title: "Frango assado",
     description:
-      "Frango inteiro assado com polenta. Reserve e combine o horário de retirada.",
+      "Frango inteiro assado com uma porção de polenta frita. Reserve com antecedência e combine a retirada ou a entrega.",
     availability: "Sábados, domingos e feriados, no almoço",
     message:
-      "Olá! Vim pelo site e quero reservar um frango assado. Quais opções e horários de retirada estão disponíveis?",
+      "Olá! Vim pelo site e quero reservar um frango assado. Gostaria de combinar a retirada ou a entrega.",
     image: "/images/hero-frango-inteiro-v2.webp",
     imageAlt: "Frango inteiro assado e dourado",
     items: [
       {
-        name: "Frango assado com polenta",
-        detail: "Frango inteiro com polenta.",
+        name: "Frango assado com polenta frita",
+        detail: "Frango inteiro com uma porção de polenta frita.",
         price: "R$ 70,00",
         image: "/images/hero-frango-inteiro-v2.webp",
         imageAlt: "Frango inteiro assado e dourado",
@@ -112,55 +146,6 @@ const menuCategories: MenuCategory[] = [
     ],
   },
   {
-    id: "acougue",
-    eyebrow: "Galeto e cortes para preparar em casa",
-    title: "Açougue de aves",
-    description:
-      "Especializado em galetos e cortes de aves. As fotos mostram sugestões de preparo.",
-    availability: "Durante o horário da loja",
-    message:
-      "Olá! Vim pelo site e quero saber quais galetos e cortes de aves estão disponíveis hoje.",
-    image: "/images/linguicas-selecionadas-poster.jpg",
-    imageAlt: "Produtos selecionados do balcão",
-    items: [
-      {
-        name: "Sobrecoxa",
-        detail: "Corte cru vendido por kg.",
-        price: "Consulte",
-        image: "/images/sobrecoxa-preparo.webp",
-        imageAlt: "Sobrecoxas assadas como sugestão de preparo",
-      },
-      {
-        name: "Coxinha da asa",
-        detail: "Corte cru vendido por kg.",
-        price: "Consulte",
-        image: "/images/coxinhas-assadas-v3.webp",
-        imageAlt: "Coxinhas da asa assadas como sugestão de preparo",
-      },
-      {
-        name: "Tulipa",
-        detail: "Corte cru vendido por kg.",
-        price: "Consulte",
-        image: "/images/asas-assadas.webp",
-        imageAlt: "Tulipas assadas como sugestão de preparo",
-      },
-      {
-        name: "Coração",
-        detail: "Produto cru vendido no balcão.",
-        price: "Consulte",
-        image: "/images/coracao-preparo.webp",
-        imageAlt: "Corações grelhados como sugestão de preparo",
-      },
-      {
-        name: "Linguiças",
-        detail: "Opções para assar em casa.",
-        price: "Consulte",
-        image: "/images/linguicas-selecionadas-poster.jpg",
-        imageAlt: "Linguiças selecionadas disponíveis no balcão",
-      },
-    ],
-  },
-  {
     id: "acompanhamentos",
     eyebrow: "Para acompanhar o frango assado",
     title: "Acompanhamentos",
@@ -185,10 +170,10 @@ const menuCategories: MenuCategory[] = [
     availability: "Sábados, domingos e feriados, no almoço",
     message:
       "Olá! Quero consultar o risoto disponível hoje para completar meu pedido.",
-    image: "/images/risoto-v2.jpg",
-    imageAlt: "Risoto tradicional servido em porção",
+    image: "/images/risoto-real-v1.webp",
+    imageAlt: "Risoto tradicional de frango com a aparência real do produto",
     items: [
-      { name: "Risoto tradicional", detail: "900 g.", price: "R$ 23,00", image: "/images/risoto-v2.jpg", imageAlt: "Risoto tradicional servido em porção" },
+      { name: "Risoto tradicional", detail: "Porção de 900 g.", price: "R$ 23,00", image: "/images/risoto-real-v1.webp", imageAlt: "Risoto tradicional de frango com a aparência real do produto" },
     ],
   },
   {
@@ -238,7 +223,7 @@ const heroSlides = [
   },
 ];
 
-const intentCategories = ["galeto", "risoto", "almoco", "acompanhamentos", "frango", "mercado"]
+const intentCategories = ["acougue", "risoto", "almoco", "acompanhamentos", "frango", "mercado"]
   .map((categoryId) => menuCategories.find((category) => category.id === categoryId))
   .filter((category): category is MenuCategory => Boolean(category));
 
@@ -395,7 +380,7 @@ function TrackingConsent() {
 }
 
 export default function Home() {
-  const [activeCategory, setActiveCategory] = useState("galeto");
+  const [activeCategory, setActiveCategory] = useState("acougue");
   const currentCategory = useMemo(
     () => menuCategories.find((category) => category.id === activeCategory)!,
     [activeCategory],
@@ -443,7 +428,7 @@ export default function Home() {
     name: "Empório do Frango",
     url: "https://emporiodofrango.com.br/",
     description:
-      "Rotisserie com cortes de aves temperados, frango assado de fim de semana e almoço em Santa Maria.",
+      "Rotisserie e açougue com galeto temperado, frango assado de fim de semana e almoço em Santa Maria.",
     image: "https://emporiodofrango.com.br/images/hero-frango-margens.webp",
     foundingDate: "2022",
     taxID: "45.883.258/0001-11",
@@ -548,8 +533,8 @@ export default function Home() {
               Do Empório para <em>a sua mesa.</em>
             </h1>
             <p className="hero-lead">
-              Cortes de aves temperados e refeições prontas, preparados com cuidado
-              para você levar. Consulte a produção do dia pelo WhatsApp.
+              Da produção do dia ao pedido para levar, você encontra sabor e
+              praticidade no Centro de Santa Maria. Consulte a equipe pelo WhatsApp.
             </p>
             <div className="hero-actions">
               <WhatsAppLink
@@ -631,7 +616,7 @@ export default function Home() {
           <div className="section-heading section-heading-dark">
             <div>
               <p className="kicker">Cardápio</p>
-              <h2 id="menu-title">Escolha o que procura.</h2>
+              <h2 id="menu-title">Escolha seu pedido.</h2>
             </div>
           </div>
 
@@ -680,7 +665,11 @@ export default function Home() {
             >
               {currentCategory.items.map((item) => (
                 <article className="menu-item" key={item.name}>
-                  <img src={item.image} alt={item.imageAlt} width="88" height="88" loading="lazy" />
+                  {item.image ? (
+                    <img src={item.image} alt={item.imageAlt} width="88" height="88" loading="lazy" />
+                  ) : (
+                    <span className="menu-item-placeholder" aria-hidden="true">Sob consulta</span>
+                  )}
                   <div className="menu-item-copy">
                     <h4>{item.name}</h4>
                     {item.detail && <p>{item.detail}</p>}
@@ -729,14 +718,14 @@ export default function Home() {
           </div>
           <div className="quality-copy">
             <p className="kicker kicker-light">Produção acompanhada pelo SIM</p>
-            <h2 id="quality-title">Autorização para manipular, temperar e beneficiar aves.</h2>
+            <h2 id="quality-title">Produção regularizada, do preparo ao beneficiamento.</h2>
             <p>
-              O registro municipal permite que o Empório prepare e venda galetos
-              e cortes de aves dessa forma, com vistorias e controle de produção.
+              O registro municipal abrange a manipulação e o beneficiamento de
+              carnes. O galeto temperado é o principal produto da casa.
             </p>
             <div className="sanitary-badge">
-              <strong>Registro no Serviço de Inspeção Municipal</strong>
-              <span>Manipulação, tempero e beneficiamento de aves com acompanhamento e fiscalização.</span>
+              <strong>Estabelecimento registrado no S.I.M. — nº 061</strong>
+              <span>Manipulação e beneficiamento de carnes com acompanhamento e fiscalização.</span>
             </div>
             <ul>
               <li><span>01</span>Responsável técnica veterinária</li>
@@ -749,13 +738,13 @@ export default function Home() {
 
         <section className="section preorder-section" aria-labelledby="preorder-title">
           <div className="preorder-heading">
-            <p className="kicker">Frango assado no fim de semana</p>
-            <h2 id="preorder-title">Reserve antes e combine a retirada.</h2>
+            <p className="kicker">Pedidos de fim de semana</p>
+            <h2 id="preorder-title">Reserve com antecedência.</h2>
           </div>
           <ol className="preorder-list">
-            <li><span>1</span><div><strong>Chame na quinta ou sexta</strong><p>Informe o dia e a quantidade.</p></div></li>
-            <li><span>2</span><div><strong>Aguarde a confirmação</strong><p>A equipe verifica lote e horários.</p></div></li>
-            <li><span>3</span><div><strong>Retire no horário combinado</strong><p>Pronto. É só buscar.</p></div></li>
+            <li><span>1</span><div><strong>Faça sua reserva</strong><p>Informe o dia e a quantidade.</p></div></li>
+            <li><span>2</span><div><strong>Aguarde a confirmação</strong><p>A equipe verifica lote, horário e disponibilidade.</p></div></li>
+            <li><span>3</span><div><strong>Combine como receber</strong><p>Escolha retirada ou entrega, conforme o endereço.</p></div></li>
           </ol>
           <WhatsAppLink
             className="button button-dark"
@@ -763,7 +752,7 @@ export default function Home() {
             interest="encomenda_antecipada"
             placement="preorder"
           >
-            Fazer encomenda antecipada
+            Fazer pedido
           </WhatsAppLink>
         </section>
 
@@ -810,7 +799,7 @@ export default function Home() {
                 <figcaption>Pão fresco</figcaption>
               </figure>
               <figure>
-                <img src="/images/risoto-v2.jpg" alt="Risoto tradicional servido em porção" width="1536" height="1024" loading="lazy" decoding="async" />
+                <img src="/images/risoto-real-v1.webp" alt="Risoto tradicional de frango com a aparência real do produto" width="1320" height="973" loading="lazy" decoding="async" />
                 <figcaption>Risoto 900 g</figcaption>
               </figure>
             </div>
@@ -858,7 +847,7 @@ export default function Home() {
               <p className="kicker">Pedido, retirada e entrega</p>
               <h2 id="routes-title">Peça antes de sair.</h2>
             </div>
-            <p>Confirme produto, valor e retirada pelo WhatsApp.</p>
+            <p>Confirme o pedido e combine a retirada ou a entrega pelo WhatsApp.</p>
           </div>
           <div className="routes-grid">
             <article>
@@ -869,7 +858,7 @@ export default function Home() {
             <article>
               <span>02</span>
               <h3>Retirada combinada</h3>
-              <p>Combine o horário e retire na Rua Venâncio Aires, 470.</p>
+              <p>Combine e aguarde a confirmação do horário de retirada.</p>
             </article>
             <article>
               <span>03</span>
@@ -879,7 +868,7 @@ export default function Home() {
             <article>
               <span>04</span>
               <h3>Entrega</h3>
-              <p>Cobertura e taxa variam conforme o endereço.</p>
+              <p>Entrega por telemoto. Cobertura e taxa variam conforme o endereço.</p>
             </article>
           </div>
         </section>
@@ -967,7 +956,7 @@ export default function Home() {
         interest="geral"
         placement="mobile_fixed"
       >
-        Pedir pelo WhatsApp
+        Pedir agora
       </WhatsAppLink>
       <TrackingConsent />
     </>

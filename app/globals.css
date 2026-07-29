@@ -717,7 +717,8 @@ img {
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 
-.menu-item > img {
+.menu-item > img,
+.menu-item-placeholder {
   box-sizing: border-box;
   width: 112px;
   height: 82px;
@@ -726,6 +727,19 @@ img {
   background: #242021;
   object-fit: contain;
   object-position: center;
+}
+
+.menu-item-placeholder {
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.64);
+  font-size: 0.66rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  line-height: 1.25;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .menu-item-copy {
@@ -1678,8 +1692,12 @@ footer p {
   .section-heading h2,
   .hours-heading h2,
   .preorder-heading h2 {
-    font-size: clamp(2.65rem, 11.8vw, 3.8rem);
+    font-size: clamp(2.25rem, 10vw, 3.25rem);
     line-height: 0.96;
+  }
+
+  .menu-section .section-heading h2 {
+    font-size: clamp(2.2rem, 9.6vw, 3rem);
   }
 
   .gallery-section .section-heading h2 {
@@ -1755,7 +1773,8 @@ footer p {
     gap: 12px;
   }
 
-  .menu-item > img {
+  .menu-item > img,
+  .menu-item-placeholder {
     width: 84px;
     height: 64px;
   }
@@ -1798,7 +1817,7 @@ footer p {
 
   .quality-copy h2,
   .location-copy h2 {
-    font-size: clamp(2.8rem, 12vw, 4rem);
+    font-size: clamp(2.25rem, 10vw, 3.25rem);
   }
 
   .quality-copy h2 {
@@ -2011,32 +2030,9 @@ footer p {
     grid-column: auto;
   }
 
-  .mobile-whatsapp {
-    position: fixed;
-    right: auto;
-    bottom: calc(10px + env(safe-area-inset-bottom));
-    left: 12px;
-    width: calc(100vw - 24px);
-    max-width: calc(100vw - 24px);
-    z-index: 80;
-    display: flex;
-    min-height: 56px;
-    align-items: center;
-    justify-content: center;
-    gap: 18px;
-    border-radius: 999px;
-    background: var(--yellow);
-    box-shadow: 0 14px 42px rgba(35, 31, 32, 0.26);
-    color: var(--ink);
-    font-size: 0.8rem;
-    font-weight: 900;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-  }
-
   .consent {
     right: 12px;
-    bottom: calc(82px + env(safe-area-inset-bottom));
+    bottom: calc(12px + env(safe-area-inset-bottom));
     left: 12px;
     align-items: stretch;
     flex-direction: column;

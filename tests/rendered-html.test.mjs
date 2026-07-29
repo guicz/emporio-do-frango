@@ -30,8 +30,10 @@ test("renders Empório do Frango production metadata", async () => {
 
   assert.match(
     html,
-    /<title>Galeto temperado e frango assado em Santa Maria \| Empório do Frango<\/title>/i,
+    /<title>Açougue, galeto temperado e frango assado em Santa Maria \| Empório do Frango<\/title>/i,
   );
+  assert.match(html, /Estabelecimento registrado no S\.I\.M\. — nº 061/i);
+  assert.match(html, /\/images\/risoto-real-v1\.webp/i);
   assert.match(
     html,
     /<link(?=[^>]*\brel=["']canonical["'])(?=[^>]*\bhref=["']https:\/\/emporiodofrango\.com\.br\/["'])[^>]*>/i,
