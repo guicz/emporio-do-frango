@@ -30,6 +30,8 @@ type MenuCategory = {
     price: string;
     image?: string;
     imageAlt: string;
+    imageCrop?: "left" | "right";
+    imageFill?: boolean;
   }>;
 };
 
@@ -43,8 +45,8 @@ const menuCategories: MenuCategory[] = [
     availability: "Durante o horário da loja",
     message:
       "Olá! Quero consultar os produtos disponíveis no açougue hoje.",
-    image: "/images/coxinhas-assadas-v3.webp",
-    imageAlt: "Coxinhas da asa assadas como sugestão de preparo dos cortes vendidos crus",
+    image: "/images/real-balcao-aves.png",
+    imageAlt: "Balcão refrigerado do Empório com cortes de aves temperados",
     items: [
       {
         name: "Galeto temperado",
@@ -92,7 +94,9 @@ const menuCategories: MenuCategory[] = [
         name: "Cortes para churrasco",
         detail: "Opções bovinas embaladas a vácuo, conforme disponibilidade da semana.",
         price: "Consulte",
-        imageAlt: "Cortes bovinos selecionados disponíveis sob consulta",
+        image: "/images/real-balcao-aves.png",
+        imageAlt: "Balcão refrigerado do Empório com carnes e cortes embalados",
+        imageFill: true,
       },
     ],
   },
@@ -105,15 +109,15 @@ const menuCategories: MenuCategory[] = [
     availability: "Sábados, domingos e feriados, no almoço",
     message:
       "Olá! Vim pelo site e quero reservar um frango assado. Gostaria de combinar a retirada ou a entrega.",
-    image: "/images/hero-frango-inteiro-v2.webp",
-    imageAlt: "Frango inteiro assado e dourado",
+    image: "/images/real-frangos-assados.png",
+    imageAlt: "Frangos inteiros assados na produção do Empório",
     items: [
       {
         name: "Frango assado com polenta frita",
         detail: "Frango inteiro com uma porção de polenta frita.",
         price: "R$ 70,00",
-        image: "/images/hero-frango-inteiro-v2.webp",
-        imageAlt: "Frango inteiro assado e dourado",
+        image: "/images/real-frango-polenta-embalagem.png",
+        imageAlt: "Frango inteiro assado com polenta na embalagem para retirada",
       },
     ],
   },
@@ -154,8 +158,8 @@ const menuCategories: MenuCategory[] = [
     availability: "Segunda a sábado, à noite",
     message:
       "Olá! Quero consultar os espetinhos disponíveis hoje e fazer um pedido.",
-    image: "/images/espetinhos-sem-texto.webp",
-    imageAlt: "Espetinhos de carne, coração, queijo coalho e pão de alho",
+    image: "/images/real-espetinhos-assados.png",
+    imageAlt: "Espetinhos assados na brasa do Empório",
     items: [
       {
         name: "Carne",
@@ -199,8 +203,8 @@ const menuCategories: MenuCategory[] = [
     image: "/images/maionese-polenta-v6.jpg",
     imageAlt: "Maionese caseira e polenta dourada",
     items: [
-      { name: "Maionese 400 g", detail: "", price: "R$ 14,00", image: "/images/maionese-polenta-v6.jpg", imageAlt: "Maionese caseira servida em porção" },
-      { name: "Polenta extra", detail: "7 pedaços.", price: "R$ 5,00", image: "/images/maionese-polenta-v6.jpg", imageAlt: "Polenta grossa e dourada servida como acompanhamento" },
+      { name: "Maionese 400 g", detail: "", price: "R$ 14,00", image: "/images/real-maionese-400g.png", imageAlt: "Maionese de 400 gramas preparada pelo Empório", imageFill: true },
+      { name: "Polenta extra", detail: "7 pedaços.", price: "R$ 5,00", image: "/images/maionese-polenta-v6.jpg", imageAlt: "Polenta grossa e dourada servida como acompanhamento", imageCrop: "right" },
     ],
   },
   {
@@ -231,7 +235,7 @@ const menuCategories: MenuCategory[] = [
     imageAlt: "Pães frescos e dourados",
     items: [
       { name: "Pão cacetinho", detail: "De segunda a sábado, a partir das 16h; domingos pela manhã.", price: "Consulte", image: "/images/pao-fresquinho.webp", imageAlt: "Pães frescos recém-assados" },
-      { name: "Bebidas e conveniência", detail: "Opções disponíveis na loja.", price: "Consulte", image: "/images/refrigerantes-conveniencia-v1.webp", imageAlt: "Refrigerantes gelados disponíveis na loja" },
+      { name: "Bebidas e conveniência", detail: "Opções disponíveis na loja.", price: "Consulte", image: "/images/real-conveniencia-loja.png", imageAlt: "Prateleiras da conveniência do Empório com bebidas, alimentos e itens para casa", imageFill: true },
     ],
   },
 ];
@@ -708,7 +712,20 @@ export default function Home() {
               {currentCategory.items.map((item) => (
                 <article className="menu-item" key={item.name}>
                   {item.image ? (
-                    <img src={item.image} alt={item.imageAlt} width="88" height="88" loading="lazy" />
+                    item.imageCrop ? (
+                      <span className={`menu-item-image-crop menu-item-image-crop-${item.imageCrop}`}>
+                        <img src={item.image} alt={item.imageAlt} width="1536" height="1024" loading="lazy" />
+                      </span>
+                    ) : (
+                      <img
+                        className={item.imageFill ? "menu-item-image-fill" : undefined}
+                        src={item.image}
+                        alt={item.imageAlt}
+                        width="88"
+                        height="88"
+                        loading="lazy"
+                      />
+                    )
                   ) : (
                     <span className="menu-item-placeholder" aria-hidden="true">Sob consulta</span>
                   )}
@@ -750,13 +767,18 @@ export default function Home() {
 
         <section className="quality-section" id="seguranca-alimentar" aria-labelledby="quality-title">
           <div className="quality-media">
-            <img
-              src="/images/manipulacao-cortes-aves-sim-v2.webp"
-              alt="Coxinhas da asa e corações sendo temperados em ambiente profissional e higienizado"
-              width="1536"
-              height="1024"
-              loading="lazy"
-            />
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              preload="metadata"
+              poster="/images/coracao-temperado-maquina-poster.jpg"
+              aria-label="Corações de frango recebendo tempero em maquinário profissional"
+            >
+              <source src="/videos/coracao-temperado-maquina.mp4" type="video/mp4" />
+              Seu navegador não oferece suporte à reprodução de vídeo.
+            </video>
           </div>
           <div className="quality-copy">
             <p className="kicker kicker-light">Produção acompanhada pelo SIM</p>
@@ -825,7 +847,7 @@ export default function Home() {
 
             <div className="gallery-grid">
               <figure>
-                <img src="/images/hero-frango-inteiro-v2.webp" alt="Frango inteiro assado e dourado em superfície limpa" width="1200" height="800" loading="lazy" decoding="async" />
+                <img src="/images/real-frangos-assados.png" alt="Frangos inteiros assados na produção do Empório" width="404" height="483" loading="lazy" decoding="async" />
                 <figcaption>Frango assado</figcaption>
               </figure>
               <figure>
@@ -833,12 +855,12 @@ export default function Home() {
                 <figcaption>Marmitex</figcaption>
               </figure>
               <figure>
-                <img src="/images/maionese-polenta-v6.jpg" alt="Maionese caseira e polenta grossa" width="1536" height="1024" loading="lazy" decoding="async" />
-                <figcaption>Maionese e polenta</figcaption>
+                <img src="/images/real-maionese-400g.png" alt="Maionese de 400 gramas preparada pelo Empório" width="370" height="531" loading="lazy" decoding="async" />
+                <figcaption>Maionese 400 g</figcaption>
               </figure>
               <figure>
-                <img src="/images/pao-fresquinho.webp" alt="Pães fresquinhos recém-assados" width="1448" height="1086" loading="lazy" decoding="async" />
-                <figcaption>Pão fresco</figcaption>
+                <img src="/images/real-conveniencia-loja.png" alt="Prateleiras da conveniência do Empório" width="401" height="595" loading="lazy" decoding="async" />
+                <figcaption>Conveniência</figcaption>
               </figure>
               <figure>
                 <img src="/images/risoto-real-v1.webp" alt="Risoto tradicional de frango com a aparência real do produto" width="1320" height="973" loading="lazy" decoding="async" />
