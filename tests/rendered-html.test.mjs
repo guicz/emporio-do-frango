@@ -37,6 +37,8 @@ test("renders Empório do Frango production metadata", async () => {
   assert.match(html, /\/images\/risoto-real-v1\.webp/i);
   assert.match(html, /Espetinhos/i);
   assert.match(html, /\/images\/espetinhos-sem-texto\.webp/i);
+  assert.match(html, /A noite pede espetinho na brasa\./i);
+  assert.match(html, /Pedir espetinhos/i);
   await Promise.all(
     [
       "espetinho-carne-v1.webp",
@@ -54,6 +56,8 @@ test("renders Empório do Frango production metadata", async () => {
   assert.match(html, /\/images\/real-conveniencia-loja\.png/i);
   assert.match(html, /\/videos\/coracao-temperado-maquina\.mp4/i);
   assert.match(html, /\/images\/coracao-temperado-maquina-poster\.jpg/i);
+  assert.match(html, /Alternar entre modo claro e escuro/i);
+  assert.match(html, /emporio_theme/i);
   assert.doesNotMatch(html, /Produto cru vendido por kg\./i);
   assert.match(html, /Domingos e feriados<\/dt><dd>8h30 — 13h30<\/dd>/i);
   assert.match(

@@ -425,6 +425,47 @@ function TrackingConsent() {
   );
 }
 
+function ThemeToggle() {
+  const toggleTheme = () => {
+    const nextTheme =
+      document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+    document.documentElement.dataset.theme = nextTheme;
+    document.documentElement.style.colorScheme = nextTheme;
+    localStorage.setItem("emporio_theme", nextTheme);
+
+    const themeColor = document.querySelector<HTMLMetaElement>(
+      'meta[name="theme-color"]',
+    );
+    themeColor?.setAttribute(
+      "content",
+      nextTheme === "dark" ? "#171415" : "#f4f0e7",
+    );
+  };
+
+  return (
+    <button
+      className="theme-toggle"
+      type="button"
+      aria-label="Alternar entre modo claro e escuro"
+      title="Alternar entre modo claro e escuro"
+      onClick={toggleTheme}
+    >
+      <span className="theme-toggle-icon theme-toggle-moon" aria-hidden="true">
+        ☾
+      </span>
+      <span className="theme-toggle-icon theme-toggle-sun" aria-hidden="true">
+        ☀
+      </span>
+      <span className="theme-toggle-label theme-toggle-dark-label">
+        Modo escuro
+      </span>
+      <span className="theme-toggle-label theme-toggle-light-label">
+        Modo claro
+      </span>
+    </button>
+  );
+}
+
 export default function Home() {
   const [activeCategory, setActiveCategory] = useState("acougue");
   const currentCategory = useMemo(
@@ -561,14 +602,17 @@ export default function Home() {
           <a href="#horarios">Horários</a>
           <a href="#localizacao">Localização</a>
         </nav>
-        <WhatsAppLink
-          className="button button-small"
-          message={generalMessage}
-          interest="geral"
-          placement="header"
-        >
-          Fazer pedido
-        </WhatsAppLink>
+        <div className="header-actions">
+          <ThemeToggle />
+          <WhatsAppLink
+            className="button button-small"
+            message={generalMessage}
+            interest="geral"
+            placement="header"
+          >
+            Fazer pedido
+          </WhatsAppLink>
+        </div>
       </header>
 
       <main>
@@ -737,6 +781,33 @@ export default function Home() {
                 </article>
               ))}
             </div>
+          </div>
+        </section>
+
+        <section
+          className="skewer-spotlight"
+          id="espetinhos"
+          aria-labelledby="skewer-spotlight-title"
+        >
+          <div
+            className="skewer-spotlight-media"
+            role="img"
+            aria-label="Espetinhos de carne, coração, queijo coalho e pão de alho prontos"
+          />
+          <div className="skewer-spotlight-copy">
+            <p className="kicker kicker-light">Segunda a sábado, à noite</p>
+            <h2 id="skewer-spotlight-title">A noite pede espetinho na brasa.</h2>
+            <p>
+              Escolha seu sabor, consulte as opções do dia e peça pelo WhatsApp.
+            </p>
+            <WhatsAppLink
+              className="button button-primary"
+              message="Olá! Quero consultar os espetinhos disponíveis hoje e fazer um pedido."
+              interest="espetinhos"
+              placement="skewer_spotlight"
+            >
+              Pedir espetinhos
+            </WhatsAppLink>
           </div>
         </section>
 
