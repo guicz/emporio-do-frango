@@ -76,10 +76,10 @@ const menuCategories: MenuCategory[] = [
       },
       {
         name: "Coração",
-        detail: "Produto cru vendido por kg.",
+        detail: "Produto temperado vendido por kg.",
         price: "Consulte",
         image: "/images/coracao-temperado-cru-v1.webp",
-        imageAlt: "Corações de frango crus e temperados com ervas",
+        imageAlt: "Corações de frango temperados com ervas",
       },
       {
         name: "Linguiças",
@@ -252,8 +252,8 @@ const heroSlides = [
     alt: "Coxinhas da asa assadas como sugestão de preparo",
   },
   {
-    src: "/images/coracao-temperado-cru-v1.webp",
-    alt: "Corações de frango crus e temperados com ervas",
+    src: "/images/espetinhos-sem-texto.webp",
+    alt: "Espetinhos de carne, coração, queijo coalho e pão de alho prontos",
   },
   {
     src: "/images/mesa-completa-hero-v1.webp",

@@ -37,6 +37,7 @@ test("renders Empório do Frango production metadata", async () => {
   assert.match(html, /Espetinhos/i);
   assert.match(html, /\/images\/espetinhos-sem-texto\.webp/i);
   assert.match(html, /\/images\/coracao-temperado-cru-v1\.webp/i);
+  assert.doesNotMatch(html, /Produto cru vendido por kg\./i);
   assert.match(html, /Domingos e feriados<\/dt><dd>8h30 — 13h30<\/dd>/i);
   assert.match(
     html,
