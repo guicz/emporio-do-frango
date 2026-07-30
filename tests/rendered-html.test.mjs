@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { access } from "node:fs/promises";
 import test from "node:test";
 
 test("renders Empório do Frango production metadata", async () => {
@@ -36,6 +37,16 @@ test("renders Empório do Frango production metadata", async () => {
   assert.match(html, /\/images\/risoto-real-v1\.webp/i);
   assert.match(html, /Espetinhos/i);
   assert.match(html, /\/images\/espetinhos-sem-texto\.webp/i);
+  await Promise.all(
+    [
+      "espetinho-carne-v1.webp",
+      "espetinho-coracao-v1.webp",
+      "espetinho-queijo-coalho-v1.webp",
+      "espetinho-pao-de-alho-v1.webp",
+    ].map((fileName) =>
+      access(new URL(`../public/images/${fileName}`, import.meta.url)),
+    ),
+  );
   assert.match(html, /\/images\/coracao-temperado-cru-v1\.webp/i);
   assert.match(html, /\/images\/real-balcao-aves\.png/i);
   assert.match(html, /\/images\/real-frangos-assados\.png/i);
