@@ -34,6 +34,10 @@ test("renders Empório do Frango production metadata", async () => {
   );
   assert.match(html, /Estabelecimento registrado no S\.I\.M\. — nº 061/i);
   assert.match(html, /\/images\/risoto-real-v1\.webp/i);
+  assert.match(html, /Espetinhos/i);
+  assert.match(html, /\/images\/espetinhos-sem-texto\.webp/i);
+  assert.match(html, /\/images\/coracao-temperado-cru-v1\.webp/i);
+  assert.match(html, /Domingos e feriados<\/dt><dd>8h30 — 13h30<\/dd>/i);
   assert.match(
     html,
     /<link(?=[^>]*\brel=["']canonical["'])(?=[^>]*\bhref=["']https:\/\/emporiodofrango\.com\.br\/["'])[^>]*>/i,

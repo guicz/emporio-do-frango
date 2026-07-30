@@ -493,6 +493,12 @@ img {
   transition: box-shadow 260ms ease, transform 260ms ease;
 }
 
+@media (min-width: 1101px) {
+  .intent-card:nth-child(-n + 4) {
+    grid-column: span 3;
+  }
+}
+
 .intent-card:hover,
 .intent-card:focus-visible {
   z-index: 2;

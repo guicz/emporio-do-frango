@@ -78,8 +78,8 @@ const menuCategories: MenuCategory[] = [
         name: "Coração",
         detail: "Produto cru vendido por kg.",
         price: "Consulte",
-        image: "/images/coracao-preparo.webp",
-        imageAlt: "Corações grelhados como sugestão de preparo",
+        image: "/images/coracao-temperado-cru-v1.webp",
+        imageAlt: "Corações de frango crus e temperados com ervas",
       },
       {
         name: "Linguiças",
@@ -142,6 +142,48 @@ const menuCategories: MenuCategory[] = [
         price: "R$ 22,50",
         image: "/images/marmitex-almoco-v2.jpg",
         imageAlt: "Marmitex grande com refeição completa",
+      },
+    ],
+  },
+  {
+    id: "espetinhos",
+    eyebrow: "Noite na brasa",
+    title: "Espetinhos",
+    description:
+      "Carne, coração, queijo coalho e pão de alho preparados na brasa. Consulte as opções disponíveis no dia.",
+    availability: "Segunda a sábado, à noite",
+    message:
+      "Olá! Quero consultar os espetinhos disponíveis hoje e fazer um pedido.",
+    image: "/images/espetinhos-sem-texto.webp",
+    imageAlt: "Espetinhos de carne, coração, queijo coalho e pão de alho",
+    items: [
+      {
+        name: "Carne",
+        detail: "Espetinho por unidade.",
+        price: "R$ 8,00",
+        image: "/images/espetinhos-sem-texto.webp",
+        imageAlt: "Espetinhos de carne, coração, queijo coalho e pão de alho",
+      },
+      {
+        name: "Coração",
+        detail: "Espetinho por unidade.",
+        price: "R$ 8,00",
+        image: "/images/espetinhos-sem-texto.webp",
+        imageAlt: "Espetinhos de carne, coração, queijo coalho e pão de alho",
+      },
+      {
+        name: "Queijo coalho",
+        detail: "Por unidade.",
+        price: "R$ 8,00",
+        image: "/images/espetinhos-sem-texto.webp",
+        imageAlt: "Espetinhos de carne, coração, queijo coalho e pão de alho",
+      },
+      {
+        name: "Pão de alho",
+        detail: "Por unidade.",
+        price: "R$ 8,00",
+        image: "/images/espetinhos-sem-texto.webp",
+        imageAlt: "Espetinhos de carne, coração, queijo coalho e pão de alho",
       },
     ],
   },
@@ -210,8 +252,8 @@ const heroSlides = [
     alt: "Coxinhas da asa assadas como sugestão de preparo",
   },
   {
-    src: "/images/coracao-preparo.webp",
-    alt: "Corações de frango assados como sugestão de preparo",
+    src: "/images/coracao-temperado-cru-v1.webp",
+    alt: "Corações de frango crus e temperados com ervas",
   },
   {
     src: "/images/mesa-completa-hero-v1.webp",
@@ -223,7 +265,7 @@ const heroSlides = [
   },
 ];
 
-const intentCategories = ["acougue", "risoto", "almoco", "acompanhamentos", "frango", "mercado"]
+const intentCategories = ["acougue", "frango", "almoco", "espetinhos", "acompanhamentos", "risoto", "mercado"]
   .map((categoryId) => menuCategories.find((category) => category.id === categoryId))
   .filter((category): category is MenuCategory => Boolean(category));
 
@@ -834,8 +876,7 @@ export default function Home() {
                 <div><dt>Segunda</dt><dd>16h — 21h</dd></div>
                 <div><dt>Terça a sexta</dt><dd>9h — 12h30<br />16h — 21h</dd></div>
                 <div><dt>Sábado</dt><dd>9h — 13h30<br />16h — 20h</dd></div>
-                <div><dt>Domingo</dt><dd>8h30 — 13h30</dd></div>
-                <div><dt>Feriados</dt><dd>Confirme pelo WhatsApp</dd></div>
+                <div><dt>Domingos e feriados</dt><dd>8h30 — 13h30</dd></div>
               </dl>
             </div>
           </div>
