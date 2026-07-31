@@ -54,15 +54,34 @@ test("renders Empório do Frango production metadata", async () => {
   assert.match(html, /\/images\/real-frangos-assados\.png/i);
   assert.match(html, /\/images\/real-maionese-400g\.png/i);
   assert.match(html, /\/images\/real-conveniencia-loja\.png/i);
+  assert.match(html, /\/images\/maionese-polenta-v7\.webp/i);
+  assert.match(html, /\/images\/frango-assado-producao-v1-poster\.webp/i);
+  assert.match(html, /Frango assado: da máquina à embalagem/i);
+  assert.match(html, /\/images\/entrega-emporio-v1-poster\.webp/i);
   assert.match(html, /\/videos\/coracao-temperado-maquina\.mp4/i);
   assert.match(html, /\/images\/coracao-temperado-maquina-poster\.jpg/i);
   assert.match(html, /Alternar entre modo claro e escuro/i);
   assert.match(html, /emporio_theme/i);
+  await Promise.all(
+    [
+      "../public/videos/frango-assado-producao-v1.mp4",
+      "../public/videos/entrega-emporio-v1.mp4",
+      "../public/images/frango-assado-producao-v1-poster.webp",
+      "../public/images/entrega-emporio-v1-poster.webp",
+    ].map((assetPath) => access(new URL(assetPath, import.meta.url))),
+  );
   assert.doesNotMatch(html, /Produto cru vendido por kg\./i);
   assert.match(html, /Domingos e feriados<\/dt><dd>8h30 — 13h30<\/dd>/i);
   assert.match(
     html,
     /<link(?=[^>]*\brel=["']canonical["'])(?=[^>]*\bhref=["']https:\/\/emporiodofrango\.com\.br\/["'])[^>]*>/i,
   );
+  assert.match(
+    html,
+    /<meta(?=[^>]*\bproperty=["']og:image["'])(?=[^>]*\bcontent=["']https:\/\/emporiodofrango\.com\.br\/og\.png["'])[^>]*>/i,
+  );
+  assert.match(html, /<meta[^>]+property=["']og:image:width["'][^>]+content=["']1200["']/i);
+  assert.match(html, /<meta[^>]+property=["']og:image:height["'][^>]+content=["']630["']/i);
+  await access(new URL("../public/og.png", import.meta.url));
   assert.doesNotMatch(html, /\bname=["']codex-preview["']/i);
 });
