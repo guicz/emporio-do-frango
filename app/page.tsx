@@ -425,8 +425,738 @@ function TrackingConsent() {
   );
 }
 
-function Theãnı¶‰Ëkºwµç@€€€€€€€€€€€€€€ñ…ÉÑ¥±”±…ÍÍ9…µ”ô‰µ•¹Ôµ¥Ñ•´ˆ­•äõí¥Ñ•´¹¹…µ•ôø(€€€€€€€€€€€€€€€€€í¥Ñ•´¹¥µ…”€ü€ (€€€€€€€€€€€€€€€€€€€¥Ñ•´¹¥µ…•É½À€ü€ (€€€€€€€€€€€€€€€€€€€€€€ñÍÁ…¸±…ÍÍ9…µ”õíµ•¹Ôµ¥Ñ•´µ¥µ…”µÉ½Àµ•¹Ôµ¥Ñ•´µ¥µ…”µÉ½À´‘í¥Ñ•´¹¥µ…•É½Áõôø(€€€€€€€€€€€€€€€€€€€€€€€€ñ¥µœÍÉŒõí¥Ñ•´¹¥µ…•ô…±Ğõí¥Ñ•´¹¥µ…•±Ñôİ¥‘Ñ ôˆÄÔÌØˆ¡•¥¡ĞôˆÄÀÈĞˆ±½…‘¥¹œô‰±…éäˆ€¼ø(€€€€€€€€€€€€€€€€€€€€€€ğ½ÍÁ…¸ø(€€€€€€€€€€€€€€€€€€€€¤€è€ (€€€€€€€€€€€€€€€€€€€€€€ñ¥µœ(€€€€€€€€€€€€€€€€€€€€€€€±…ÍÍ9…µ”õí¥Ñ•´¹¥µ…•¥±°€ü€‰µ•¹Ôµ¥Ñ•´µ¥µ…”µ™¥±°ˆ€èÕ¹‘•™¥¹•‘ô(€€€€€€€€€€€€€€€€€€€€€€€ÍÉŒõí¥Ñ•´¹¥µ…•ô(€€€€€€€€€€€€€€€€€€€€€€€…±Ğõí¥Ñ•´¹¥µ…•±Ñô(€€€€€€€€€€€€€€€€€€€€€€€İ¥‘Ñ ôˆààˆ(€€€€€€€€€€€€€€€€€€€€€€€¡•¥¡Ğôˆààˆ(€€€€€€€€€€€€€€€€€€€€€€€±½…‘¥¹œô‰±…éäˆ(€€€€€€€€€€€€€€€€€€€€€€¼ø(€€€€€€€€€€€€€€€€€€€€¤(€€€€€€€€€€€€€€€€€€¤€è€ (€€€€€€€€€€€€€€€€€€€€ñÍÁ…¸±…ÍÍ9…µ”ô‰µ•¹Ôµ¥Ñ•´µÁ±…•¡½±‘•Èˆ…É¥„µ¡¥‘‘•¸ô‰ÑÉÕ”ˆùM½ˆ½¹ÍÕ±Ñ„ğ½ÍÁ…¸ø(€€€€€€€€€€€€€€€€€€¥ô(€€€€€€€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰µ•¹Ôµ¥Ñ•´µ½Áäˆø(€€€€€€€€€€€€€€€€€€€€ñ Ğùí¥Ñ•´¹¹…µ•ôğ½ Ğø(€€€€€€€€€€€€€€€€€€€í¥Ñ•´¹‘•Ñ…¥°€˜˜€ñÀùí¥Ñ•´¹‘•Ñ…¥±ôğ½Àùô(€€€€€€€€€€€€€€€€€€ğ½‘¥Øø4(€€€€€€€€€€€€€€€€€€ñÍÑÉ½¹œùí¥Ñ•´¹ÁÉ¥•ôğ½ÍÑÉ½¹œø4(€€€€€€€€€€€€€€€€ğ½…ÉÑ¥±”ø4(€€€€€€€€€€€€€€¤¥ô4(€€€€€€€€€€€€ğ½‘¥Øø4(€€€€€€€€€€ğ½‘¥Øø(€€€€€€€€ğ½Í•Ñ¥½¸ø((€€€€€€€€ñÍ•Ñ¥½¸(€€€€€€€€€±…ÍÍ9…µ”ô‰Í­•İ•ÈµÍÁ½Ñ±¥¡Ğˆ(€€€€€€€€€¥ô‰•ÍÁ•Ñ¥¹¡½Ìˆ(€€€€€€€€€…É¥„µ±…‰•±±•‘‰äô‰Í­•İ•ÈµÍÁ½Ñ±¥¡ĞµÑ¥Ñ±”ˆ(€€€€€€€€ø(€€€€€€€€€€ñ‘¥Ø(€€€€€€€€€€€±…ÍÍ9…µ”ô‰Í­•İ•ÈµÍÁ½Ñ±¥¡Ğµµ•‘¥„ˆ(€€€€€€€€€€€É½±”ô‰¥µœˆ(€€€€€€€€€€€…É¥„µ±…‰•°ô‰ÍÁ•Ñ¥¹¡½Ì‘”…É¹”°½É‡Ÿ¼°ÅÕ•¥©¼½…±¡¼”Ã¼‘”…±¡¼ÁÉ½¹Ñ½Ìˆ(€€€€€€€€€€¼ø(€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰Í­•İ•ÈµÍÁ½Ñ±¥¡Ğµ½Áäˆø(€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰­¥­•È­¥­•Èµ±¥¡ĞˆùM•Õ¹‘„„Ï…‰…‘¼°ƒ€¹½¥Ñ”ğ½Àø(€€€€€€€€€€€€ñ È¥ô‰Í­•İ•ÈµÍÁ½Ñ±¥¡ĞµÑ¥Ñ±”ˆù¹½¥Ñ”Á•‘”•ÍÁ•Ñ¥¹¡¼¹„‰É…Í„¸ğ½ Èø(€€€€€€€€€€€€ñÀø(€€€€€€€€€€€€€Í½±¡„Í•ÔÍ…‰½È°½¹ÍÕ±Ñ”…Ì½ÃŸÕ•Ì‘¼‘¥„”Á—„Á•±¼]¡…ÑÍÁÀ¸(€€€€€€€€€€€€ğ½Àø(€€€€€€€€€€€€ñ]¡…ÑÍÁÁ1¥¹¬(€€€€€€€€€€€€€±…ÍÍ9…µ”ô‰‰ÕÑÑ½¸‰ÕÑÑ½¸µÁÉ¥µ…Éäˆ(€€€€€€€€€€€€€µ•ÍÍ…”ô‰=³„„EÕ•É¼½¹ÍÕ±Ñ…È½Ì•ÍÁ•Ñ¥¹¡½Ì‘¥ÍÁ½»µÙ•¥Ì¡½©””™…é•ÈÕ´Á•‘¥‘¼¸ˆ(€€€€€€€€€€€€€¥¹Ñ•É•ÍĞô‰•ÍÁ•Ñ¥¹¡½Ìˆ(€€€€€€€€€€€€€Á±…•µ•¹Ğô‰Í­•İ•É}ÍÁ½Ñ±¥¡Ğˆ(€€€€€€€€€€€€ø(€€€€€€€€€€€€€A•‘¥È•ÍÁ•Ñ¥¹¡½Ì(€€€€€€€€€€€€ğ½]¡…ÑÍÁÁ1¥¹¬ø(€€€€€€€€€€ğ½‘¥Øø(€€€€€€€€ğ½Í•Ñ¥½¸ø((€€€€€€€€ñÍ•Ñ¥½¸±…ÍÍ9…µ”ô‰‰É•…µÍ•Ñ¥½¸ˆ¥ô‰Á…¼ˆ…É¥„µ±…‰•±±•‘‰äô‰‰É•…µÑ¥Ñ±”ˆø(€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰‰É•…µµ•‘¥„ˆø(€€€€€€€€€€€€ñ¥µœÍÉŒôˆ½¥µ…•Ì½Á…¼µ™É•ÍÅÕ¥¹¡¼¹İ•‰Àˆ…±Ğô‰C•Ì™É•ÍÅÕ¥¹¡½ÌÉ•¥´µ…ÍÍ…‘½Ìˆİ¥‘Ñ ôˆÄĞĞàˆ¡•¥¡ĞôˆÄÀàØˆ±½…‘¥¹œô‰±…éäˆ€¼ø(€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰‰É•…µ±½¬ˆ…É¥„µ±…‰•°ô‰C¼™É•Í¼„Á…ÉÑ¥È‘…Ì€ÄØ¡½É…Ì‘”Í•Õ¹‘„„Ï…‰…‘¼ˆø(€€€€€€€€€€€€€€ñÍÁ…¸ùÁ…ÉÑ¥È‘…Ìğ½ÍÁ…¸ø(€€€€€€€€€€€€€€ñÍÑÉ½¹œøÄÙ ğ½ÍÑÉ½¹œø(€€€€€€€€€€€€ğ½‘¥Øø(€€€€€€€€€€ğ½‘¥Øø4(€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰‰É•…µ½Áäˆø4(€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰­¥­•ÈˆùC¼…•Ñ¥¹¡¼ğ½Àø(€€€€€€€€€€€€ñ È¥ô‰‰É•…µÑ¥Ñ±”ˆùC¼™É•Í¼Ñ½‘½Ì½Ì‘¥…Ì¸ğ½ Èø(€€€€€€€€€€€€ñÀø(€€€€€€€€€€€€€”Í•Õ¹‘„„Ï…‰…‘¼°„Á…ÉÑ¥È‘…Ì€ÄÙ ¸½Ì‘½µ¥¹½Ì°Á•±„µ…¹£Œ¸(€€€€€€€€€€€€ğ½Àø(€€€€€€€€€€ğ½‘¥Øø4(€€€€€€€€€€ñ]¡…ÑÍÁÁ1¥¹¬4(€€€€€€€€€€€±…ÍÍ9…µ”ô‰‰ÕÑÑ½¸‰ÕÑÑ½¸µ‘…É¬ˆ4(€€€€€€€€€€€µ•ÍÍ…”ô‰=³„„Y¥´Á•±¼Í¥Ñ””ÅÕ•É¼É•Í•ÉÙ…ÈÃ¼…•Ñ¥¹¡¼¸EÕ…°ƒ¤¼¡½Ë…É¥¼‘¥ÍÁ½»µÙ•°¹¼‘¥„•Í½±¡¥‘¼üˆ(€€€€€€€€€€€¥¹Ñ•É•ÍĞô‰Á…½}™É•Í¼ˆ4(€€€€€€€€€€€Á±…•µ•¹Ğô‰‰É•…‘}¡¥¡±¥¡Ğˆ4(€€€€€€€€€€ø4(€€€€€€€€€€€I•Í•ÉÙ…ÈÃ¼4(€€€€€€€€€€ğ½]¡…ÑÍÁÁ1¥¹¬ø4(€€€€€€€€ğ½Í•Ñ¥½¸ø4(4(€€€€€€€€ñÍ•Ñ¥½¸±…ÍÍ9…µ”ô‰ÅÕ…±¥ÑäµÍ•Ñ¥½¸ˆ¥ô‰Í•ÕÉ…¹„µ…±¥µ•¹Ñ…Èˆ…É¥„µ±…‰•±±•‘‰äô‰ÅÕ…±¥ÑäµÑ¥Ñ±”ˆø(€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰ÅÕ…±¥Ñäµµ•‘¥„ˆø(€€€€€€€€€€€€ñÙ¥‘•¼(€€€€€€€€€€€€€…ÕÑ½A±…ä(€€€€€€€€€€€€€±½½À(€€€€€€€€€€€€€µÕÑ•(€€€€€€€€€€€€€Á±…åÍ%¹±¥¹”(€€€€€€€€€€€€€ÁÉ•±½…ô‰µ•Ñ…‘…Ñ„ˆ(€€€€€€€€€€€€€Á½ÍÑ•Èôˆ½¥µ…•Ì½½É……¼µÑ•µÁ•É…‘¼µµ…ÅÕ¥¹„µÁ½ÍÑ•È¹©Áœˆ(€€€€€€€€€€€€€…É¥„µ±…‰•°ô‰½É‡ŸÕ•Ì‘”™É…¹¼É••‰•¹‘¼Ñ•µÁ•É¼•´µ…ÅÕ¥»…É¥¼ÁÉ½™¥ÍÍ¥½¹…°ˆ(€€€€€€€€€€€€ø(€€€€€€€€€€€€€€ñÍ½ÕÉ”ÍÉŒôˆ½Ù¥‘•½Ì½½É……¼µÑ•µÁ•É…‘¼µµ…ÅÕ¥¹„¹µÀĞˆÑåÁ”ô‰Ù¥‘•¼½µÀĞˆ€¼ø(€€€€€€€€€€€€€M•Ô¹…Ù•…‘½È»¼½™•É•”ÍÕÁ½ÉÑ”ƒ€É•ÁÉ½‘×Ÿ¼‘”Ûµ‘•¼¸(€€€€€€€€€€€€ğ½Ù¥‘•¼ø(€€€€€€€€€€ğ½‘¥Øø(€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰ÅÕ…±¥Ñäµ½Áäˆø(€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰­¥­•È­¥­•Èµ±¥¡ĞˆùAÉ½‘×Ÿ¼…½µÁ…¹¡…‘„Á•±¼M%4ğ½Àø(€€€€€€€€€€€€ñ È¥ô‰ÅÕ…±¥ÑäµÑ¥Ñ±”ˆùAÉ½‘×Ÿ¼É•Õ±…É¥é…‘„°‘¼ÁÉ•Á…É¼…¼‰•¹•™¥¥…µ•¹Ñ¼¸ğ½ Èø(€€€€€€€€€€€€ñÀø(€€€€€€€€€€€€€<É•¥ÍÑÉ¼µÕ¹¥¥Á…°…‰É…¹”„µ…¹¥ÁÕ±‡Ÿ¼”¼‰•¹•™¥¥…µ•¹Ñ¼‘”(€€€€€€€€€€€€€…É¹•Ì¸<…±•Ñ¼Ñ•µÁ•É…‘¼ƒ¤¼ÁÉ¥¹¥Á…°ÁÉ½‘ÕÑ¼‘„…Í„¸(€€€€€€€€€€€€ğ½Àø(€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰Í…¹¥Ñ…Éäµ‰…‘”ˆø(€€€€€€€€€€€€€€ñÍÑÉ½¹œùÍÑ…‰•±•¥µ•¹Ñ¼É•¥ÍÑÉ…‘¼¹¼L¹$¹4¸ƒŠP»
-è€ÀØÄğ½ÍÑÉ½¹œø(€€€€€€€€€€€€€€ñÍÁ…¸ù5…¹¥ÁÕ±‡Ÿ¼”‰•¹•™¥¥…µ•¹Ñ¼‘”…É¹•Ì½´…½µÁ…¹¡…µ•¹Ñ¼”™¥Í…±¥é‡Ÿ¼¸ğ½ÍÁ…¸ø(€€€€€€€€€€€€ğ½‘¥Øø(€€€€€€€€€€€€ñÕ°ø(€€€€€€€€€€€€€€ñ±¤øñÍÁ…¸øÀÄğ½ÍÁ…¸ùI•ÍÁ½¹Ï…Ù•°Ó¥¹¥„Ù•Ñ•É¥»…É¥„ğ½±¤ø(€€€€€€€€€€€€€€ñ±¤øñÍÁ…¸øÀÈğ½ÍÁ…¸ùM…±„‘”…ÍÍ•ÁÍ¥„ğ½±¤ø(€€€€€€€€€€€€€€ñ±¤øñÍÁ…¸øÀÌğ½ÍÁ…¸ùµ‰¥•¹Ñ”±¥µ…Ñ¥é…‘¼ğ½±¤ø(€€€€€€€€€€€€€€ñ±¤øñÍÁ…¸øÀĞğ½ÍÁ…¸ù5…ÅÕ¥»…É¥¼•ÍÁ•µ™¥¼ğ½±¤ø(€€€€€€€€€€€€ğ½Õ°ø(€€€€€€€€€€ğ½‘¥Øø(€€€€€€€€ğ½Í•Ñ¥½¸ø4(4(€€€€€€€€ñÍ•Ñ¥½¸±…ÍÍ9…µ”ô‰Í•Ñ¥½¸ÁÉ•½É‘•ÈµÍ•Ñ¥½¸ˆ…É¥„µ±…‰•±±•‘‰äô‰ÁÉ•½É‘•ÈµÑ¥Ñ±”ˆø(€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰ÁÉ•½É‘•Èµ¡•…‘¥¹œˆø(€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰­¥­•ÈˆùA•‘¥‘½Ì‘”™¥´‘”Í•µ…¹„ğ½Àø(€€€€€€€€€€€€ñ È¥ô‰ÁÉ•½É‘•ÈµÑ¥Ñ±”ˆùI•Í•ÉÙ”½´…¹Ñ••“©¹¥„¸ğ½ Èø(€€€€€€€€€€ğ½‘¥Øø(€€€€€€€€€€ñ½°±…ÍÍ9…µ”ô‰ÁÉ•½É‘•Èµ±¥ÍĞˆø(€€€€€€€€€€€€ñ±¤øñÍÁ…¸øÄğ½ÍÁ…¸øñ‘¥ØøñÍÑÉ½¹œù‡„ÍÕ„É•Í•ÉÙ„ğ½ÍÑÉ½¹œøñÀù%¹™½Éµ”¼‘¥„”„ÅÕ…¹Ñ¥‘…‘”¸ğ½Àøğ½‘¥Øøğ½±¤ø(€€€€€€€€€€€€ñ±¤øñÍÁ…¸øÈğ½ÍÁ…¸øñ‘¥ØøñÍÑÉ½¹œùÕ…É‘”„½¹™¥Éµ‡Ÿ¼ğ½ÍÑÉ½¹œøñÀù•ÅÕ¥Á”Ù•É¥™¥„±½Ñ”°¡½Ë…É¥¼”‘¥ÍÁ½¹¥‰¥±¥‘…‘”¸ğ½Àøğ½‘¥Øøğ½±¤ø(€€€€€€€€€€€€ñ±¤øñÍÁ…¸øÌğ½ÍÁ…¸øñ‘¥ØøñÍÑÉ½¹œù½µ‰¥¹”½µ¼É••‰•Èğ½ÍÑÉ½¹œøñÀùÍ½±¡„É•Ñ¥É…‘„½Ô•¹ÑÉ•„°½¹™½Éµ”¼•¹‘•É—¼¸ğ½Àøğ½‘¥Øøğ½±¤ø(€€€€€€€€€€ğ½½°ø4(€€€€€€€€€€ñ]¡…ÑÍÁÁ1¥¹¬4(€€€€€€€€€€€±…ÍÍ9…µ”ô‰‰ÕÑÑ½¸‰ÕÑÑ½¸µ‘…É¬ˆ4(€€€€€€€€€€€µ•ÍÍ…”ô‰=³„„Y¥´Á•±¼Í¥Ñ””ÅÕ•É¼™…é•ÈÕµ„•¹½µ•¹‘„…¹Ñ•¥Á…‘„¸ˆ4(€€€€€€€€€€€¥¹Ñ•É•ÍĞô‰•¹½µ•¹‘…}…¹Ñ•¥Á…‘„ˆ4(€€€€€€€€€€€Á±…•µ•¹Ğô‰ÁÉ•½É‘•Èˆ4(€€€€€€€€€€ø4(€€€€€€€€€€€…é•ÈÁ•‘¥‘¼(€€€€€€€€€€ğ½]¡…ÑÍÁÁ1¥¹¬ø4(€€€€€€€€ğ½Í•Ñ¥½¸ø4(4(€€€€€€€€ñÍ•Ñ¥½¸±…ÍÍ9…µ”ô‰Í•Ñ¥½¸…±±•ÉäµÍ•Ñ¥½¸ˆ¥ô‰…±•É¥„ˆ…É¥„µ±…‰•±±•‘‰äô‰…±±•ÉäµÑ¥Ñ±”ˆø(€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰Í•Ñ¥½¸µ¡•…‘¥¹œˆø(€€€€€€€€€€€€ñ‘¥Øø(€€€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰­¥­•Èˆù„½é¥¹¡„”‘¼‰…±¼ğ½Àø(€€€€€€€€€€€€€€ñ È¥ô‰…±±•ÉäµÑ¥Ñ±”ˆù<ÅÕ”Ù½¨•¹½¹ÑÉ„¹¼µÃÍÉ¥¼¸ğ½ Èø(€€€€€€€€€€€€ğ½‘¥Øø(€€€€€€€€€€ğ½‘¥Øø(€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰…±±•ÉäµÍ¡½İ…Í”ˆø4(€€€€€€€€€€€€ñ™¥ÕÉ”±…ÍÍ9…µ”ô‰…±±•ÉäµÙ¥‘•¼ˆø(€€€€€€€€€€€€€€ñ1…éåY¥‘•¼(€€€€€€€€€€€€€€€½¹ÑÉ½±Ì(€€€€€€€€€€€€€€€ÍÉŒôˆ½Ù¥‘•½Ì½™É…¹¼µ…ÍÍ…‘¼µÁÉ½‘Õ…¼µØÄ¹µÀĞˆ(€€€€€€€€€€€€€€€Á½ÍÑ•Èôˆ½¥µ…•Ì½™É…¹¼µ…ÍÍ…‘¼µÁÉ½‘Õ…¼µØÄµÁ½ÍÑ•È¹İ•‰Àˆ(€€€€€€€€€€€€€€€±…‰•°ô‰É…¹½Ì…ÍÍ…‘½ÌÍ…¥¹‘¼‘„·…ÅÕ¥¹„”Í•¹‘¼ÁÉ•Á…É…‘½ÌÁ…É„É•Ñ¥É…‘„ˆ(€€€€€€€€€€€€€€¼ø(€€€€€€€€€€€€€€ñ™¥…ÁÑ¥½¸ùÉ…¹¼…ÍÍ…‘¼è‘„·…ÅÕ¥¹„ƒ€•µ‰…±…•´ğ½™¥…ÁÑ¥½¸ø(€€€€€€€€€€€€ğ½™¥ÕÉ”ø4(4(€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰…±±•ÉäµÉ¥ˆø4(€€€€€€€€€€€€€€ñ™¥ÕÉ”ø(€€€€€€€€€€€€€€€€ñ¥µœÍÉŒôˆ½¥µ…•Ì½É•…°µ™É…¹½Ìµ…ÍÍ…‘½Ì¹Á¹œˆ…±Ğô‰É…¹½Ì¥¹Ñ•¥É½Ì…ÍÍ…‘½Ì¹„ÁÉ½‘×Ÿ¼‘¼µÃÍÉ¥¼ˆİ¥‘Ñ ôˆĞÀĞˆ¡•¥¡ĞôˆĞàÌˆ±½…‘¥¹œô‰±…éäˆ‘•½‘¥¹œô‰…Íå¹Œˆ€¼ø(€€€€€€€€€€€€€€€€ñ™¥…ÁÑ¥½¸ùÉ…¹¼…ÍÍ…‘¼ğ½™¥…ÁÑ¥½¸ø(€€€€€€€€€€€€€€ğ½™¥ÕÉ”ø(€€€€€€€€€€€€€€ñ™¥ÕÉ”ø(€€€€€€€€€€€€€€€€ñ¥µœÍÉŒôˆ½¥µ…•Ì½µ…Éµ¥Ñ•àµ…±µ½¼µØÈ¹©Áœˆ…±Ğô‰5…Éµ¥Ñ•à½´É•™•§Ÿ¼½µÁ±•Ñ„ˆİ¥‘Ñ ôˆÄØÀÀˆ¡•¥¡ĞôˆÄÀØÜˆ±½…‘¥¹œô‰±…éäˆ‘•½‘¥¹œô‰…Íå¹Œˆ€¼ø(€€€€€€€€€€€€€€€€ñ™¥…ÁÑ¥½¸ù5…Éµ¥Ñ•àğ½™¥…ÁÑ¥½¸ø(€€€€€€€€€€€€€€ğ½™¥ÕÉ”ø(€€€€€€€€€€€€€€ñ™¥ÕÉ”ø(€€€€€€€€€€€€€€€€ñ¥µœÍÉŒôˆ½¥µ…•Ì½É•…°µµ…¥½¹•Í”´ĞÀÁœ¹Á¹œˆ…±Ğô‰5…¥½¹•Í”‘”€ĞÀÀÉ…µ…ÌÁÉ•Á…É…‘„Á•±¼µÃÍÉ¥¼ˆİ¥‘Ñ ôˆÌÜÀˆ¡•¥¡ĞôˆÔÌÄˆ±½…‘¥¹œô‰±…éäˆ‘•½‘¥¹œô‰…Íå¹Œˆ€¼ø(€€€€€€€€€€€€€€€€ñ™¥…ÁÑ¥½¸ù5…¥½¹•Í”€ĞÀÀœğ½™¥…ÁÑ¥½¸ø(€€€€€€€€€€€€€€ğ½™¥ÕÉ”ø(€€€€€€€€€€€€€€ñ™¥ÕÉ”ø(€€€€€€€€€€€€€€€€ñ¥µœÍÉŒôˆ½¥µ…•Ì½É•…°µ½¹Ù•¹¥•¹¥„µ±½©„¹Á¹œˆ…±Ğô‰AÉ…Ñ•±•¥É…Ì‘„½¹Ù•¹§©¹¥„‘¼µÃÍÉ¥¼ˆİ¥‘Ñ ôˆĞÀÄˆ¡•¥¡ĞôˆÔäÔˆ±½…‘¥¹œô‰±…éäˆ‘•½‘¥¹œô‰…Íå¹Œˆ€¼ø(€€€€€€€€€€€€€€€€ñ™¥…ÁÑ¥½¸ù½¹Ù•¹§©¹¥„ğ½™¥…ÁÑ¥½¸ø(€€€€€€€€€€€€€€ğ½™¥ÕÉ”ø(€€€€€€€€€€€€€€ñ™¥ÕÉ”ø(€€€€€€€€€€€€€€€€ñ¥µœÍÉŒôˆ½¥µ…•Ì½É¥Í½Ñ¼µÉ•…°µØÄ¹İ•‰Àˆ…±Ğô‰I¥Í½Ñ¼ÑÉ…‘¥¥½¹…°‘”™É…¹¼½´„…Á…Ë©¹¥„É•…°‘¼ÁÉ½‘ÕÑ¼ˆİ¥‘Ñ ôˆÄÌÈÀˆ¡•¥¡ĞôˆäÜÌˆ±½…‘¥¹œô‰±…éäˆ‘•½‘¥¹œô‰…Íå¹Œˆ€¼ø(€€€€€€€€€€€€€€€€ñ™¥…ÁÑ¥½¸ùI¥Í½Ñ¼€äÀÀœğ½™¥…ÁÑ¥½¸ø(€€€€€€€€€€€€€€ğ½™¥ÕÉ”ø(€€€€€€€€€€€€ğ½‘¥Øø4(€€€€€€€€€€ğ½‘¥Øø4(€€€€€€€€ğ½Í•Ñ¥½¸ø4(4(€€€€€€€€ñÍ•Ñ¥½¸±…ÍÍ9…µ”ô‰Í•Ñ¥½¸¡½ÕÉÌµÍ•Ñ¥½¸ˆ¥ô‰¡½É…É¥½Ìˆ…É¥„µ±…‰•±±•‘‰äô‰¡½ÕÉÌµÑ¥Ñ±”ˆø(€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰¡½ÕÉÌµ¡•…‘¥¹œˆø(€€€€€€€€€€€€ñ‘¥Øø(€€€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰­¥­•Èˆù¹Ñ•Ì‘”Í…¥È‘”…Í„ğ½Àø(€€€€€€€€€€€€€€ñ È¥ô‰¡½ÕÉÌµÑ¥Ñ±”ˆù!½Ë…É¥¼‘„±½©„”‘¥…Ì‘”ÁÉ½‘×Ÿ¼¸ğ½ Èø(€€€€€€€€€€€€ğ½‘¥Øø(€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰¡½ÕÉÌµ…Ñ¥½¸ˆø(€€€€€€€€€€€€€€ñ]¡…ÑÍÁÁ1¥¹¬(€€€€€€€€€€€€€€€±…ÍÍ9…µ”ô‰‰ÕÑÑ½¸‰ÕÑÑ½¸µÁÉ¥µ…Éäˆ(€€€€€€€€€€€€€€€µ•ÍÍ…”ô‰=³„„EÕ•É¼½¹™¥Éµ…È½Ì¡½Ë…É¥½Ì”„‘¥ÍÁ½¹¥‰¥±¥‘…‘”‘½ÌÁÉ½‘ÕÑ½Ì‘”¡½©”¸ˆ(€€€€€€€€€€€€€€€¥¹Ñ•É•ÍĞô‰¡½É…É¥½Ìˆ(€€€€€€€€€€€€€€€Á±…•µ•¹Ğô‰¡½ÕÉÌˆ(€€€€€€€€€€€€€€ø(€€€€€€€€€€€€€€€½¹™¥Éµ…È‘¥ÍÁ½¹¥‰¥±¥‘…‘”(€€€€€€€€€€€€€€ğ½]¡…ÑÍÁÁ1¥¹¬ø(€€€€€€€€€€€€ğ½‘¥Øø(€€€€€€€€€€ğ½‘¥Øø(4(€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰¡½ÕÉÌµ½¹Ñ•¹Ğˆø4(€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰½Á•¹¥¹œµ¡½ÕÉÌˆø(€€€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰½Á•¹¥¹œµ¡½ÕÉÌµ¡•…‘•Èˆø(€€€€€€€€€€€€€€€€ñ Ìù!½Ë…É¥½Ì‘”…Ñ•¹‘¥µ•¹Ñ¼ğ½ Ìø(€€€€€€€€€€€€€€€€ñÍÁ…¸ùIÕ„Y•»‰¹¥¼¥É•Ì°€ĞÜÀğ½ÍÁ…¸ø(€€€€€€€€€€€€€€ğ½‘¥Øø(€€€€€€€€€€€€€€ñ‘°ø(€€€€€€€€€€€€€€€€ñ‘¥Øøñ‘ĞùM•Õ¹‘„ğ½‘Ğøñ‘øÄÙ ƒŠP€ÈÅ ğ½‘øğ½‘¥Øø4(€€€€€€€€€€€€€€€€ñ‘¥Øøñ‘ĞùQ•Ë„„Í•áÑ„ğ½‘Ğøñ‘øå ƒŠP€ÄÉ ÌÀñ‰È€¼øÄÙ ƒŠP€ÈÅ ğ½‘øğ½‘¥Øø(€€€€€€€€€€€€€€€€ñ‘¥Øøñ‘ĞùO…‰…‘¼ğ½‘Ğøñ‘øå ƒŠP€ÄÍ ÌÀñ‰È€¼øÄÙ ƒŠP€ÈÁ ğ½‘øğ½‘¥Øø(€€€€€€€€€€€€€€€€ñ‘¥Øøñ‘Ğù½µ¥¹½Ì”™•É¥…‘½Ìğ½‘Ğøñ‘øá ÌÀƒŠP€ÄÍ ÌÀğ½‘øğ½‘¥Øø(€€€€€€€€€€€€€€ğ½‘°ø(€€€€€€€€€€€€ğ½‘¥Øø(€€€€€€€€€€ğ½‘¥Øø(€€€€€€€€ğ½Í•Ñ¥½¸ø(4(€€€€€€€€ñÍ•Ñ¥½¸±…ÍÍ9…µ”ô‰Í•Ñ¥½¸É½ÕÑ•ÌµÍ•Ñ¥½¸ˆ…É¥„µ±…‰•±±•‘‰äô‰É½ÕÑ•ÌµÑ¥Ñ±”ˆø(€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰Í•Ñ¥½¸µ¡•…‘¥¹œˆø(€€€€€€€€€€€€ñ‘¥Øø(€€€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰­¥­•ÈˆùA•‘¥‘¼°É•Ñ¥É…‘„”•¹ÑÉ•„ğ½Àø(€€€€€€€€€€€€€€ñ È¥ô‰É½ÕÑ•ÌµÑ¥Ñ±”ˆùA—„…¹Ñ•Ì‘”Í…¥È¸ğ½ Èø(€€€€€€€€€€€€ğ½‘¥Øø(€€€€€€€€€€€€ñÀù½¹™¥Éµ”¼Á•‘¥‘¼”½µ‰¥¹”„É•Ñ¥É…‘„½Ô„•¹ÑÉ•„Á•±¼]¡…ÑÍÁÀ¸ğ½Àø(€€€€€€€€€€ğ½‘¥Øø(€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰É½ÕÑ•ÌµÉ¥ˆø(€€€€€€€€€€€€ñ…ÉÑ¥±”ø(€€€€€€€€€€€€€€ñÍÁ…¸øÀÄğ½ÍÁ…¸ø(€€€€€€€€€€€€€€ñ ÌùA•‘¥‘¼Á•±¼]¡…ÑÍÁÀğ½ Ìø(€€€€€€€€€€€€€€ñÀù¹½µ•¹‘…Ì°…É“…Á¥¼‘¼‘¥„”‘¥ÍÁ½¹¥‰¥±¥‘…‘”¸ğ½Àø(€€€€€€€€€€€€ğ½…ÉÑ¥±”ø(€€€€€€€€€€€€ñ…ÉÑ¥±”ø(€€€€€€€€€€€€€€ñÍÁ…¸øÀÈğ½ÍÁ…¸ø(€€€€€€€€€€€€€€ñ ÌùI•Ñ¥É…‘„½µ‰¥¹…‘„ğ½ Ìø(€€€€€€€€€€€€€€ñÀù½µ‰¥¹””…Õ…É‘”„½¹™¥Éµ‡Ÿ¼‘¼¡½Ë…É¥¼‘”É•Ñ¥É…‘„¸ğ½Àø(€€€€€€€€€€€€ğ½…ÉÑ¥±”ø(€€€€€€€€€€€€ñ…ÉÑ¥±”ø(€€€€€€€€€€€€€€ñÍÁ…¸øÀÌğ½ÍÁ…¸ø(€€€€€€€€€€€€€€ñ Ìù¥½½ğ½ Ìø(€€€€€€€€€€€€€€ñÀù¥ÍÁ½»µÙ•°ÁÉ¥¹¥Á…±µ•¹Ñ”¹½Ì™¥¹Ì‘”Í•µ…¹„¸ğ½Àø(€€€€€€€€€€€€ğ½…ÉÑ¥±”ø(€€€€€€€€€€€€ñ…ÉÑ¥±”±…ÍÍ9…µ”ô‰É½ÕÑ”µ…Éµ‘•±¥Ù•Éäˆø(€€€€€€€€€€€€€€ñ1…éåY¥‘•¼(€€€€€€€€€€€€€€€±…ÍÍ9…µ”ô‰É½ÕÑ”µ…ÉµÙ¥‘•¼ˆ(€€€€€€€€€€€€€€€ÍÉŒôˆ½Ù¥‘•½Ì½•¹ÑÉ•„µ•µÁ½É¥¼µØÄ¹µÀĞˆ(€€€€€€€€€€€€€€€Á½ÍÑ•Èôˆ½¥µ…•Ì½•¹ÑÉ•„µ•µÁ½É¥¼µØÄµÁ½ÍÑ•È¹İ•‰Àˆ(€€€€€€€€€€€€€€€±…‰•°ô‰¹ÑÉ•„‘¼µÃÍÉ¥¼Í…¥¹‘¼‘”µ½Ñ¼ˆ(€€€€€€€€€€€€€€¼ø(€€€€€€€€€€€€€€ñÍÁ…¸øÀĞğ½ÍÁ…¸ø(€€€€€€€€€€€€€€ñ Ìù¹ÑÉ•„ğ½ Ìø(€€€€€€€€€€€€€€ñÀù¹ÑÉ•„Á½ÈÑ•±•µ½Ñ¼¸½‰•ÉÑÕÉ„”Ñ…á„Ù…É¥…´½¹™½Éµ”¼•¹‘•É—¼¸ğ½Àø(€€€€€€€€€€€€ğ½…ÉÑ¥±”ø(€€€€€€€€€€ğ½‘¥Øø4(€€€€€€€€ğ½Í•Ñ¥½¸ø4(4(€€€€€€€€ñÍ•Ñ¥½¸±…ÍÍ9…µ”ô‰±½…Ñ¥½¸µÍ•Ñ¥½¸ˆ¥ô‰±½…±¥é……¼ˆ…É¥„µ±…‰•±±•‘‰äô‰±½…Ñ¥½¸µÑ¥Ñ±”ˆø4(€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰±½…Ñ¥½¸µ½Áäˆø4(€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰­¥­•È­¥­•Èµ±¥¡Ğˆù9¼•¹ÑÉ¼‘”M…¹Ñ„5…É¥„ğ½Àø4(€€€€€€€€€€€€ñ È¥ô‰±½…Ñ¥½¸µÑ¥Ñ±”ˆùA…ÍÍ”¹¼µÃÍÉ¥¼¸ğ½ Èø4(€€€€€€€€€€€€ñ…‘‘É•ÍÌø4(€€€€€€€€€€€€€IÕ„Y•»‰¹¥¼¥É•Ì°€ĞÜÀñ‰È€¼ø4(€€€€€€€€€€€€€•¹ÑÉ¼ƒ
-ÜM…¹Ñ„5…É¥„½ILñ‰È€¼ø4(€€€€€€€€€€€€€@€äÜÀÄÀ´ÀÀÔ4(€€€€€€€€€€€€ğ½…‘‘É•ÍÌø4(€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰±½…Ñ¥½¸µ…Ñ¥½¹Ìˆø4(€€€€€€€€€€€€€€ñ„4(€€€€€€€€€€€€€€€±…ÍÍ9…µ”ô‰‰ÕÑÑ½¸‰ÕÑÑ½¸µÁÉ¥µ…Éäˆ4(€€€€€€€€€€€€€€€¡É•˜ô‰¡ÑÑÁÌè¼½İİÜ¹½½±”¹½´½µ…ÁÌ½Í•…É ¼ı…Á¤ôÄ™ÅÕ•ÉäõIÕ„”ÈÁY•¸•Ì•É¹¥¼”ÈÁ¥É•Ì”É”ÈÀĞÜÀ”É”ÈÁM…¹Ñ„”ÈÁ5…É¥„”É”ÈÁILˆ4(€€€€€€€€€€€€€€€Ñ…É•Ğô‰}‰±…¹¬ˆ4(€€€€€€€€€€€€€€€É•°ô‰¹½É•™•ÉÉ•Èˆ4(€€€€€€€€€€€€€€€½¹±¥¬õì ¤€ôøÍ•¹‘Ù•¹Ğ ‰‘¥É•Ñ¥½¹Í}±¥¬ˆ°ìÁ±…•µ•¹Ğè€‰±½…Ñ¥½¸ˆô¥ô4(€€€€€€€€€€€€€€ø4(€€€€€€€€€€€€€€€½µ¼¡•…È€ñÍÁ…¸…É¥„µ¡¥‘‘•¸ô‰ÑÉÕ”ˆûŠ\ğ½ÍÁ…¸ø4(€€€€€€€€€€€€€€ğ½„ø4(€€€€€€€€€€€€€€ñ„4(€€€€€€€€€€€€€€€±…ÍÍ9…µ”ô‰Á¡½¹”µ±¥¹¬ˆ4(€€€€€€€€€€€€€€€¡É•˜ô‰Ñ•°è¬ÔÔÔÔÌÌÄÄÜÄĞÈˆ4(€€€€€€€€€€€€€€€½¹±¥¬õì ¤€ôøÍ•¹‘Ù•¹Ğ ‰Á¡½¹•}±¥¬ˆ°ìÁ±…•µ•¹Ğè€‰±½…Ñ¥½¸ˆô¥ô4(€€€€€€€€€€€€€€ø4(€€€€€€€€€€€€€€€€ ÔÔ¤€ÌÌÄÄ´ÜÄĞÈ4(€€€€€€€€€€€€€€ğ½„ø4(€€€€€€€€€€€€ğ½‘¥Øø4(€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰Í½¥…°µ±¥¹­Ìˆ…É¥„µ±…‰•°ô‰I•‘•ÌÍ½¥…¥Ìˆø4(€€€€€€€€€€€€€€ñ„¡É•˜ô‰¡ÑÑÁÌè¼½İİÜ¹¥¹ÍÑ…É…´¹½´½•µÁ½É¥½‘½™É…¹½Í´¼ˆÑ…É•Ğô‰}‰±…¹¬ˆÉ•°ô‰¹½É•™•ÉÉ•Èˆ½¹±¥¬õì ¤€ôøÍ•¹‘Ù•¹Ğ ‰Í½¥…±}±¥¬ˆ°ì¹•Ñİ½É¬è€‰¥¹ÍÑ…É…´ˆô¥ôù%¹ÍÑ…É…´ƒŠ\ğ½„ø4(€€€€€€€€€€€€€€ñ„¡É•˜ô‰¡ÑÑÁÌè¼½İİÜ¹™…•‰½½¬¹½´½•µÁ½É¥½‘½™É…¹½Í´¼ˆÑ…É•Ğô‰}‰±…¹¬ˆÉ•°ô‰¹½É•™•ÉÉ•Èˆ½¹±¥¬õì ¤€ôøÍ•¹‘Ù•¹Ğ ‰Í½¥…±}±¥¬ˆ°ì¹•Ñİ½É¬è€‰™…•‰½½¬ˆô¥ôù…•‰½½¬ƒŠ\ğ½„ø4(€€€€€€€€€€€€ğ½‘¥Øø4(€€€€€€€€€€ğ½‘¥Øø4(€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰µ…ÀµİÉ…Àˆø4(€€€€€€€€€€€€ñ¥™É…µ”4(€€€€€€€€€€€€€Ñ¥Ñ±”ô‰1½…±¥é‡Ÿ¼‘¼µÃÍÉ¥¼‘¼É…¹¼¹¼½½±”5…ÁÌˆ4(€€€€€€€€€€€€€ÍÉŒô‰¡ÑÑÁÌè¼½İİÜ¹½½±”¹½´½µ…ÁÌıÄõIÕ„”ÈÁY•¸•Ì•É¹¥¼”ÈÁ¥É•Ì”É”ÈÀĞÜÀ”É”ÈÁM…¹Ñ„”ÈÁ5…É¥„”É”ÈÁIL™½ÕÑÁÕĞõ•µ‰•ˆ4(€€€€€€€€€€€€€±½…‘¥¹œô‰±…éäˆ4(€€€€€€€€€€€€€É•™•ÉÉ•ÉA½±¥äô‰¹¼µÉ•™•ÉÉ•Èµİ¡•¸µ‘½İ¹É…‘”ˆ4(€€€€€€€€€€€€¼ø4(€€€€€€€€€€ğ½‘¥Øø4(€€€€€€€€ğ½Í•Ñ¥½¸ø4(4(€€€€€€€€ñÍ•Ñ¥½¸±…ÍÍ9…µ”ô‰™¥¹…°µÑ„ˆ…É¥„µ±…‰•±±•‘‰äô‰™¥¹…°µÑ¥Ñ±”ˆø(€€€€€€€€€€ñ‘¥Øø(€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰­¥­•È­¥­•Èµ±¥¡ĞˆùA•‘¥‘¼Á•±¼]¡…ÑÍÁÀğ½Àø(€€€€€€€€€€€€ñ È¥ô‰™¥¹…°µÑ¥Ñ±”ˆù¥„¼ÅÕ”ÁÉ½ÕÉ„¸•ÅÕ¥Á”½¹™¥Éµ„¸ğ½ Èø(€€€€€€€€€€ğ½‘¥Øø4(€€€€€€€€€€ñ]¡…ÑÍÁÁ1¥¹¬4(€€€€€€€€€€€±…ÍÍ9…µ”ô‰‰ÕÑÑ½¸‰ÕÑÑ½¸µÁÉ¥µ…Éäˆ4(€€€€€€€€€€€µ•ÍÍ…”õí•¹•É…±5•ÍÍ…•ô4(€€€€€€€€€€€¥¹Ñ•É•ÍĞô‰•É…°ˆ4(€€€€€€€€€€€Á±…•µ•¹Ğô‰™¥¹…±}Ñ„ˆ4(€€€€€€€€€€ø4(€€€€€€€€€€€…±…È½´„•ÅÕ¥Á”(€€€€€€€€€€ğ½]¡…ÑÍÁÁ1¥¹¬ø4(€€€€€€€€ğ½Í•Ñ¥½¸ø4(€€€€€€ğ½µ…¥¸ø4(4(€€€€€€ñ™½½Ñ•Èø4(€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰™½½Ñ•Èµ‰É…¹ˆø(€€€€€€€€€€ñ¥µœÍÉŒôˆ½•µÁ½É¥¼µ±½¼¹ÍÙœˆ…±Ğô‰µÃÍÉ¥¼‘¼É…¹¼I½Ñ¥ÍÍ•É¥”ˆ€¼ø(€€€€€€€€€€ñÀùI½Ñ¥ÍÍ•É¥”¹¼•¹ÑÉ¼‘”M…¹Ñ„5…É¥„°‘•Í‘”€ÈÀÈÈ¸ğ½Àø(€€€€€€€€ğ½‘¥Øø4(€€€€€€€€ñ‘¥Øø4(€€€€€€€€€€ñÍÑÉ½¹œùµÃÍÉ¥¼‘¼É…¹¼ğ½ÍÑÉ½¹œø4(€€€€€€€€€€ñÀùIÕ„Y•»‰¹¥¼¥É•Ì°€ĞÜÀƒ
-Ü•¹ÑÉ¼ñ‰È€¼ùM…¹Ñ„5…É¥„½ILğ½Àø4(€€€€€€€€ğ½‘¥Øø4(€€€€€€€€ñ‘¥Øø4(€€€€€€€€€€ñÍÑÉ½¹œù½¹Ñ…Ñ¼ğ½ÍÑÉ½¹œø4(€€€€€€€€€€ñÀøñ„¡É•˜ô‰Ñ•°è¬ÔÔÔÔÌÌÄÄÜÄĞÈˆø ÔÔ¤€ÌÌÄÄ´ÜÄĞÈğ½„øñ‰È€¼øñ„¡É•˜ô‰¡ÑÑÁÌè¼½İİÜ¹¥¹ÍÑ…É…´¹½´½•µÁ½É¥½‘½™É…¹½Í´¼ˆÑ…É•Ğô‰}‰±…¹¬ˆÉ•°ô‰¹½É•™•ÉÉ•Èˆù•µÁ½É¥½‘½™É…¹½Í´ğ½„øğ½Àø4(€€€€€€€€ğ½‘¥Øø4(€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰™½½Ñ•Èµ±•…°ˆø4(€€€€€€€€€€ñÀù9A(€ĞÔ¸ààÌ¸ÈÔà¼ÀÀÀÄ´ÄÄğ½Àø4(€€€€€€€€€€ñÀû
-¤€ÈÀÈØµÃÍÉ¥¼‘¼É…¹¼¸ğ½Àø4(€€€€€€€€ğ½‘¥Øø4(€€€€€€ğ½™½½Ñ•Èø4(4(€€€€€€ñ]¡…ÑÍÁÁ1¥¹¬4(€€€€€€€±…ÍÍ9…µ”ô‰µ½‰¥±”µİ¡…ÑÍ…ÁÀˆ4(€€€€€€€µ•ÍÍ…”õí•¹•É…±5•ÍÍ…•ô4(€€€€€€€¥¹Ñ•É•ÍĞô‰•É…°ˆ4(€€€€€€€Á±…•µ•¹Ğô‰µ½‰¥±•}™¥á•ˆ4(€€€€€€ø(€€€€€€€A•‘¥È…½É„(€€€€€€ğ½]¡…ÑÍÁÁ1¥¹¬ø(€€€€€€ñQÉ…­¥¹½¹Í•¹Ğ€¼ø4(€€€€ğ¼ø4(€€¤ì4)ô4(
+function ThemeToggle() {
+  const toggleTheme = () => {
+    const nextTheme =
+      document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+    document.documentElement.dataset.theme = nextTheme;
+    document.documentElement.style.colorScheme = nextTheme;
+    localStorage.setItem("emporio_theme", nextTheme);
+
+    const themeColor = document.querySelector<HTMLMetaElement>(
+      'meta[name="theme-color"]',
+    );
+    themeColor?.setAttribute(
+      "content",
+      nextTheme === "dark" ? "#171415" : "#f4f0e7",
+    );
+  };
+
+  return (
+    <button
+      className="theme-toggle"
+      type="button"
+      aria-label="Alternar entre modo claro e escuro"
+      title="Alternar entre modo claro e escuro"
+      onClick={toggleTheme}
+    >
+      <span className="theme-toggle-icon theme-toggle-moon" aria-hidden="true">
+        â˜¾
+      </span>
+      <span className="theme-toggle-icon theme-toggle-sun" aria-hidden="true">
+        â˜€
+      </span>
+      <span className="theme-toggle-label theme-toggle-dark-label">
+        Modo escuro
+      </span>
+      <span className="theme-toggle-label theme-toggle-light-label">
+        Modo claro
+      </span>
+    </button>
+  );
+}
+
+function LazyVideo({
+  src,
+  poster,
+  label,
+  className,
+  controls = false,
+}: {
+  src: string;
+  poster: string;
+  label: string;
+  className?: string;
+  controls?: boolean;
+}) {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [shouldLoad, setShouldLoad] = useState(false);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    if (!("IntersectionObserver" in window)) {
+      const timeoutId = window.setTimeout(() => setShouldLoad(true), 0);
+      return () => window.clearTimeout(timeoutId);
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting) return;
+        setShouldLoad(true);
+        observer.disconnect();
+      },
+      { rootMargin: "360px 0px" },
+    );
+
+    observer.observe(video);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video || !shouldLoad) return;
+
+    video.load();
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    void video.play().catch(() => undefined);
+  }, [shouldLoad]);
+
+  return (
+    <video
+      ref={videoRef}
+      className={className}
+      controls={controls}
+      loop
+      muted
+      playsInline
+      preload="none"
+      poster={poster}
+      aria-label={label}
+    >
+      {shouldLoad && <source src={src} type="video/mp4" />}
+      Seu navegador nÃ£o oferece suporte Ã  reproduÃ§Ã£o de vÃ­deo.
+    </video>
+  );
+}
+
+export default function Home() {
+  const [activeCategory, setActiveCategory] = useState("acougue");
+  const currentCategory = useMemo(
+    () => menuCategories.find((category) => category.id === activeCategory)!,
+    [activeCategory],
+  );
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const keys = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"];
+    const attribution = Object.fromEntries(
+      keys
+        .map((key) => [key, params.get(key)])
+        .filter((entry): entry is [string, string] => Boolean(entry[1])),
+    );
+    if (Object.keys(attribution).length) {
+      sessionStorage.setItem("emporio_attribution", JSON.stringify(attribution));
+    }
+  }, []);
+
+  useEffect(() => {
+    const reached = new Set<number>();
+    const thresholds = [25, 50, 75, 90];
+    const onScroll = () => {
+      const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+      if (scrollable <= 0) return;
+      const percent = Math.round((window.scrollY / scrollable) * 100);
+      thresholds.forEach((threshold) => {
+        if (percent >= threshold && !reached.has(threshold)) {
+          reached.add(threshold);
+          sendEvent("scroll_depth", { percent_scrolled: threshold });
+        }
+      });
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  const selectCategory = (categoryId: string) => {
+    setActiveCategory(categoryId);
+    sendEvent("category_select", { category_name: categoryId });
+  };
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "FoodEstablishment",
+    name: "EmpÃ³rio do Frango",
+    url: "https://emporiodofrango.com.br/",
+    description:
+      "Rotisserie e aÃ§ougue com galeto temperado, frango assado de fim de semana e almoÃ§o em Santa Maria.",
+    image: "https://emporiodofrango.com.br/images/hero-frango-margens.webp",
+    foundingDate: "2022",
+    taxID: "45.883.258/0001-11",
+    telephone: "+55 55 3311-7142",
+    priceRange: "$$",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Rua VenÃ¢ncio Aires, 470",
+      addressLocality: "Santa Maria",
+      addressRegion: "RS",
+      postalCode: "97010-005",
+      addressCountry: "BR",
+    },
+    areaServed: "Santa Maria, RS",
+    sameAs: [
+      "https://www.instagram.com/emporiodofrangosm/",
+      "https://www.facebook.com/emporiodofrangosm/",
+    ],
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: "https://schema.org/Monday",
+        opens: "16:00",
+        closes: "21:00",
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: [
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday",
+        ],
+        opens: "09:00",
+        closes: "12:30",
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: [
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday",
+        ],
+        opens: "16:00",
+        closes: "21:00",
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: "https://schema.org/Saturday",
+        opens: "09:00",
+        closes: "13:30",
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: "https://schema.org/Saturday",
+        opens: "16:00",
+        closes: "20:00",
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: "https://schema.org/Sunday",
+        opens: "08:30",
+        closes: "13:30",
+      },
+    ],
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+
+      <header className="site-header">
+        <a className="brand" href="#inicio" aria-label="EmpÃ³rio do Frango â€” inÃ­cio">
+          <img src="/emporio-logo.svg" alt="EmpÃ³rio do Frango Rotisserie" />
+        </a>
+        <nav aria-label="NavegaÃ§Ã£o principal">
+          <a href="#cardapio">CardÃ¡pio</a>
+          <a href="#galeria">Galeria</a>
+          <a href="#pao">PÃ£o fresco</a>
+          <a href="#horarios">HorÃ¡rios</a>
+          <a href="#localizacao">LocalizaÃ§Ã£o</a>
+        </nav>
+        <div className="header-actions">
+          <ThemeToggle />
+          <WhatsAppLink
+            className="button button-small"
+            message={generalMessage}
+            interest="geral"
+            placement="header"
+          >
+            Fazer pedido
+          </WhatsAppLink>
+        </div>
+      </header>
+
+      <main>
+        <section className="hero" id="inicio">
+          <div className="hero-copy">
+            <p className="kicker">Rotisserie no Centro de Santa Maria</p>
+            <h1>
+              Do EmpÃ³rio para <em>a sua mesa.</em>
+            </h1>
+            <p className="hero-lead">
+              Da produÃ§Ã£o do dia ao pedido para levar, vocÃª encontra sabor e
+              praticidade no Centro de Santa Maria. Consulte a equipe pelo WhatsApp.
+            </p>
+            <div className="hero-actions">
+              <WhatsAppLink
+                className="button button-primary"
+                message={heroMessage}
+                interest="geral"
+                placement="hero"
+              >
+                Fazer pedido
+              </WhatsAppLink>
+              <a className="text-link" href="#cardapio">
+                Ver cardÃ¡pio <span aria-hidden="true">â†“</span>
+              </a>
+            </div>
+          </div>
+
+          <div
+            className="hero-media"
+            role="group"
+            aria-label="Destaques do EmpÃ³rio do Frango"
+          >
+            <div className="hero-slideshow">
+              {heroSlides.map((slide, index) => (
+                <img
+                  className={`hero-slide hero-slide-${index + 1}`}
+                  src={slide.src}
+                  alt={slide.alt}
+                  width="1536"
+                  height="1024"
+                  loading={index === 0 ? "eager" : "lazy"}
+                  fetchPriority={index === 0 ? "high" : "auto"}
+                  key={slide.src}
+                />
+              ))}
+            </div>
+            <div className="hero-stamp" aria-label="EmpÃ³rio em atividade desde 2022">
+              <strong>Desde</strong>
+              <span>2022</span>
+            </div>
+            <div className="hero-caption">
+              <strong>Centro de Santa Maria</strong>
+            </div>
+          </div>
+        </section>
+
+        <section className="section intent-section" id="categorias" aria-labelledby="intent-title">
+          <div className="section-heading">
+            <div>
+              <p className="kicker">Do balcÃ£o ao almoÃ§o</p>
+              <h2 id="intent-title">O que tem no EmpÃ³rio.</h2>
+            </div>
+          </div>
+
+          <div className="intent-grid">
+            {intentCategories.map((category, index) => (
+              <a
+                className={`intent-card intent-card-${index + 1}`}
+                href="#cardapio"
+                key={category.id}
+                onClick={() => selectCategory(category.id)}
+              >
+                <span
+                  className="intent-card-media"
+                  style={{ backgroundImage: `url(${category.image})` }}
+                  aria-hidden="true"
+                />
+                <span className="intent-index">0{index + 1}</span>
+                <div>
+                  <strong>{category.title}</strong>
+                  <small>{category.availability}</small>
+                </div>
+                <span className="intent-arrow" aria-hidden="true">â†˜</span>
+              </a>
+            ))}
+          </div>
+        </section>
+
+        <section className="section menu-section" id="cardapio" aria-labelledby="menu-title">
+          <div className="section-heading section-heading-dark">
+            <div>
+              <p className="kicker">CardÃ¡pio</p>
+              <h2 id="menu-title">Escolha seu pedido.</h2>
+            </div>
+          </div>
+
+          <div className="menu-tabs" role="tablist" aria-label="Categorias do cardÃ¡pio">
+            {menuCategories.map((category) => (
+              <button
+                key={category.id}
+                type="button"
+                role="tab"
+                aria-selected={activeCategory === category.id}
+                aria-controls="menu-panel"
+                className={activeCategory === category.id ? "active" : ""}
+                onClick={() => selectCategory(category.id)}
+              >
+                {category.title}
+              </button>
+            ))}
+          </div>
+
+          <div className="menu-panel" id="menu-panel" role="tabpanel">
+            <div className="menu-intro">
+              <p className="menu-eyebrow">{currentCategory.eyebrow}</p>
+              <h3 className={currentCategory.title.length > 13 ? "menu-title-long" : ""}>
+                {currentCategory.title}
+              </h3>
+              <p>{currentCategory.description}</p>
+              <span className="availability">{currentCategory.availability}</span>
+              <WhatsAppLink
+                className="button button-primary"
+                message={currentCategory.message}
+                interest={currentCategory.id}
+                placement="menu_panel"
+              >
+                Consultar no WhatsApp
+              </WhatsAppLink>
+            </div>
+
+            <div
+              className={`menu-items menu-items-${
+                currentCategory.items.length === 1
+                  ? "single"
+                  : currentCategory.items.length === 2
+                    ? "pair"
+                    : "list"
+              }`}
+            >
+              {currentCategory.items.map((item) => (
+                <article className="menu-item" key={item.name}>
+                  {item.image ? (
+                    item.imageCrop ? (
+                      <span className={`menu-item-image-crop menu-item-image-crop-${item.imageCrop}`}>
+                        <img src={item.image} alt={item.imageAlt} width="1536" height="1024" loading="lazy" />
+                      </span>
+                    ) : (
+                      <img
+                        className={item.imageFill ? "menu-item-image-fill" : undefined}
+                        src={item.image}
+                        alt={item.imageAlt}
+                        width="88"
+                        height="88"
+                        loading="lazy"
+                      />
+                    )
+                  ) : (
+                    <span className="menu-item-placeholder" aria-hidden="true">Sob consulta</span>
+                  )}
+                  <div className="menu-item-copy">
+                    <h4>{item.name}</h4>
+                    {item.detail && <p>{item.detail}</p>}
+                  </div>
+                  <strong>{item.price}</strong>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section
+          className="skewer-spotlight"
+          id="espetinhos"
+          aria-labelledby="skewer-spotlight-title"
+        >
+          <div
+            className="skewer-spotlight-media"
+            role="img"
+            aria-label="Espetinhos de carne, coraÃ§Ã£o, queijo coalho e pÃ£o de alho prontos"
+          />
+          <div className="skewer-spotlight-copy">
+            <p className="kicker kicker-light">Segunda a sÃ¡bado, Ã  noite</p>
+            <h2 id="skewer-spotlight-title">A noite pede espetinho na brasa.</h2>
+            <p>
+              Escolha seu sabor, consulte as opÃ§Ãµes do dia e peÃ§a pelo WhatsApp.
+            </p>
+            <WhatsAppLink
+              className="button button-primary"
+              message="OlÃ¡! Quero consultar os espetinhos disponÃ­veis hoje e fazer um pedido."
+              interest="espetinhos"
+              placement="skewer_spotlight"
+            >
+              Pedir espetinhos
+            </WhatsAppLink>
+          </div>
+        </section>
+
+        <section className="bread-section" id="pao" aria-labelledby="bread-title">
+          <div className="bread-media">
+            <img src="/images/pao-fresquinho.webp" alt="PÃ£es fresquinhos recÃ©m-assados" width="1448" height="1086" loading="lazy" />
+            <div className="bread-clock" aria-label="PÃ£o fresco a partir das 16 horas de segunda a sÃ¡bado">
+              <span>A partir das</span>
+              <strong>16h</strong>
+            </div>
+          </div>
+          <div className="bread-copy">
+            <p className="kicker">PÃ£o cacetinho</p>
+            <h2 id="bread-title">PÃ£o fresco todos os dias.</h2>
+            <p>
+              De segunda a sÃ¡bado, a partir das 16h. Aos domingos, pela manhÃ£.
+            </p>
+          </div>
+          <WhatsAppLink
+            className="button button-dark"
+            message="OlÃ¡! Vim pelo site e quero reservar pÃ£o cacetinho. Qual Ã© o horÃ¡rio disponÃ­vel no dia escolhido?"
+            interest="pao_fresco"
+            placement="bread_highlight"
+          >
+            Reservar pÃ£o
+          </WhatsAppLink>
+        </section>
+
+        <section className="quality-section" id="seguranca-alimentar" aria-labelledby="quality-title">
+          <div className="quality-media">
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              preload="metadata"
+              poster="/images/coracao-temperado-maquina-poster.jpg"
+              aria-label="CoraÃ§Ãµes de frango recebendo tempero em maquinÃ¡rio profissional"
+            >
+              <source src="/videos/coracao-temperado-maquina.mp4" type="video/mp4" />
+              Seu navegador nÃ£o oferece suporte Ã  reproduÃ§Ã£o de vÃ­deo.
+            </video>
+          </div>
+          <div className="quality-copy">
+            <p className="kicker kicker-light">ProduÃ§Ã£o acompanhada pelo SIM</p>
+            <h2 id="quality-title">ProduÃ§Ã£o regularizada, do preparo ao beneficiamento.</h2>
+            <p>
+              O registro municipal abrange a manipulaÃ§Ã£o e o beneficiamento de
+              carnes. O galeto temperado Ã© o principal produto da casa.
+            </p>
+            <div className="sanitary-badge">
+              <strong>Estabelecimento registrado no S.I.M. â€” nÂº 061</strong>
+              <span>ManipulaÃ§Ã£o e beneficiamento de carnes com acompanhamento e fiscalizaÃ§Ã£o.</span>
+            </div>
+            <ul>
+              <li><span>01</span>ResponsÃ¡vel tÃ©cnica veterinÃ¡ria</li>
+              <li><span>02</span>Sala de assepsia</li>
+              <li><span>03</span>Ambiente climatizado</li>
+              <li><span>04</span>MaquinÃ¡rio especÃ­fico</li>
+            </ul>
+          </div>
+        </section>
+
+        <section className="section preorder-section" aria-labelledby="preorder-title">
+          <div className="preorder-heading">
+            <p className="kicker">Pedidos de fim de semana</p>
+            <h2 id="preorder-title">Reserve com antecedÃªncia.</h2>
+          </div>
+          <ol className="preorder-list">
+            <li><span>1</span><div><strong>FaÃ§a sua reserva</strong><p>Informe o dia e a quantidade.</p></div></li>
+            <li><span>2</span><div><strong>Aguarde a confirmaÃ§Ã£o</strong><p>A equipe verifica lote, horÃ¡rio e disponibilidade.</p></div></li>
+            <li><span>3</span><div><strong>Combine como receber</strong><p>Escolha retirada ou entrega, conforme o endereÃ§o.</p></div></li>
+          </ol>
+          <WhatsAppLink
+            className="button button-dark"
+            message="OlÃ¡! Vim pelo site e quero fazer uma encomenda antecipada."
+            interest="encomenda_antecipada"
+            placement="preorder"
+          >
+            Fazer pedido
+          </WhatsAppLink>
+        </section>
+
+        <section className="section gallery-section" id="galeria" aria-labelledby="gallery-title">
+          <div className="section-heading">
+            <div>
+              <p className="kicker">Da cozinha e do balcÃ£o</p>
+              <h2 id="gallery-title">O que vocÃª encontra no EmpÃ³rio.</h2>
+            </div>
+          </div>
+          <div className="gallery-showcase">
+            <figure className="gallery-video">
+              <LazyVideo
+                controls
+                src="/videos/frango-assado-producao-v1.mp4"
+                poster="/images/frango-assado-producao-v1-poster.webp"
+                label="Frangos assados saindo da mÃ¡quina e sendo preparados para retirada"
+              />
+              <figcaption>Frango assado: da mÃ¡quina Ã  embalagem</figcaption>
+            </figure>
+
+            <div className="gallery-grid">
+              <figure>
+                <img src="/images/real-frangos-assados.png" alt="Frangos inteiros assados na produÃ§Ã£o do EmpÃ³rio" width="404" height="483" loading="lazy" decoding="async" />
+                <figcaption>Frango assado</figcaption>
+              </figure>
+              <figure>
+                <img src="/images/marmitex-almoco-v2.jpg" alt="Marmitex com refeiÃ§Ã£o completa" width="1600" height="1067" loading="lazy" decoding="async" />
+                <figcaption>Marmitex</figcaption>
+              </figure>
+              <figure>
+                <img src="/images/real-maionese-400g.png" alt="Maionese de 400 gramas preparada pelo EmpÃ³rio" width="370" height="531" loading="lazy" decoding="async" />
+                <figcaption>Maionese 400 g</figcaption>
+              </figure>
+              <figure>
+                <img src="/images/real-conveniencia-loja.png" alt="Prateleiras da conveniÃªncia do EmpÃ³rio" width="401" height="595" loading="lazy" decoding="async" />
+                <figcaption>ConveniÃªncia</figcaption>
+              </figure>
+              <figure>
+                <img src="/images/risoto-real-v1.webp" alt="Risoto tradicional de frango com a aparÃªncia real do produto" width="1320" height="973" loading="lazy" decoding="async" />
+                <figcaption>Risoto 900 g</figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <section className="section hours-section" id="horarios" aria-labelledby="hours-title">
+          <div className="hours-heading">
+            <div>
+              <p className="kicker">Antes de sair de casa</p>
+              <h2 id="hours-title">HorÃ¡rio da loja e dias de produÃ§Ã£o.</h2>
+            </div>
+            <div className="hours-action">
+              <WhatsAppLink
+                className="button button-primary"
+                message="OlÃ¡! Quero confirmar os horÃ¡rios e a disponibilidade dos produtos de hoje."
+                interest="horarios"
+                placement="hours"
+              >
+                Confirmar disponibilidade
+              </WhatsAppLink>
+            </div>
+          </div>
+
+          <div className="hours-content">
+            <div className="opening-hours">
+              <div className="opening-hours-header">
+                <h3>HorÃ¡rios de atendimento</h3>
+                <span>Rua VenÃ¢ncio Aires, 470</span>
+              </div>
+              <dl>
+                <div><dt>Segunda</dt><dd>16h â€” 21h</dd></div>
+                <div><dt>TerÃ§a a sexta</dt><dd>9h â€” 12h30<br />16h â€” 21h</dd></div>
+                <div><dt>SÃ¡bado</dt><dd>9h â€” 13h30<br />16h â€” 20h</dd></div>
+                <div><dt>Domingos e feriados</dt><dd>8h30 â€” 13h30</dd></div>
+              </dl>
+            </div>
+          </div>
+        </section>
+
+        <section className="section routes-section" aria-labelledby="routes-title">
+          <div className="section-heading">
+            <div>
+              <p className="kicker">Pedido, retirada e entrega</p>
+              <h2 id="routes-title">PeÃ§a antes de sair.</h2>
+            </div>
+            <p>Confirme o pedido e combine a retirada ou a entrega pelo WhatsApp.</p>
+          </div>
+          <div className="routes-grid">
+            <article>
+              <span>01</span>
+              <h3>Pedido pelo WhatsApp</h3>
+              <p>Encomendas, cardÃ¡pio do dia e disponibilidade.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Retirada combinada</h3>
+              <p>Combine e aguarde a confirmaÃ§Ã£o do horÃ¡rio de retirada.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>iFood</h3>
+              <p>DisponÃ­vel principalmente nos fins de semana.</p>
+            </article>
+            <article className="route-card-delivery">
+              <LazyVideo
+                className="route-card-video"
+                src="/videos/entrega-emporio-v1.mp4"
+                poster="/images/entrega-emporio-v1-poster.webp"
+                label="Entrega do EmpÃ³rio saindo de moto"
+              />
+              <span>04</span>
+              <h3>Entrega</h3>
+              <p>Entrega por telemoto. Cobertura e taxa variam conforme o endereÃ§o.</p>
+            </article>
+          </div>
+        </section>
+
+        <section className="location-section" id="localizacao" aria-labelledby="location-title">
+          <div className="location-copy">
+            <p className="kicker kicker-light">No Centro de Santa Maria</p>
+            <h2 id="location-title">Passe no EmpÃ³rio.</h2>
+            <address>
+              Rua VenÃ¢ncio Aires, 470<br />
+              Centro Â· Santa Maria/RS<br />
+              CEP 97010-005
+            </address>
+            <div className="location-actions">
+              <a
+                className="button button-primary"
+                href="https://www.google.com/maps/search/?api=1&query=Rua%20Ven%C3%A2ncio%20Aires%2C%20470%2C%20Santa%20Maria%2C%20RS"
+                target="_blank"
+                rel="noreferrer"
+                onClick={() => sendEvent("directions_click", { placement: "location" })}
+              >
+                Como chegar <span aria-hidden="true">â†—</span>
+              </a>
+              <a
+                className="phone-link"
+                href="tel:+555533117142"
+                onClick={() => sendEvent("phone_click", { placement: "location" })}
+              >
+                (55) 3311-7142
+              </a>
+            </div>
+            <div className="social-links" aria-label="Redes sociais">
+              <a href="https://www.instagram.com/emporiodofrangosm/" target="_blank" rel="noreferrer" onClick={() => sendEvent("social_click", { network: "instagram" })}>Instagram â†—</a>
+              <a href="https://www.facebook.com/emporiodofrangosm/" target="_blank" rel="noreferrer" onClick={() => sendEvent("social_click", { network: "facebook" })}>Facebook â†—</a>
+            </div>
+          </div>
+          <div className="map-wrap">
+            <iframe
+              title="LocalizaÃ§Ã£o do EmpÃ³rio do Frango no Google Maps"
+              src="https://www.google.com/maps?q=Rua%20Ven%C3%A2ncio%20Aires%2C%20470%2C%20Santa%20Maria%2C%20RS&output=embed"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+        </section>
+
+        <section className="final-cta" aria-labelledby="final-title">
+          <div>
+            <p className="kicker kicker-light">Pedido pelo WhatsApp</p>
+            <h2 id="final-title">Diga o que procura. A equipe confirma.</h2>
+          </div>
+          <WhatsAppLink
+            className="button button-primary"
+            message={generalMessage}
+            interest="geral"
+            placement="final_cta"
+          >
+            Falar com a equipe
+          </WhatsAppLink>
+        </section>
+      </main>
+
+      <footer>
+        <div className="footer-brand">
+          <img src="/emporio-logo.svg" alt="EmpÃ³rio do Frango Rotisserie" />
+          <p>Rotisserie no Centro de Santa Maria, desde 2022.</p>
+        </div>
+        <div>
+          <strong>EmpÃ³rio do Frango</strong>
+          <p>Rua VenÃ¢ncio Aires, 470 Â· Centro<br />Santa Maria/RS</p>
+        </div>
+        <div>
+          <strong>Contato</strong>
+          <p><a href="tel:+555533117142">(55) 3311-7142</a><br /><a href="https://www.instagram.com/emporiodofrangosm/" target="_blank" rel="noreferrer">@emporiodofrangosm</a></p>
+        </div>
+        <div className="footer-legal">
+          <p>CNPJ 45.883.258/0001-11</p>
+          <p>Â© 2026 EmpÃ³rio do Frango.</p>
+        </div>
+      </footer>
+
+      <WhatsAppLink
+        className="mobile-whatsapp"
+        message={generalMessage}
+        interest="geral"
+        placement="mobile_fixed"
+      >
+        Pedir agora
+      </WhatsAppLink>
+      <TrackingConsent />
+    </>
+  );
+}
