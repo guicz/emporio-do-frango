@@ -1057,13 +1057,7 @@ export default function Home() {
               <h3>iFood</h3>
               <p>Disponível principalmente nos fins de semana.</p>
             </article>
-            <article className="route-card-delivery">
-              <LazyVideo
-                className="route-card-video"
-                src="/videos/entrega-emporio-v1.mp4"
-                poster="/images/entrega-emporio-v1-poster.webp"
-                label="Entrega do Empório saindo de moto"
-              />
+            <article>
               <span>04</span>
               <h3>Entrega</h3>
               <p>Entrega por telemoto. Cobertura e taxa variam conforme o endereço.</p>

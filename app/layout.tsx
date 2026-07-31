@@ -36,7 +36,7 @@ export const metadata: Metadata = {
       "Do Empório para a sua mesa: opções prontas e produtos temperados para preparar em casa, no Centro de Santa Maria.",
     images: [
       {
-        url: "/og.png",
+        url: "/og-v2.png",
         width: 1200,
         height: 630,
         alt: "Selo circular do Empório do Frango ao lado de um frango assado dourado",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Empório do Frango | Rotisserie no Centro de Santa Maria",
     description: "Do Empório para a sua mesa, no Centro de Santa Maria.",
-    images: ["/og.png"],
+    images: ["/og-v2.png"],
   },
   robots: {
     index: true,

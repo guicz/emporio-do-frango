@@ -1473,26 +1473,6 @@ html[data-theme="dark"] .opening-hours dl > div {
   border-radius: 22px;
 }
 
-.route-card-delivery {
-  grid-template-rows: 118px auto auto auto;
-  padding-top: 0 !important;
-}
-
-.route-card-video {
-  display: block;
-  width: calc(100% + 68px);
-  height: 118px;
-  margin: 0 -34px 24px;
-  border-bottom: 1px solid rgba(35, 31, 32, 0.24);
-  background: #231f20;
-  object-fit: cover;
-  object-position: center 32%;
-}
-
-.route-card-delivery h3 {
-  margin-top: 24px;
-}
-
 .routes-grid article > span {
   font-family: Georgia, "Times New Roman", serif;
   font-style: italic;
