@@ -31,22 +31,22 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     siteName: "Empório do Frango",
     url: "https://emporiodofrango.com.br/",
-    title: "Empório do Frango | Açougue e rotisserie em Santa Maria",
+    title: "Empório do Frango | Rotisserie no Centro de Santa Maria",
     description:
-      "Galeto temperado, opções do açougue e frango assado de fim de semana no Centro de Santa Maria.",
+      "Do Empório para a sua mesa: opções prontas e produtos temperados para preparar em casa, no Centro de Santa Maria.",
     images: [
       {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "Empório do Frango: açougue, galeto temperado e frango assado em Santa Maria",
+        alt: "Selo circular do Empório do Frango ao lado de um frango assado dourado",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Empório do Frango | Açougue e rotisserie em Santa Maria",
-    description: "Galeto temperado, opções do açougue, frango assado e marmitex no Centro de Santa Maria.",
+    title: "Empório do Frango | Rotisserie no Centro de Santa Maria",
+    description: "Do Empório para a sua mesa, no Centro de Santa Maria.",
     images: ["/og.png"],
   },
   robots: {

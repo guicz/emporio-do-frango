@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 const WHATSAPP_NUMBER = "555533117142";
 
@@ -200,11 +200,11 @@ const menuCategories: MenuCategory[] = [
     availability: "Sábados, domingos e feriados, no almoço",
     message:
       "Olá! Quero consultar maionese e polenta para completar meu pedido.",
-    image: "/images/maionese-polenta-v6.jpg",
-    imageAlt: "Maionese caseira e polenta dourada",
+    image: "/images/maionese-polenta-v7.webp",
+    imageAlt: "Maionese caseira e polenta frita bem dourada",
     items: [
       { name: "Maionese 400 g", detail: "", price: "R$ 14,00", image: "/images/real-maionese-400g.png", imageAlt: "Maionese de 400 gramas preparada pelo Empório", imageFill: true },
-      { name: "Polenta extra", detail: "7 pedaços.", price: "R$ 5,00", image: "/images/maionese-polenta-v6.jpg", imageAlt: "Polenta grossa e dourada servida como acompanhamento", imageCrop: "right" },
+      { name: "Polenta extra", detail: "7 pedaços.", price: "R$ 5,00", image: "/images/maionese-polenta-v7.webp", imageAlt: "Polenta grossa frita, crocante e bem dourada", imageCrop: "right" },
     ],
   },
   {
@@ -463,6 +463,71 @@ function ThemeToggle() {
         Modo claro
       </span>
     </button>
+  );
+}
+
+function LazyVideo({
+  src,
+  poster,
+  label,
+  className,
+  controls = false,
+}: {
+  src: string;
+  poster: string;
+  label: string;
+  className?: string;
+  controls?: boolean;
+}) {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [shouldLoad, setShouldLoad] = useState(false);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    if (!("IntersectionObserver" in window)) {
+      const timeoutId = window.setTimeout(() => setShouldLoad(true), 0);
+      return () => window.clearTimeout(timeoutId);
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting) return;
+        setShouldLoad(true);
+        observer.disconnect();
+      },
+      { rootMargin: "360px 0px" },
+    );
+
+    observer.observe(video);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video || !shouldLoad) return;
+
+    video.load();
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    void video.play().catch(() => undefined);
+  }, [shouldLoad]);
+
+  return (
+    <video
+      ref={videoRef}
+      className={className}
+      controls={controls}
+      loop
+      muted
+      playsInline
+      preload="none"
+      poster={poster}
+      aria-label={label}
+    >
+      {shouldLoad && <source src={src} type="video/mp4" />}
+      Seu navegador não oferece suporte à reprodução de vídeo.
+    </video>
   );
 }
 
@@ -900,20 +965,13 @@ export default function Home() {
           </div>
           <div className="gallery-showcase">
             <figure className="gallery-video">
-              <video
-                autoPlay
+              <LazyVideo
                 controls
-                loop
-                muted
-                playsInline
-                preload="metadata"
-                poster="/images/linguicas-selecionadas-poster.jpg"
-                aria-label="Vídeo mostrando opções de linguiças selecionadas"
-              >
-                <source src="/videos/linguicas-selecionadas.mp4" type="video/mp4" />
-                Seu navegador não oferece suporte à reprodução de vídeo.
-              </video>
-              <figcaption>Linguiças selecionadas</figcaption>
+                src="/videos/frango-assado-producao-v1.mp4"
+                poster="/images/frango-assado-producao-v1-poster.webp"
+                label="Frangos assados saindo da máquina e sendo preparados para retirada"
+              />
+              <figcaption>Frango assado: da máquina à embalagem</figcaption>
             </figure>
 
             <div className="gallery-grid">
@@ -999,7 +1057,13 @@ export default function Home() {
               <h3>iFood</h3>
               <p>Disponível principalmente nos fins de semana.</p>
             </article>
-            <article>
+            <article className="route-card-delivery">
+              <LazyVideo
+                className="route-card-video"
+                src="/videos/entrega-emporio-v1.mp4"
+                poster="/images/entrega-emporio-v1-poster.webp"
+                label="Entrega do Empório saindo de moto"
+              />
               <span>04</span>
               <h3>Entrega</h3>
               <p>Entrega por telemoto. Cobertura e taxa variam conforme o endereço.</p>
