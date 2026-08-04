@@ -1584,6 +1584,7 @@ html[data-theme="dark"] .opening-hours dl > div {
 
 .ifood-review-list {
   display: grid;
+  align-self: center;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
 }
@@ -1593,7 +1594,7 @@ html[data-theme="dark"] .opening-hours dl > div {
   min-width: 0;
   min-height: 340px;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 24px;
   margin: 0;
   padding: clamp(26px, 3vw, 38px);
   border: 1px solid var(--line);
@@ -1602,7 +1603,7 @@ html[data-theme="dark"] .opening-hours dl > div {
 }
 
 .ifood-review-card > p {
-  margin: 32px 0;
+  margin: 0;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.45rem, 2vw, 2rem);
   font-style: italic;
@@ -1612,6 +1613,7 @@ html[data-theme="dark"] .opening-hours dl > div {
 .ifood-review-meta {
   display: grid;
   gap: 6px;
+  margin-top: auto;
   padding-top: 22px;
   border-top: 1px solid var(--line);
 }
