@@ -1105,7 +1105,9 @@ export default function Home() {
                 <strong>5,0</strong>
                 <span aria-hidden="true">★★★★★</span>
               </div>
-              <h2 id="ifood-reviews-title">Somos 5 estrelas no iFood.</h2>
+              <h2 id="ifood-reviews-title">
+                Somos 5 estrelas <span>no iFood.</span>
+              </h2>
               <p>Nota baseada em 59 avaliações no iFood.</p>
               <a
                 className="button button-primary"
