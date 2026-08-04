@@ -3,6 +3,26 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 
 const WHATSAPP_NUMBER = "555533117142";
+const IFOOD_URL =
+  "https://www.ifood.com.br/delivery/santa-maria-rs/emporio-do-frango-centro/9cb08428-ef19-4f02-af98-0d41fbe3b13e";
+
+const ifoodReviews = [
+  {
+    author: "Ana",
+    date: "26/07/2026",
+    quote: "Melhor frango da cidade com certeza!",
+  },
+  {
+    author: "Deise",
+    date: "25/07/2026",
+    quote: "Frango bem temperado, saboroso, molhadinho.",
+  },
+  {
+    author: "Fran",
+    date: "05/07/2026",
+    quote: "O melhor frango da cidade, temperado na medida certa.",
+  },
+];
 
 type TrackingWindow = Window & {
   dataLayer?: unknown[];
@@ -1042,26 +1062,76 @@ export default function Home() {
             <p>Confirme o pedido e combine a retirada ou a entrega pelo WhatsApp.</p>
           </div>
           <div className="routes-grid">
-            <article>
+            <article className="route-card">
               <span>01</span>
               <h3>Pedido pelo WhatsApp</h3>
               <p>Encomendas, cardápio do dia e disponibilidade.</p>
             </article>
-            <article>
+            <article className="route-card">
               <span>02</span>
               <h3>Retirada combinada</h3>
               <p>Combine e aguarde a confirmação do horário de retirada.</p>
             </article>
-            <article>
+            <a
+              className="route-card route-card-link"
+              href={IFOOD_URL}
+              target="_blank"
+              rel="noreferrer"
+              onClick={() => sendEvent("ifood_click", { placement: "routes" })}
+              aria-label="Abrir o Empório do Frango no iFood"
+            >
               <span>03</span>
               <h3>iFood</h3>
               <p>Disponível principalmente nos fins de semana.</p>
-            </article>
-            <article>
+              <strong>Abrir no iFood <span aria-hidden="true">↗</span></strong>
+            </a>
+            <article className="route-card">
               <span>04</span>
               <h3>Entrega</h3>
               <p>Entrega por telemoto. Cobertura e taxa variam conforme o endereço.</p>
             </article>
+          </div>
+        </section>
+
+        <section
+          className="section ifood-reviews-section"
+          id="avaliacoes-ifood"
+          aria-labelledby="ifood-reviews-title"
+        >
+          <div className="ifood-proof">
+            <div className="ifood-rating-panel">
+              <p className="kicker kicker-light">Opinião de quem já pediu</p>
+              <div className="ifood-rating" aria-label="5 de 5 estrelas no iFood">
+                <strong>5,0</strong>
+                <span aria-hidden="true">★★★★★</span>
+              </div>
+              <h2 id="ifood-reviews-title">Somos 5 estrelas no iFood.</h2>
+              <p>Nota baseada em 59 avaliações no iFood.</p>
+              <a
+                className="button button-primary"
+                href={IFOOD_URL}
+                target="_blank"
+                rel="noreferrer"
+                onClick={() => sendEvent("ifood_click", { placement: "reviews" })}
+              >
+                Ver avaliações no iFood <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+
+            <div className="ifood-review-list" aria-label="Destaques das avaliações no iFood">
+              {ifoodReviews.map((review, index) => (
+                <blockquote className="ifood-review-card" key={`${review.author}-${index}`}>
+                  <div className="ifood-review-stars" aria-label="5 de 5 estrelas">
+                    <span aria-hidden="true">★★★★★</span>
+                  </div>
+                  <p>“{review.quote}”</p>
+                  <div className="ifood-review-meta">
+                    <cite>{review.author}</cite>
+                    <span>{review.date} · iFood</span>
+                  </div>
+                </blockquote>
+              ))}
+            </div>
           </div>
         </section>
 

@@ -39,6 +39,13 @@ test("renders Empório do Frango production metadata", async () => {
   assert.match(html, /\/images\/espetinhos-sem-texto\.webp/i);
   assert.match(html, /A noite pede espetinho na brasa\./i);
   assert.match(html, /Pedir espetinhos/i);
+  assert.match(
+    html,
+    /https:\/\/www\.ifood\.com\.br\/delivery\/santa-maria-rs\/emporio-do-frango-centro\/9cb08428-ef19-4f02-af98-0d41fbe3b13e/i,
+  );
+  assert.match(html, /Somos 5 estrelas no iFood\./i);
+  assert.match(html, /59 avaliações no iFood/i);
+  assert.match(html, /Melhor frango da cidade com certeza!/i);
   await Promise.all(
     [
       "espetinho-carne-v1.webp",
