@@ -175,7 +175,7 @@ const menuCategories: MenuCategory[] = [
     title: "Espetinhos",
     description:
       "Carne, coração, queijo coalho e pão de alho preparados na brasa. Consulte as opções disponíveis no dia.",
-    availability: "Segunda a sábado, à noite",
+    availability: "Segunda a sexta, à noite",
     message:
       "Olá! Quero consultar os espetinhos disponíveis hoje e fazer um pedido.",
     image: "/images/real-espetinhos-assados.png",
@@ -880,7 +880,7 @@ export default function Home() {
             aria-label="Espetinhos de carne, coração, queijo coalho e pão de alho prontos"
           />
           <div className="skewer-spotlight-copy">
-            <p className="kicker kicker-light">Segunda a sábado, à noite</p>
+            <p className="kicker kicker-light">Segunda a sexta, à noite</p>
             <h2 id="skewer-spotlight-title">A noite pede espetinho na brasa.</h2>
             <p>
               Escolha seu sabor, consulte as opções do dia e peça pelo WhatsApp.
