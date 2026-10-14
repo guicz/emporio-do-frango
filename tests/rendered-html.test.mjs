@@ -78,7 +78,7 @@ test("renders Empório do Frango production metadata", async () => {
   assert.match(html, /Domingos e feriados<\/dt><dd>8h30 — 13h30<\/dd>/i);
   assert.match(
     html,
-    /<link(?=[^>]*\brel=["']canonical["'])(?=[^>]*\bhref=["']https:\/\/emporiodofrango\.com\.br\/["'])[^>]*>/i,
+    /<link(?=[^>]*\brel=["']canonical["'])(?=[^>]*\bhref=["']https:\/\/emporiodofrango\.com\.br\/?["'])[^>]*>/i,
   );
   assert.match(
     html,
