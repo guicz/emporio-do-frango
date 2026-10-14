@@ -3,12 +3,13 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://emporiodofrango.com.br"),
-  title: "Galeto temperado e frango assado em Santa Maria | Empório do Frango",
+  title: "Açougue, galeto temperado e frango assado em Santa Maria | Empório do Frango",
   description:
-    "Cortes de galeto temperados, frango assado de fim de semana e marmitex no Centro de Santa Maria. Faça seu pedido pelo WhatsApp.",
+    "Açougue, galeto temperado, frango assado de fim de semana e marmitex no Centro de Santa Maria. Consulte o estoque pelo WhatsApp.",
   keywords: [
     "galeto temperado em Santa Maria",
     "galeto cru temperado em Santa Maria",
+    "açougue em Santa Maria",
     "frango assado em Santa Maria",
     "frango inteiro assado em Santa Maria",
     "almoço em Santa Maria",
@@ -30,23 +31,23 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     siteName: "Empório do Frango",
     url: "https://emporiodofrango.com.br/",
-    title: "Empório do Frango | Galeto temperado em Santa Maria",
+    title: "Empório do Frango | Rotisserie no Centro de Santa Maria",
     description:
-      "Cortes de galeto já temperados para preparar em casa e frango assado de fim de semana no Centro de Santa Maria.",
+      "Do Empório para a sua mesa: opções prontas e produtos temperados para preparar em casa, no Centro de Santa Maria.",
     images: [
       {
-        url: "/og.png",
+        url: "/og-v2.png",
         width: 1200,
         height: 630,
-        alt: "Empório do Frango: galeto temperado e frango assado em Santa Maria",
+        alt: "Selo circular do Empório do Frango ao lado de um frango assado dourado",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Empório do Frango | Galeto temperado em Santa Maria",
-    description: "Cortes de galeto temperados, frango assado e marmitex no Centro de Santa Maria.",
-    images: ["/og.png"],
+    title: "Empório do Frango | Rotisserie no Centro de Santa Maria",
+    description: "Do Empório para a sua mesa, no Centro de Santa Maria.",
+    images: ["/og-v2.png"],
   },
   robots: {
     index: true,
@@ -67,10 +68,29 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#231f20",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f4f0e7" },
+    { media: "(prefers-color-scheme: dark)", color: "#171415" },
+  ],
   width: "device-width",
   initialScale: 1,
 };
+
+const themeScript = `
+  (() => {
+    try {
+      const savedTheme = localStorage.getItem("emporio_theme");
+      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      const theme = savedTheme === "light" || savedTheme === "dark"
+        ? savedTheme
+        : prefersDark ? "dark" : "light";
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.style.colorScheme = theme;
+    } catch {
+      document.documentElement.dataset.theme = "light";
+    }
+  })();
+`;
 
 export default function RootLayout({
   children,
@@ -78,7 +98,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR">
+    <html lang="pt-BR" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+      </head>
       <body>{children}</body>
     </html>
   );
